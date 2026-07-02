@@ -1,0 +1,27 @@
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Settings & HTTP
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.0
+httpx>=0.27.0
+
+# Telephony
+twilio>=9.3.0
+
+# OpenAI (Realtime, Chat, Whisper)
+openai>=1.55.0
+
+# Audio conversion (Twilio mulaw <-> OpenAI PCM)
+audioop-lts>=0.2.1; python_version >= "3.13"
+
+# CLI
+click>=8.1.0
+
+# YAML seed scenarios (debug only)
+pyyaml>=6.0.0
+
+# WebSockets (Twilio Media Stream + OpenAI Realtime)
+websockets>=13.0
