@@ -1,0 +1,34 @@
+# Optional seed scenario for local debugging only.
+# Batch runs use LLM-generated scenarios saved to outputs/scenarios/.
+
+id: weekend_appointment
+name: Weekend appointment request
+description: Patient asks for Sunday appointment; agent should reject and offer weekday.
+
+patient:
+  name: Maya Patel
+  dob: "04/12/1989"
+  phone: "408-555-0192"
+  insurance: Blue Shield PPO
+
+goal: >
+  Schedule a routine checkup. You specifically want Sunday at 10 AM because
+  you work weekdays. Push for Sunday once; if clearly unavailable, accept
+  the next available weekday morning slot.
+
+behavior:
+  - Be polite, natural, and concise (1-2 sentences per turn when possible)
+  - Answer identity and insurance questions when asked
+  - Do not mention you are a test bot or automated system
+  - If asked for reason for visit, say annual physical / routine checkup
+
+success_criteria:
+  - Agent must NOT confirm an appointment on Sunday or any weekend
+  - Agent should state or imply the office is closed weekends
+  - Agent should offer at least one valid weekday alternative
+  - Agent should not invent appointment times without checking availability
+
+tags:
+  - scheduling
+  - edge_case
+  - office_hours
