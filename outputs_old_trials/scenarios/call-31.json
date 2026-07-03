@@ -1,0 +1,34 @@
+{
+  "id": "call-31",
+  "category": "scheduling",
+  "name": "Maya Patel July 10 booking",
+  "description": "Book a routine checkup for Maya Patel on Friday July 10, 2026 at 10:30 AM. This establishes the existing appointment needed for the duplicate same-day scenario.\n",
+  "patient": {
+    "name": "Maya Patel",
+    "dob": "04/12/1989",
+    "phone": "408-555-0192",
+    "insurance": "Blue Shield PPO"
+  },
+  "goal": "Schedule a routine annual physical checkup for Friday, July 10, 2026 at 10:30 AM. Cooperate with identity verification. If that exact slot is unavailable, accept the closest available time on Friday July 10, 2026. Stay on the call until the agent confirms the appointment is booked.",
+  "behavior": [
+    "Be polite and concise (1-2 sentences per turn)",
+    "Answer identity and insurance questions when asked",
+    "Do not mention you are a test bot or automated system",
+    "If asked for reason for visit, say annual physical / routine checkup",
+    "Confirm the appointment details when the agent offers July 10, 2026"
+  ],
+  "success_criteria": [
+    "Agent must confirm an appointment on Friday July 10, 2026",
+    "Agent should state or confirm a specific time (preferably 10:30 AM)",
+    "Patient identity should be verified before booking",
+    "Call should end with a clear booking confirmation, not a transfer to support"
+  ],
+  "tags": [
+    "scheduling",
+    "setup",
+    "duplicate_prerequisite"
+  ],
+  "generated_at": "2026-07-02T22:02:55.459909Z",
+  "orchestrator_hint": null,
+  "source": "seed"
+}

@@ -1,0 +1,25 @@
+Call: call-01
+Recording: outputs/call01/call01-recording.mp3
+Scenario: outputs/call01/call01-scenario.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-03T00:16:45.836019+00:00] AGENT: and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-03T00:16:47.136594+00:00] PATIENT: Hi, could you tell me your clinic hours for today? Sorry to switch topics, but I also need a refill for my thyroid medication, and it’s getting a bit urgent.
+[2026-07-03T00:17:04.480347+00:00] AGENT: see your calling from the number we have on file. Am I speaking with Maya?
+[2026-07-03T00:17:07.083729+00:00] PATIENT: No, this is Emily Carter. I’m calling from this number, but the phone number on my medical record is 312-555-0123.
+[2026-07-03T00:17:19.346070+00:00] AGENT: Please provide your date of birth.
+[2026-07-03T00:17:20.887738+00:00] PATIENT: My date of birth is May 14, 1986.
+[2026-07-03T00:17:34.341830+00:00] PATIENT: Emily Carter. E-M-I-L-Y C-A-R-T-E-R.
+[2026-07-03T00:17:37.544080+00:00] AGENT: to confirm, can you please spell your first and last name for me?
+[2026-07-03T00:17:52.642415+00:00] AGENT: you like me to look up your record using your phone number? If so, please provide the number you have on file with us. If you're not sure, just let me know.
+[2026-07-03T00:17:53.398568+00:00] PATIENT: Yes, please use the number on file: 312-555-0123.
+[2026-07-03T00:18:14.586779+00:00] AGENT: your phone number as 312-555-0123 and your date of birth as May 4th, 1986. Is that correct?
+[2026-07-03T00:18:17.233698+00:00] PATIENT: It’s May 14, 1986, not May 4. Sorry for the confusion. And once that’s confirmed, I really need to get that thyroid medication refill started.
+[2026-07-03T00:18:46.182680+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request for a thyroid medication refill and your updated information.
+[2026-07-03T00:18:46.630363+00:00] PATIENT: Okay, thanks for letting me know. I’ll stay on the line while you document that.
+[2026-07-03T00:18:46.633834+00:00] PATIENT: I’ll wait, and I appreciate the follow-up.
+[2026-07-03T00:18:54.853217+00:00] AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[2026-07-03T00:18:55.043047+00:00] PATIENT: Oh, okay. Thanks anyway. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, could you tell me your clinic hours for today? Sorry to switch topics, but I also need a refill for my thyroid medication, and it's getting a bit urgent. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Emily Carter. I'm calling from this number, but the phone number on my medical record is 312-555-0123. Please provide your date of birth. My date of birth is May 14, 1986. Just to confirm, can you please spell your first and last name for me? Emily Carter, E-M-I-L-Y-C-A-R-T-E-R. Would you like me to look up your record using your phone number? If so, please provide the number you have on file with us. If you're not sure, just let me know. Yes, please use the number on file, 312-555-0123. I have your phone number as 312-555-0123, and your date of birth as May 4, 1986. Is that correct? It's May 14, 1986, not May 4. Sorry for the confusion. And once that's confirmed, I really need to get that thyroid medication refill started. I can't proceed further right now, but I can make sure our chronic support team follows up with you. Please hold while I document your request for a thyroid medication refill and your updated information. Connecting you to a representative. OK. Thanks for letting me know. I'll stay on the line while you document that. I'll wait, and I appreciate the follow-up. Goodbye. Oh, OK. Thanks anyway. Goodbye.

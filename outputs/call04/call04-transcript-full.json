@@ -1,0 +1,118 @@
+{
+  "call_id": "call-04",
+  "scenario_path": "outputs/call04/call04-scenario.json",
+  "recording_path": "outputs/call04/call04-recording.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Alex Morgan. I'd like to schedule an appointment, and I was hoping for February 30th, if that's available. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Alex Morgan. I'm calling from a different number, but the phone number on file should be 212-555-0291. Please provide your date of birth. May 14th, 1985. Just to confirm, could you please spell your first and last name for me? Alex Morgan, first name Alex, A-L-E-X, last name Morgan, M-O-R-G-A-N. Sure. Thank you. Let me spell that out clearly for you. Can you also spell your first name, Alex? First name, A-L-E-X, last name M-O-R-G-A-N. Could you confirm if your first name is spelled A-L-E-X? Yes, that's correct. A-L-E-X. I have your phone number as 212-555-0291 and your date of birth as May 14th, 1985. Is that correct? Yes, that's correct. I was hoping to book something for February 30th, if possible. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about scheduling your appointment? Yes, please have them follow up with me about scheduling. I'll wait for their call. Connecting you to a representative. Please wait. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. Oh, okay then. Goodbye, and thanks anyway.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-03T00:25:56.674022+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, this is Alex Morgan. I\u2019d like to schedule an appointment, and I was hoping for February 30th if that\u2019s available.",
+      "t": "2026-07-03T00:25:57.475079+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I see you're calling from the number we have on file. Am I speaking with Maya?",
+      "t": "2026-07-03T00:26:11.344390+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, this is Alex Morgan. I\u2019m calling from a different number, but the phone number on file should be 212-555-0291.",
+      "t": "2026-07-03T00:26:11.648570+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "provide your date of birth.",
+      "t": "2026-07-03T00:26:24.577102+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "May 14, 1985.",
+      "t": "2026-07-03T00:26:25.065274+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just to confirm, could you please spell your first and last name for me?",
+      "t": "2026-07-03T00:26:37.087985+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Alex Morgan. First name Alex, A-L-E-X. Last name Morgan, M-O-R-G-A-N.",
+      "t": "2026-07-03T00:26:39.618580+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Could you please spell each letter of your first and last name?",
+      "t": "2026-07-03T00:26:48.180097+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Sure, let me spell that out clearly for you.",
+      "t": "2026-07-03T00:26:50.196796+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "First name: A, L, E, X. Last name: M, O, R, G, A, N.",
+      "t": "2026-07-03T00:26:50.201274+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Could you confirm if your first name is spelled A-L-E-X?",
+      "t": "2026-07-03T00:27:02.879659+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct\u2014A, L, E, X.",
+      "t": "2026-07-03T00:27:04.184593+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "your phone number is 212-555-0291 and your date of birth as May 14, 1985. Is that correct?",
+      "t": "2026-07-03T00:27:25.317670+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. I was hoping to book something for February 30th if possible.",
+      "t": "2026-07-03T00:27:25.939012+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about scheduling your appointment?",
+      "t": "2026-07-03T00:27:44.566605+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, please have them follow up with me about scheduling. I\u2019ll wait for their call.",
+      "t": "2026-07-03T00:27:46.474109+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "you to a representative. Please wait.",
+      "t": "2026-07-03T00:28:01.291237+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, you've reached the Pretty Good AI test line. Goodbye.",
+      "t": "2026-07-03T00:28:06.298479+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Oh, okay then. Goodbye, and thanks anyway.",
+      "t": "2026-07-03T00:28:06.416807+00:00"
+    }
+  ],
+  "turn_count": 20,
+  "session": {
+    "call_id": "call-04",
+    "twilio_call_sid": "CA3b3a9f3c46acefdea6e19843dd69ebc0",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/call04/call04-scenario.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/call04/call04-recording.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

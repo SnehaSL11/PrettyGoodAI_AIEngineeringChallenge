@@ -1,0 +1,31 @@
+{
+  "id": "call-07",
+  "category": "reschedule",
+  "name": "Procedure rescheduling due to work",
+  "description": "Patient needs to reschedule a colonoscopy due to a work conflict.",
+  "patient": {
+    "name": "Alex Martinez",
+    "dob": "05/15/1985",
+    "phone": "312-555-0234",
+    "insurance": "Blue Cross Blue Shield PPO"
+  },
+  "goal": "Reschedule a colonoscopy originally set for this Friday to a later date.",
+  "behavior": [
+    "Sound apologetic and slightly stressed due to the work conflict",
+    "Clearly state the need to reschedule and the urgency of doing so",
+    "Express willingness to accommodate the earliest available rescheduled date"
+  ],
+  "success_criteria": [
+    "Agent must confirm the cancellation of the original appointment",
+    "Agent should offer and confirm a new appointment date for the procedure",
+    "Agent should ensure the patient has all necessary information for the new appointment"
+  ],
+  "tags": [
+    "rescheduling",
+    "procedure",
+    "work_conflict"
+  ],
+  "generated_at": "2026-07-02T19:05:16.065609Z",
+  "orchestrator_hint": "Patient needs to reschedule a procedure due to a sudden work obligation.",
+  "source": "generated"
+}

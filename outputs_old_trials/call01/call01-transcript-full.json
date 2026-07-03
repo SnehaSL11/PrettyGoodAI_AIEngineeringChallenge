@@ -1,0 +1,73 @@
+{
+  "call_id": "call-01",
+  "scenario_path": "outputs/scenarios/call-01.json",
+  "recording_path": "outputs/recordings/call-01.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hello, thanks for calling Pivot Point Orthopedics. How can I help you today? Are you still there? I am going to end the call now. Goodbye.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-02T18:47:53.510567+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, this is Maya Patel. I\u2019m calling to schedule an annual physical, just a routine checkup. I work weekdays, so I\u2019d really prefer Sunday at 10 AM if that\u2019s available.",
+      "t": "2026-07-02T18:47:56.402570+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "April 12, 1989.",
+      "t": "2026-07-02T18:48:12.878533+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Please provide your date of birth.",
+      "t": "2026-07-02T18:48:12.884264+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Can you please spell your first and last name to make sure I have it correct? I have your date of birth as April 12th, 1989. Is that right?",
+      "t": "2026-07-02T18:48:31.360310+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. My name is spelled M-A-Y-A P-A-T-E-L.",
+      "t": "2026-07-02T18:48:31.635552+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "your phone number is 866-284-5941 and your date of birth as April 12, 1989. Is that correct?",
+      "t": "2026-07-02T18:48:53.282445+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "One moment, I want to make sure I clarify the right number on file.",
+      "t": "2026-07-02T18:48:55.616579+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, that\u2019s the number I\u2019m calling from. I\u2019m Maya Patel, and the phone number on file in my chart should be 408-555-0192.",
+      "t": "2026-07-02T18:48:55.616654+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Oh, alright. Thanks anyway for your time. Goodbye.",
+      "t": "2026-07-02T18:49:30.430683+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I update your request. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.",
+      "t": "2026-07-02T18:49:31.193284+00:00"
+    }
+  ],
+  "turn_count": 11,
+  "session": {
+    "call_id": "call-01",
+    "twilio_call_sid": "CA129af2d45f1ce48058a04e961e7f59a8",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/scenarios/call-01.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/recordings/call-01.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

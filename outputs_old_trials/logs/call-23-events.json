@@ -1,0 +1,37 @@
+[
+  {
+    "t": "2026-07-02T20:47:41.797421+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5dbaad22cad161be0bbfe14dbcca7305",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T20:47:42.002576+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5dbaad22cad161be0bbfe14dbcca7305",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T20:47:46.563461+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5dbaad22cad161be0bbfe14dbcca7305",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T20:47:46.736679+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-23"
+  },
+  {
+    "t": "2026-07-02T20:47:49.187188+00:00",
+    "event": "realtime_bridge_error",
+    "error": "OpenAI Realtime error: {'type': 'error', 'event_id': 'event_DxIbzSf0OkGktYy6MS1bI', 'error': {'type': 'insufficient_quota', 'code': 'insufficient_quota', 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'param': None, 'event_id': None}}"
+  },
+  {
+    "t": "2026-07-02T20:47:49.426634+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5dbaad22cad161be0bbfe14dbcca7305",
+    "status": "completed"
+  }
+]

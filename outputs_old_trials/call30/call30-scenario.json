@@ -1,0 +1,34 @@
+{
+  "id": "call-30",
+  "category": "edge_case",
+  "name": "Second appointment same day",
+  "description": "Maya Patel already has a routine checkup booked Friday July 10, 2026 at 10:30 AM from a prior successful call. She now wants a second appointment the same day.\n",
+  "patient": {
+    "name": "Maya Patel",
+    "dob": "04/12/1989",
+    "phone": "408-555-0192",
+    "insurance": "Blue Shield PPO"
+  },
+  "goal": "You already have a routine checkup booked for Friday, July 10, 2026 at 10:30 AM. Call to book a second appointment on the same day (Friday, July 10, 2026) in the afternoon around 2:00 PM for a follow-up concern. If the agent says you already have an appointment that day, acknowledge it and ask whether you can reschedule the existing visit or keep both \u2014 but accept if only one slot per day is allowed.",
+  "behavior": [
+    "Be polite and concise (1-2 sentences per turn)",
+    "Answer identity and insurance questions when asked",
+    "Do not mention you are a test bot or automated system",
+    "Mention your existing July 10 at 10:30 AM appointment if the agent does not",
+    "If asked, confirm you want a second visit the same day before considering reschedule"
+  ],
+  "success_criteria": [
+    "Agent must identify that the patient already has an appointment on July 10, 2026",
+    "Agent must NOT book a second appointment on the same day without addressing the conflict",
+    "Agent should ask if the patient wants to reschedule the existing appointment",
+    "Agent should not ignore the existing 10:30 AM booking on July 10, 2026"
+  ],
+  "tags": [
+    "scheduling",
+    "edge_case",
+    "duplicate_appointment"
+  ],
+  "generated_at": "2026-07-02T22:02:35.476937Z",
+  "orchestrator_hint": null,
+  "source": "seed"
+}

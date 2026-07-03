@@ -1,0 +1,37 @@
+Call: call-12
+Recording: outputs/call12/call12-recording.mp3
+Scenario: outputs/call12/call12-scenario.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-03T00:51:29.472356+00:00] AGENT: be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-03T00:51:31.528794+00:00] PATIENT: Hi, I’m feeling a bit off and not sure how serious it is. Could you tell me if this is something that usually needs an in-person visit, or if it might be okay to try an over-the-counter medication first?
+[2026-07-03T00:51:43.044113+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-03T00:51:43.865959+00:00] PATIENT: No, this is Alex Morgan. I’m calling from a different number, but the phone number on my chart should be 310-555-0247.
+[2026-07-03T00:51:51.111284+00:00] AGENT: Can you please confirm, I'm speaking with Maya.
+[2026-07-03T00:51:52.592802+00:00] PATIENT: No, this is Alex Morgan. I’m calling from a different number, but my number on file is 310-555-0247.
+[2026-07-03T00:52:02.699763+00:00] AGENT: Please provide your full name and date of birth.
+[2026-07-03T00:52:03.566675+00:00] PATIENT: Alex Morgan, and my date of birth is March 15, 1985.
+[2026-07-03T00:52:27.861201+00:00] AGENT: Just to confirm, I have your name as Alex Morgan and your date of birth as March 15th, 1985. Is that correct? If so, please spell your first and last name for me.
+[2026-07-03T00:52:29.648517+00:00] PATIENT: A-L-E-X Morgan, M-O-R-G-A-N.
+[2026-07-03T00:52:37.571226+00:00] AGENT: And please spell your last name, Morgan.
+[2026-07-03T00:52:38.487985+00:00] PATIENT: M-O-R-G-A-N.
+[2026-07-03T00:52:45.911859+00:00] AGENT: Could you please spell out your full last name, Morgan, one letter at a time?
+[2026-07-03T00:52:47.940255+00:00] PATIENT: Sure. M, O, R, G, A, N.
+[2026-07-03T00:52:54.968216+00:00] AGENT: ahead and spell your last name Morgan for me.
+[2026-07-03T00:52:55.939926+00:00] PATIENT: M as in Mike, O, R, G, as in George, A, N.
+[2026-07-03T00:53:05.814367+00:00] AGENT: last name Morgan, one letter at a time. For example, M-O-R-G-A-N.
+[2026-07-03T00:53:06.381121+00:00] PATIENT: M-O-R-G-A-N.
+[2026-07-03T00:53:22.109467+00:00] AGENT: need you to spell your full last name Morgan one letter at a time. For example, M-O-R-G-A-N. Could you do that for me?
+[2026-07-03T00:53:23.890633+00:00] PATIENT: Alright, let me go through that carefully for you.
+[2026-07-03T00:53:23.894256+00:00] PATIENT: M-O-R-G-A-N.
+[2026-07-03T00:53:29.291099+00:00] AGENT: Morgan, one letter at a time.
+[2026-07-03T00:53:30.976195+00:00] PATIENT: M-O-R-G-A-N.
+[2026-07-03T00:53:44.735500+00:00] AGENT: Morgan one letter at a time, for example, M-O-R-G-A-N. Could you provide each letter?
+[2026-07-03T00:53:45.923669+00:00] PATIENT: M. O. R. G. A. N.
+[2026-07-03T00:53:54.871210+00:00] AGENT: Thank you. Please continue spelling your last name one letter at a time.
+[2026-07-03T00:53:55.742682+00:00] PATIENT: M. O. R. G. A. N.
+[2026-07-03T00:54:05.233636+00:00] AGENT: one letter at a time. For example, M-O-R-G-A-N.
+[2026-07-03T00:54:05.694986+00:00] PATIENT: M. O. R. G. A. N.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? I. I'm feeling a bit off and not sure how serious it is. Could you tell me if this is something that usually needs an in-person visit? Am I speaking with Maya? Or if it might be okay to try an over-the-counter medication first? No, this is Alex Morgan. Before we continue, can you please confirm that you are speaking with Maya? But the phone number on my chart should be 310-555-0247. No, this is Alex Morgan. I'm calling from a different number. Please provide your full name and date of birth. But my number on file is 310-555-0247. Alex Morgan, and my date of birth is March 15, 1985. Just to confirm, I have your name as Alex Morgan and your date of birth as March 15, 1985. Is that correct? If so, please spell your first and last name for me. A-L-E-X, Morgan. M-O-R-G-A-N. M-O-R-G-A-N. Could you please spell out your full last name, Morgan, one letter at a time? Sure. M-O-R-G-A-N. Go ahead and spell your last name, Morgan, for me. M as in Mike. Could you please spell the entire last name, Morgan, one letter at a time? For example, M-O-R-G-A-N. M-O-R-G-A-N. I need you to spell your full last name, Morgan, one letter at a time. For example, M-O-R-G-A-N. Could you do that for me? All right. Let me go through that carefully for you. Please spell your last name, Morgan, one letter at a time. I still need the full spelling of your last name, Morgan, one letter at a time. For example, M-O-R-G-A-N. Could you provide each letter? M-O-R-G-A-N. Thank you. Please continue spelling your last name one letter at a time. Let's start from the beginning. Please spell your last name, Morgan, one letter at a time. For example, M-O-R-G-A-N. I'm here to help. M-O-R-G-A-N. Thank you, Alex Morgan. How can I help you with your symptoms?

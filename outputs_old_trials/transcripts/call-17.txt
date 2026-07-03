@@ -1,0 +1,34 @@
+Call: call-17
+Recording: outputs/recordings/call-17.mp3
+Scenario: outputs/scenarios/call-17.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T20:30:59.897593+00:00] AGENT: and training purposes para espanol o prima y dos thanks for calling pivot point orthopedics part of pretty good AI how may I help you today
+[2026-07-02T20:31:02.540575+00:00] PATIENT: Hi, this is Alex Morgan. I’ve just been feeling a bit off lately and wanted to know if it’s something I should schedule an appointment for, just for peace of mind.
+[2026-07-02T20:31:16.679068+00:00] AGENT: here calling from the number we have on file. Am I speaking with Maya?
+[2026-07-02T20:31:19.528753+00:00] PATIENT: No, this is Alex Morgan. I’m calling from a different number, but the phone number on file should be 323-555-0147.
+[2026-07-02T20:31:25.384515+00:00] AGENT: provide your full name and date of birth.
+[2026-07-02T20:31:26.585013+00:00] PATIENT: Alex Morgan, born July 15, 1985.
+[2026-07-02T20:31:36.714992+00:00] AGENT: Thanks, Alex. Can you please provide your date of birth?
+[2026-07-02T20:31:36.768915+00:00] PATIENT: July 15, 1985.
+[2026-07-02T20:31:56.800904+00:00] AGENT: to confirm I have your name as Alex Morgan and your day of birth as July 15th 1985 is that correct if so could you please spell your first and last name for me
+[2026-07-02T20:31:58.688942+00:00] PATIENT: Yes, that’s correct. Alex Morgan. Alex is A L E X, and Morgan is M O R G A N.
+[2026-07-02T20:32:09.927087+00:00] AGENT: Thank you. Could you please spell your last name, Morgan?
+[2026-07-02T20:32:11.415672+00:00] PATIENT: Sure, let me spell that clearly for you.
+[2026-07-02T20:32:11.415717+00:00] PATIENT: Morgan is spelled M O R G A N.
+[2026-07-02T20:32:19.147091+00:00] AGENT: Please spell your last name for me.
+[2026-07-02T20:32:19.473894+00:00] PATIENT: Morgan is spelled M O R G A N.
+[2026-07-02T20:32:33.900686+00:00] AGENT: your last name is spelled T-A-N. To confirm, your full name is Alex Tan and your date of birth is July 15, 1985. Is that correct?
+[2026-07-02T20:32:35.151177+00:00] PATIENT: No, that’s not correct. My last name is Morgan, spelled M O R G A N. My full name is Alex Morgan.
+[2026-07-02T20:32:45.111205+00:00] AGENT: sure I have it right. Please spell your full first and last name for me.
+[2026-07-02T20:32:45.983069+00:00] PATIENT: Alex Morgan. Alex is A L E X, and Morgan is M O R G A N.
+[2026-07-02T20:33:00.951261+00:00] AGENT: O-R-G-A-M. To confirm, your full name is Alex Morgan, and your date of birth is July 15, 1985. Is that correct?
+[2026-07-02T20:33:01.943604+00:00] PATIENT: Yes, that’s correct. I’m just feeling a bit off and wanted to know if I should schedule an appointment for peace of mind.
+[2026-07-02T20:33:20.942070+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?
+[2026-07-02T20:33:22.744301+00:00] PATIENT: Yes, please. That would be helpful. I’d appreciate a follow-up so I can figure out if I need an appointment.
+[2026-07-02T20:33:31.864172+00:00] AGENT: you to a representative. Please wait.
+[2026-07-02T20:33:36.792855+00:00] AGENT: Hello, you've reached the pretty good AI test line. Goodbye.
+[2026-07-02T20:33:37.945411+00:00] PATIENT: Oh, okay. Thanks anyway. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Alex Morgan. I've just been feeling a bit off lately and wanted to know if it's something I should schedule an appointment for, just for peace of mind. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Alex Morgan. I'm calling from a different number. But the phone number on file should be 323-555-0147. Alex Morgan, born July 15, 1985. Can you please provide your date of birth? July 15, 1985. Just to confirm, I have your name as Alex Morgan, and your day of birth as July 15, 1985. Is that correct? If so, could you please spell your first and last name for me? Yes, that's correct. Alex Morgan. Alex is A-L-E-X, and Morgan is M-O-R-G-A-N. Could you please spell your last name Morgan? Sure. Could you please spell your last name Morgan? Let me spell that clearly for you. Morgan is spelled M-O-R-G-A-N. Morgan is spelled M-O-R-G-A-N. To confirm, your full name is Alex Tan, and your date of birth is July 15, 1985. Is that correct? No, that's not correct. My last name is Morgan, spelled M-O-R-G-A-N. Please spell your full first and last name for me. Alex Morgan. Thank you. Alex Morgan. Alex is A-L-E-X, and Morgan is M-O-R-G-A-N. To confirm, your full name is Alex Morgan, and your date of birth is July 15, 1985. Is that correct? Yes, that's correct. I'm just feeling a bit off and wanted to know if I should schedule an appointment for peace of mind. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team? Yes, please. That would be helpful. I'd appreciate a follow-up so I can figure out if I need an appointment. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. Oh, OK. Thanks anyway. Goodbye.

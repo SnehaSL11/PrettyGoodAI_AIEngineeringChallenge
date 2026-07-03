@@ -1,0 +1,31 @@
+{
+  "id": "call-04",
+  "category": "insurance",
+  "name": "Coverage inquiry for specific procedure",
+  "description": "Patient calls to inquire about coverage for a knee arthroscopy procedure not listed in their plan.",
+  "patient": {
+    "name": "Jessica Turner",
+    "dob": "06/15/1980",
+    "phone": "312-555-0192",
+    "insurance": "Blue Cross PPO"
+  },
+  "goal": "Find out if knee arthroscopy is covered under her insurance plan.",
+  "behavior": [
+    "Sound concerned and slightly anxious",
+    "Mention the specific procedure: knee arthroscopy",
+    "Ask if there's any paperwork needed to confirm coverage"
+  ],
+  "success_criteria": [
+    "Agent confirms whether the procedure is covered or not",
+    "Agent provides information on how to check coverage details",
+    "Agent advises on any necessary steps if further confirmation is needed"
+  ],
+  "tags": [
+    "insurance",
+    "procedure",
+    "coverage"
+  ],
+  "generated_at": "2026-07-02T02:06:12.513599Z",
+  "orchestrator_hint": "Patient inquires about coverage for a specific procedure that's not listed in their plan.",
+  "source": "generated"
+}

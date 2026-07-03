@@ -1,0 +1,128 @@
+[
+  {
+    "t": "2026-07-02T19:36:20.637328+00:00",
+    "event": "status_callback",
+    "call_sid": "CAc44ab08f2fcf2100625160fb43da06b7",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T19:36:20.820874+00:00",
+    "event": "status_callback",
+    "call_sid": "CAc44ab08f2fcf2100625160fb43da06b7",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T19:36:25.989194+00:00",
+    "event": "status_callback",
+    "call_sid": "CAc44ab08f2fcf2100625160fb43da06b7",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T19:36:26.213347+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-15"
+  },
+  {
+    "t": "2026-07-02T19:36:26.590478+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T19:36:26.590702+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T19:36:26.590793+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ69cdfcf24800588a8185ede1b7107490"
+  },
+  {
+    "t": "2026-07-02T19:36:26.670269+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:36:39.671339+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:36:40.276174+00:00",
+    "event": "agent_said",
+    "text": "All may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T19:36:42.423316+00:00",
+    "event": "patient_playback_hold",
+    "frames": 15,
+    "until": 161296.684511416
+  },
+  {
+    "t": "2026-07-02T19:36:42.423391+00:00",
+    "event": "patient_said",
+    "text": "Hi, this is Jamie Carter. I\u2019d like to schedule a dental cleaning for February 30th, please."
+  },
+  {
+    "t": "2026-07-02T19:36:50.369875+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:37:02.959863+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:37:04.299877+00:00",
+    "event": "agent_said",
+    "text": "Third Point Orthopedics is an orthopedic clinic, so we don't offer dental services. If you'd like to schedule an orthopedic appointment, I can help with that. Would you like to book a visit for joint, muscle, or bone tear?"
+  },
+  {
+    "t": "2026-07-02T19:37:06.802762+00:00",
+    "event": "patient_playback_hold",
+    "frames": 22,
+    "until": 161321.204456791
+  },
+  {
+    "t": "2026-07-02T19:37:06.802920+00:00",
+    "event": "patient_said",
+    "text": "Oh, got it, thanks for letting me know. I\u2019m looking for a dental cleaning, so I must have the wrong office\u2014thanks anyway, goodbye."
+  },
+  {
+    "t": "2026-07-02T19:37:17.426387+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:37:23.627023+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:37:25.545336+00:00",
+    "event": "agent_said",
+    "text": "No problem. If you ever need orthopedic care, feel free to call us. Take care."
+  },
+  {
+    "t": "2026-07-02T19:37:25.661556+00:00",
+    "event": "patient_playback_hold",
+    "frames": 8,
+    "until": 161339.783661875
+  },
+  {
+    "t": "2026-07-02T19:37:25.661929+00:00",
+    "event": "patient_said",
+    "text": "Thanks, I appreciate it. Have a good day."
+  },
+  {
+    "t": "2026-07-02T19:37:27.034171+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-02T19:37:27.112385+00:00",
+    "event": "status_callback",
+    "call_sid": "CAc44ab08f2fcf2100625160fb43da06b7",
+    "status": "completed"
+  }
+]

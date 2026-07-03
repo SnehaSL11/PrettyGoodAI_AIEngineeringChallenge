@@ -1,0 +1,31 @@
+{
+  "id": "call-16",
+  "category": "interruption",
+  "name": "Clinic hours to prescription refill switch",
+  "description": "Patient shifts from asking about clinic hours to discussing a prescription refill unexpectedly.",
+  "patient": {
+    "name": "Ashley Martinez",
+    "dob": "03/15/1985",
+    "phone": "512-555-0234",
+    "insurance": "Blue Shield PPO"
+  },
+  "goal": "Ask about clinic hours, then pivot to discuss refilling a blood pressure medication prescription.",
+  "behavior": [
+    "Start by asking about today's clinic hours",
+    "Abruptly switch the topic to a prescription refill request",
+    "Politely insist on the refill if necessary"
+  ],
+  "success_criteria": [
+    "Agent should provide accurate clinic hours",
+    "Agent should handle the topic switch smoothly",
+    "Agent should address the prescription refill request appropriately"
+  ],
+  "tags": [
+    "interruption",
+    "prescription",
+    "clinic_hours"
+  ],
+  "generated_at": "2026-07-02T19:05:51.084666Z",
+  "orchestrator_hint": "Patient switches from asking about clinic hours to discussing a prescription refill without warning.",
+  "source": "generated"
+}

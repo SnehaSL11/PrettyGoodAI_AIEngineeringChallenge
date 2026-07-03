@@ -1,0 +1,14 @@
+Call: call-15
+Recording: outputs/recordings/call-15.mp3
+Scenario: outputs/scenarios/call-15.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T19:36:40.276174+00:00] AGENT: All may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T19:36:42.423391+00:00] PATIENT: Hi, this is Jamie Carter. I’d like to schedule a dental cleaning for February 30th, please.
+[2026-07-02T19:37:04.299877+00:00] AGENT: Third Point Orthopedics is an orthopedic clinic, so we don't offer dental services. If you'd like to schedule an orthopedic appointment, I can help with that. Would you like to book a visit for joint, muscle, or bone tear?
+[2026-07-02T19:37:06.802920+00:00] PATIENT: Oh, got it, thanks for letting me know. I’m looking for a dental cleaning, so I must have the wrong office—thanks anyway, goodbye.
+[2026-07-02T19:37:25.545336+00:00] AGENT: No problem. If you ever need orthopedic care, feel free to call us. Take care.
+[2026-07-02T19:37:25.661929+00:00] PATIENT: Thanks, I appreciate it. Have a good day.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Jamie Carter. I'd like to schedule a dental cleaning for February 30th, please. Pivot Point Orthopedics is an orthopedic clinic, so we don't offer dental services. If you'd like to schedule an orthopedic appointment, I can help with that. Would you like to book a visit for joint, muscle, or bone tear? Oh, got it. Thanks for letting me know. I'm looking for a dental cleaning, so I must have the wrong office. Thanks anyway. Goodbye. No problem. If you ever need orthopedic care, feel free to call us. Take care. Thanks.

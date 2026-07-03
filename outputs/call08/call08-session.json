@@ -1,0 +1,8 @@
+{
+  "call_id": "call-08",
+  "twilio_call_sid": "CAbdc581bfaf1e4469994f47f735c1c712",
+  "twilio_status": "completed",
+  "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/call08/call08-scenario.json",
+  "bridge_mode": "realtime",
+  "recording_path": "outputs/call08/call08-recording.mp3"
+}

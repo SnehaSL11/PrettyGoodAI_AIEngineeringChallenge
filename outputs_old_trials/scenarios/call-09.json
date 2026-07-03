@@ -1,0 +1,32 @@
+{
+  "id": "call-09",
+  "category": "refill",
+  "name": "Refill request for non-existent prescription",
+  "description": "Patient requests a refill for a prescription that is not on file.",
+  "patient": {
+    "name": "Sophia Martinez",
+    "dob": "04/15/1985",
+    "phone": "312-555-0247",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Obtain a refill for an allergy medication that seems to not be on record.",
+  "behavior": [
+    "Sound slightly confused but polite",
+    "Insist on the need for the medication due to upcoming travel",
+    "Express surprise that the prescription is not on file and ask for next steps"
+  ],
+  "success_criteria": [
+    "Agent must correctly identify that the prescription is not on file",
+    "Agent should offer to connect the patient to a pharmacist or doctor for clarification",
+    "Agent should reassure the patient and provide guidance on how to obtain the prescription"
+  ],
+  "tags": [
+    "refill",
+    "non-existent",
+    "prescription",
+    "medication"
+  ],
+  "generated_at": "2026-07-02T19:05:23.192638Z",
+  "orchestrator_hint": "Patient requests a refill for a non-existent prescription.",
+  "source": "generated"
+}

@@ -1,0 +1,284 @@
+[
+  {
+    "t": "2026-07-03T00:38:59.921684+00:00",
+    "event": "status_callback",
+    "call_sid": "CAbdc581bfaf1e4469994f47f735c1c712",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-03T00:38:59.929295+00:00",
+    "event": "status_callback",
+    "call_sid": "CAbdc581bfaf1e4469994f47f735c1c712",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-03T00:39:04.385127+00:00",
+    "event": "status_callback",
+    "call_sid": "CAbdc581bfaf1e4469994f47f735c1c712",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-03T00:39:04.588822+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-08"
+  },
+  {
+    "t": "2026-07-03T00:39:05.266765+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-03T00:39:05.267402+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-03T00:39:05.267454+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZbfd5b4a7db3d2a2e36320767cf71f44f"
+  },
+  {
+    "t": "2026-07-03T00:39:05.364991+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:39:17.571688+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:39:19.956462+00:00",
+    "event": "agent_said",
+    "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. May I help you today?"
+  },
+  {
+    "t": "2026-07-03T00:39:21.421764+00:00",
+    "event": "patient_playback_hold",
+    "frames": 31,
+    "until": 177493.936674375
+  },
+  {
+    "t": "2026-07-03T00:39:21.422054+00:00",
+    "event": "patient_said",
+    "text": "Hi, I\u2019m calling about my headaches and needing\u2026 that thing you had me try before. I\u2019m a little unsure what it was called, and I was hoping you could help me figure out which treatment or medication I\u2019m referring to."
+  },
+  {
+    "t": "2026-07-03T00:39:28.102942+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:39:33.327027+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:39:33.943626+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-03T00:39:36.940112+00:00",
+    "event": "patient_playback_hold",
+    "frames": 33,
+    "until": 177509.495232833
+  },
+  {
+    "t": "2026-07-03T00:39:36.941294+00:00",
+    "event": "patient_said",
+    "text": "No, this is Sam Rivers. I\u2019m calling from plus one eight six six two eight four five nine four one, but the phone number on my medical record should be 303-555-0147."
+  },
+  {
+    "t": "2026-07-03T00:39:44.241163+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:39:47.021882+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:39:47.559587+00:00",
+    "event": "agent_said",
+    "text": "please provide your full date of birth."
+  },
+  {
+    "t": "2026-07-03T00:39:49.801537+00:00",
+    "event": "patient_playback_hold",
+    "frames": 20,
+    "until": 177522.09682858302
+  },
+  {
+    "t": "2026-07-03T00:39:49.803864+00:00",
+    "event": "patient_said",
+    "text": "March 15, 1985. And I\u2019m just trying to figure out which headache treatment or medication I meant when I said \u201cthat thing.\u201d"
+  },
+  {
+    "t": "2026-07-03T00:39:51.090474+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:39:56.065291+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:39:57.516889+00:00",
+    "event": "agent_said",
+    "text": "birth to look up your information. Could you please provide your date of birth?"
+  },
+  {
+    "t": "2026-07-03T00:39:59.877514+00:00",
+    "event": "patient_playback_hold",
+    "frames": 27,
+    "until": 177532.312939
+  },
+  {
+    "t": "2026-07-03T00:39:59.877669+00:00",
+    "event": "patient_said",
+    "text": "Sure, let me repeat that so you can look it up."
+  },
+  {
+    "t": "2026-07-03T00:39:59.878207+00:00",
+    "event": "patient_playback_hold",
+    "frames": 27,
+    "until": 177532.313658833
+  },
+  {
+    "t": "2026-07-03T00:39:59.878833+00:00",
+    "event": "patient_said",
+    "text": "March 15, 1985. I\u2019m calling about headaches and trying to clarify which treatment or medication I meant."
+  },
+  {
+    "t": "2026-07-03T00:40:13.129554+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:40:25.620214+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:40:27.685967+00:00",
+    "event": "agent_said",
+    "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just let me know."
+  },
+  {
+    "t": "2026-07-03T00:40:28.260212+00:00",
+    "event": "patient_playback_hold",
+    "frames": 16,
+    "until": 177560.476041166
+  },
+  {
+    "t": "2026-07-03T00:40:28.261711+00:00",
+    "event": "patient_said",
+    "text": "Yes, please. The number on file should be 303-555-0147."
+  },
+  {
+    "t": "2026-07-03T00:40:37.595228+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:40:48.450004+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:40:50.610507+00:00",
+    "event": "agent_said",
+    "text": "I have your phone number as 303-555-0147, and your day of birth is March 15th, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-03T00:40:53.339363+00:00",
+    "event": "patient_playback_hold",
+    "frames": 23,
+    "until": 177585.69553570802
+  },
+  {
+    "t": "2026-07-03T00:40:53.340032+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. I\u2019m just trying to figure out which headache treatment or medication I was referring to when I said \u201cthat thing,\u201d so I can tell the doctor exactly what I need."
+  },
+  {
+    "t": "2026-07-03T00:41:05.913879+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:41:14.574891+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:41:16.473310+00:00",
+    "event": "agent_said",
+    "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please stay on the line while I document your request."
+  },
+  {
+    "t": "2026-07-03T00:41:16.618694+00:00",
+    "event": "patient_playback_hold",
+    "frames": 9,
+    "until": 177608.695198125
+  },
+  {
+    "t": "2026-07-03T00:41:16.620063+00:00",
+    "event": "patient_said",
+    "text": "Okay, thanks. I\u2019ll stay on the line while you document it."
+  },
+  {
+    "t": "2026-07-03T00:41:17.758392+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:41:19.258877+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:41:19.455069+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:41:20.271355+00:00",
+    "event": "agent_said",
+    "text": "Bye."
+  },
+  {
+    "t": "2026-07-03T00:41:24.647416+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:41:26.637737+00:00",
+    "event": "patient_playback_hold",
+    "frames": 9,
+    "until": 177618.71389487502
+  },
+  {
+    "t": "2026-07-03T00:41:26.639730+00:00",
+    "event": "patient_said",
+    "text": "Oh, okay. Thanks for letting me know. Goodbye."
+  },
+  {
+    "t": "2026-07-03T00:41:29.035282+00:00",
+    "event": "agent_said",
+    "text": "you've reached the Pretty Good AI test line. Goodbye!"
+  },
+  {
+    "t": "2026-07-03T00:41:34.731126+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-03T00:41:34.937478+00:00",
+    "event": "status_callback",
+    "call_sid": "CAbdc581bfaf1e4469994f47f735c1c712",
+    "status": "completed"
+  }
+]

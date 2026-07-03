@@ -1,0 +1,108 @@
+{
+  "call_id": "call-13",
+  "scenario_path": "outputs/scenarios/call-13.json",
+  "recording_path": "outputs/recordings/call-13.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, I'd like to schedule a checkup for New Year's Day if you have openings. If that's not available, I can take the next available weekend. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Alex Martinez. I'm calling from plus 1-866-284-5941, but the phone number on file for me should be 303-555-0192. My date of birth is June 15, 1985. Just to confirm, can you please spell your first and last name for me? Alex Martinez. First name Alex, last name Martinez. Would you like me to use your phone number to look up your record? If so, please tell me the number you have on file with us. If you're not sure, just let me know. Sure. Let me give you the number on file. Yes, the number on file is 303-555-0192. I have your phone number as 303-555-0192, and your date of birth as June 15, 1985. Is that correct? Yes, that's correct. I'd like to schedule a checkup on New Year's Day if you have it. If not, I'll take the next available weekday after the holiday. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team? Yes, please connect me to the patient support team. Thank you. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. Okay, thanks anyway. I'll follow up with the clinic directly. Goodbye.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-02T19:31:43.568850+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, I\u2019d like to schedule a checkup for New Year\u2019s Day if you have openings. If that\u2019s not available, I can take the next available weekday.",
+      "t": "2026-07-02T19:31:45.200080+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "calling from the number we have on file. Am I speaking with Maya?",
+      "t": "2026-07-02T19:31:57.939750+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, this is Alex Martinez. I\u2019m calling from plus one, eight six six, two eight four, five nine four one, but the phone number on file for me should be three zero three, five five five, zero one nine two.",
+      "t": "2026-07-02T19:32:00.947391+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "your date of birth.",
+      "t": "2026-07-02T19:32:05.999452+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "My date of birth is June 15, 1985.",
+      "t": "2026-07-02T19:32:07.224234+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just to confirm, can you please spell your first and last name for me?",
+      "t": "2026-07-02T19:32:29.406505+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Alex Martinez. First name Alex, last name Martinez.",
+      "t": "2026-07-02T19:32:29.765827+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "you like me to use your phone number to look up your record? If so, please tell me the number you have on file with us. If you're not sure, just let me know.",
+      "t": "2026-07-02T19:32:49.694756+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Sure, let me give you the number on file.",
+      "t": "2026-07-02T19:32:51.750751+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, the number on file is three zero three, five five five, zero one nine two.",
+      "t": "2026-07-02T19:32:51.754607+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I have your phone number as 303-555-0192 and your date of birth as June 15th, 1985. Is that correct?",
+      "t": "2026-07-02T19:33:19.302241+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. I\u2019d like to schedule a checkup on New Year\u2019s Day if you have it. If not, I\u2019ll take the next available weekday after the holiday.",
+      "t": "2026-07-02T19:33:20.928311+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?",
+      "t": "2026-07-02T19:33:44.392309+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, please connect me to the patient support team. Thank you.",
+      "t": "2026-07-02T19:33:44.645217+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I'm connecting you to a representative, please wait.",
+      "t": "2026-07-02T19:33:57.736936+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, you've reached the pretty good AI test line. Goodbye.",
+      "t": "2026-07-02T19:34:04.127719+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Okay, thanks anyway. I\u2019ll follow up with the clinic directly. Goodbye.",
+      "t": "2026-07-02T19:34:04.627851+00:00"
+    }
+  ],
+  "turn_count": 18,
+  "session": {
+    "call_id": "call-13",
+    "twilio_call_sid": "CA6726463831e374e032fb3137fa2c8345",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/scenarios/call-13.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/recordings/call-13.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

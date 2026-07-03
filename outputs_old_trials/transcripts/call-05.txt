@@ -1,0 +1,24 @@
+Call: call-05
+Recording: outputs/recordings/call-05.mp3
+Scenario: outputs/scenarios/call-05.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T19:06:10.210363+00:00] AGENT: for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T19:06:12.474313+00:00] PATIENT: Hi, I need to cancel my appointment for tomorrow. I’m a bit confused about the date, but I’d really like to cancel it as soon as possible.
+[2026-07-02T19:06:29.504621+00:00] AGENT: have on file. Am I speaking with Maya?
+[2026-07-02T19:06:32.942316+00:00] PATIENT: No, this is Emily Turner. I’m calling from plus one, eight six six, two eight four, five nine four one, but the phone number on file should be two one two, five five five, zero one seven five.
+[2026-07-02T19:06:52.631845+00:00] AGENT: please provide your date of birth.
+[2026-07-02T19:06:54.116112+00:00] PATIENT: Sure, let me give you that so you can pull up the right chart.
+[2026-07-02T19:06:54.116152+00:00] PATIENT: My date of birth is May 14, 1985.
+[2026-07-02T19:07:10.754957+00:00] AGENT: Just to confirm, can you please spell your first and last name for me?
+[2026-07-02T19:07:12.503147+00:00] PATIENT: Emily Turner. Emily is E M I L Y, and Turner is T U R N E R.
+[2026-07-02T19:07:38.220713+00:00] AGENT: your phone number as 212-555-0175 and your date of birth as May 14, 1985. Is that correct?
+[2026-07-02T19:07:38.222025+00:00] PATIENT: Yes, that’s correct.
+[2026-07-02T19:07:55.100571+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?
+[2026-07-02T19:07:57.830038+00:00] PATIENT: Yes, please connect me to the patient support team. I’m trying to cancel what I thought was tomorrow’s appointment and it feels time sensitive.
+[2026-07-02T19:08:12.797172+00:00] AGENT: I'm connecting you to a representative, please wait.
+[2026-07-02T19:08:17.533671+00:00] AGENT: Hello, you've reached the pretty good AI test line. Goodbye.
+[2026-07-02T19:08:19.334418+00:00] PATIENT: Oh, okay. I’ll wait for the follow-up. Thanks anyway. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi. I need to cancel my appointment for tomorrow. I'm a bit confused about the date, but I'd really like to cancel it as soon as possible. I see you're calling from the number we have on file. Am I speaking with Maya? No. This is Emily Turner. I'm calling from plus 1-866-284-5941. But the phone number on file should be 212-555-0175. Please provide your date of birth. Sure. Let me give you that so you can pull up the right chart. My date of birth is May 14, 1985. Just to confirm, can you please spell your first and last name for me? Emily Turner. Emily is E-M-I-L-Y, and Turner is T-U-R-N-E-R. Add your phone number as 212-555-0175, and your date of birth as May 14, 1985. Is that correct? Yes. That's correct. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team? Yes. Please connect me to the patient support team. I'm trying to cancel what I thought was tomorrow's appointment, and it feels time sensitive. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI test line. Goodbye. Oh, okay. I'll wait for the follow-up. Thanks anyway. Goodbye.

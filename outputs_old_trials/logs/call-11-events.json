@@ -1,0 +1,239 @@
+[
+  {
+    "t": "2026-07-02T19:24:15.647662+00:00",
+    "event": "status_callback",
+    "call_sid": "CAdf6a82ce7a013855d827deba60a72d18",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T19:24:15.851000+00:00",
+    "event": "status_callback",
+    "call_sid": "CAdf6a82ce7a013855d827deba60a72d18",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T19:24:20.850343+00:00",
+    "event": "status_callback",
+    "call_sid": "CAdf6a82ce7a013855d827deba60a72d18",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T19:24:21.038740+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-11"
+  },
+  {
+    "t": "2026-07-02T19:24:21.703899+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T19:24:21.703985+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T19:24:21.704017+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ2f3fab61af88c5a1f3350074cc593e58"
+  },
+  {
+    "t": "2026-07-02T19:24:21.797371+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:24:33.926299+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:24:39.714426+00:00",
+    "event": "patient_playback_hold",
+    "frames": 54,
+    "until": 160574.740328416
+  },
+  {
+    "t": "2026-07-02T19:24:39.714508+00:00",
+    "event": "patient_said",
+    "text": "Hi, thanks. I\u2019ve been having some side effects with my current medication, like feeling really dizzy and a bit nauseous, and I wanted to talk about whether switching to a different medication might help. Before we get too far, could you also check if a new medication would be covered by my insurance? I\u2019m a bit worried about the out-of-pocket cost if it isn\u2019t covered."
+  },
+  {
+    "t": "2026-07-02T19:24:47.156267+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:24:52.098106+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:24:53.973042+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-02T19:24:56.885677+00:00",
+    "event": "agent_said",
+    "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Tivok Point Orthopedics, part of Pretty Good AI. May I help you today?"
+  },
+  {
+    "t": "2026-07-02T19:24:59.166428+00:00",
+    "event": "patient_playback_hold",
+    "frames": 68,
+    "until": 160594.472763125
+  },
+  {
+    "t": "2026-07-02T19:24:59.167591+00:00",
+    "event": "patient_said",
+    "text": "No, this is Morgan Taylor. I\u2019m calling from plus one, eight six six, two eight four, five nine four one, but my phone number on file should be three ten, five five five, zero two four seven. I\u2019ve been feeling dizzy and nauseous on my current medication, and I\u2019d like to ask about switching, and whether a new option would be covered by my Blue Cross PPO, since I\u2019m concerned about the cost."
+  },
+  {
+    "t": "2026-07-02T19:25:14.574554+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:25:19.504343+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:25:21.235086+00:00",
+    "event": "agent_said",
+    "text": "Thank you for clarifying. Can you please provide your full name and day of birth?"
+  },
+  {
+    "t": "2026-07-02T19:25:21.853353+00:00",
+    "event": "patient_playback_hold",
+    "frames": 15,
+    "until": 160616.100179041
+  },
+  {
+    "t": "2026-07-02T19:25:21.853490+00:00",
+    "event": "patient_said",
+    "text": "My name is Morgan Taylor, and my date of birth is March 15, 1985."
+  },
+  {
+    "t": "2026-07-02T19:25:34.876251+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:25:43.285407+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:25:44.948167+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, I have your name as Morgan Taylor and your date of birth as March 15th, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T19:25:46.491822+00:00",
+    "event": "patient_playback_hold",
+    "frames": 27,
+    "until": 160640.979167541
+  },
+  {
+    "t": "2026-07-02T19:25:46.493683+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. Thank you for checking. I really appreciate the help with this, especially making sure a new medication would be covered so I don\u2019t get hit with a big bill."
+  },
+  {
+    "t": "2026-07-02T19:26:00.880281+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:26:13.386527+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:26:15.306313+00:00",
+    "event": "agent_said",
+    "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please tell me the number you believe is listed. If you're not sure I can confirm your name and date of birth again, just let me know."
+  },
+  {
+    "t": "2026-07-02T19:26:17.450719+00:00",
+    "event": "patient_playback_hold",
+    "frames": 34,
+    "until": 160672.078670416
+  },
+  {
+    "t": "2026-07-02T19:26:17.452465+00:00",
+    "event": "patient_said",
+    "text": "Yes, please use the number on file. It should be three ten, five five five, zero two four seven. I\u2019m hoping we can see if a different medication might be covered, because I\u2019m worried about the cost if it isn\u2019t."
+  },
+  {
+    "t": "2026-07-02T19:26:31.198828+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:26:42.804480+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:26:44.887615+00:00",
+    "event": "agent_said",
+    "text": "your phone number is 310-555-0247 and your date of birth is March 15, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T19:26:46.536698+00:00",
+    "event": "patient_playback_hold",
+    "frames": 24,
+    "until": 160700.965292291
+  },
+  {
+    "t": "2026-07-02T19:26:46.536868+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. Thank you for checking. I really appreciate your help making sure any new medication would be covered so I don\u2019t end up with a big out-of-pocket cost."
+  },
+  {
+    "t": "2026-07-02T19:27:00.486569+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:27:08.025856+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:27:09.706672+00:00",
+    "event": "agent_said",
+    "text": "right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?"
+  },
+  {
+    "t": "2026-07-02T19:27:12.285860+00:00",
+    "event": "patient_playback_hold",
+    "frames": 36,
+    "until": 160726.955026958
+  },
+  {
+    "t": "2026-07-02T19:27:12.285900+00:00",
+    "event": "patient_said",
+    "text": "Okay, let\u2019s get you connected with someone who can look into coverage details and next steps."
+  },
+  {
+    "t": "2026-07-02T19:27:12.292534+00:00",
+    "event": "patient_playback_hold",
+    "frames": 36,
+    "until": 160726.96171012498
+  },
+  {
+    "t": "2026-07-02T19:27:12.292547+00:00",
+    "event": "patient_said",
+    "text": "Yes, that would be great. I really appreciate you connecting me, especially since I\u2019m worried about the cost if the new medication isn\u2019t covered."
+  },
+  {
+    "t": "2026-07-02T19:27:24.003628+00:00",
+    "event": "status_callback",
+    "call_sid": "CAdf6a82ce7a013855d827deba60a72d18",
+    "status": "completed"
+  }
+]

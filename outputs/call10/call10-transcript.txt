@@ -1,0 +1,28 @@
+Call: call-10
+Recording: outputs/call10/call10-recording.mp3
+Scenario: outputs/call10/call10-scenario.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-03T00:45:48.930407+00:00] AGENT: training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-03T00:45:51.188191+00:00] PATIENT: Hi, I’m Alex Murphy. I’d like to schedule an appointment for July 4th if possible, and I’m happy to take a nearby date if that day isn’t available.
+[2026-07-03T00:46:00.383638+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-03T00:46:02.989626+00:00] PATIENT: No, this is Alex Murphy. I’m calling from the number showing on your caller ID, but the phone number on my medical record is 619-555-0144.
+[2026-07-03T00:46:20.402271+00:00] AGENT: Thank you. Can you please tell me your full name and date of birth?
+[2026-07-03T00:46:20.743854+00:00] PATIENT: Alex Murphy, and my date of birth is December 15, 1986.
+[2026-07-03T00:46:27.194108+00:00] AGENT: Thanks, Alex. What is your date of birth?
+[2026-07-03T00:46:28.469800+00:00] PATIENT: December 15, 1986.
+[2026-07-03T00:46:36.794283+00:00] PATIENT: December 15, 1986.
+[2026-07-03T00:46:36.824138+00:00] AGENT: I need your full date of birth to continue. Could you please provide your complete date of birth?
+[2026-07-03T00:46:56.995579+00:00] AGENT: to confirm I have your name as Alex Murphy and your date of birth as December 15th 1986. Is that correct? If so, could you please spell your first and last name for me?
+[2026-07-03T00:46:58.136731+00:00] PATIENT: Yes, that’s correct. First name Alex, A L E X. Last name Murphy, M U R P H Y.
+[2026-07-03T00:47:04.947532+00:00] AGENT: Could you please spell your first and last name for me?
+[2026-07-03T00:47:06.478573+00:00] PATIENT: Sure, let me spell that for you clearly.
+[2026-07-03T00:47:06.482928+00:00] PATIENT: Alex, A L E X. Murphy, M U R P H Y.
+[2026-07-03T00:47:21.758918+00:00] AGENT: Thank you. Alex Murphy. How can I assist you today?
+[2026-07-03T00:47:23.489323+00:00] PATIENT: I’m hoping to schedule an appointment for July 4th if you have availability. If not, I can take the closest date you have.
+[2026-07-03T00:47:47.718803+00:00] AGENT: I can't schedule your appointment right now, but I'll connect you to our patient support team for help. Please stay on the line while I transfer your call. Connecting you to a representative, please wait.
+[2026-07-03T00:47:50.932158+00:00] AGENT: Hello, you've reached the pretty good AI test line. Goodbye.
+[2026-07-03T00:47:52.532622+00:00] PATIENT: Oh, okay—thanks for letting me know. I’ll try again later. Take care.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, I'm Alex Murphy. I'd like to schedule an appointment for July 4, if possible. I see you're calling from the number we have on file. And I'm happy to take a nearby date, if that day isn't available. Could you please provide your full name and date of birth? I'm calling from the number showing on your caller ID, but the phone number on my medical record is 619-555-0144. Thank you. Can you please tell me your full name and date of birth? Alex Murphy, and my date of birth is December 15, 1986. What is your date of birth? December 15, 1986. I need your full date of birth to continue. Could you please provide your complete date of birth? December 15, 1986. Just to confirm, I have your name as Alex Murphy and your date of birth as December 15, 1986. Is that correct? If so, could you please spell your first and last name for me? Yes, that's correct. First name, Alex. Alex, last name Murphy, M-U-R-P-H-Y. Could you please spell your first name as well? Sure, let me spell that for you clearly. Alex, A-L-E-X, Murphy, M-U-R-P-H-Y. Thank you, Alex Murphy. How can I assist you today? I'm hoping to schedule an appointment for July 4 if you have availability. If not, I can take the closest date you have. I can't schedule your appointment right now, but I'll connect you to our patient support team for help. Please stay on the line while I transfer your call. Connecting you to a representative, please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. Oh, OK. Thanks for letting me know. I'll try again later. Take care.

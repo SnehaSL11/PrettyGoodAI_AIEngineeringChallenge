@@ -1,0 +1,586 @@
+[
+  {
+    "t": "2026-07-02T06:36:25.398670+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5ef9dc2e2e6012fceb658bba9905fc65",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T06:36:25.568961+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5ef9dc2e2e6012fceb658bba9905fc65",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T06:36:30.360352+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5ef9dc2e2e6012fceb658bba9905fc65",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T06:36:30.705220+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-02"
+  },
+  {
+    "t": "2026-07-02T06:36:32.522996+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T06:36:32.523731+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T06:36:32.524103+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZf17edc536e87dd9e4d2fafd6030ae1c7"
+  },
+  {
+    "t": "2026-07-02T06:36:32.601845+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:36:43.385271+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:36:45.319527+00:00",
+    "event": "agent_said",
+    "text": "training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T06:36:47.009174+00:00",
+    "event": "patient_said",
+    "text": "Hi, I\u2019m calling to check whether Metformin is covered under my insurance, Blue Cross Blue Shield, and then I need to request a refill for it as well. I\u2019d appreciate a quick answer so I can take care of this today."
+  },
+  {
+    "t": "2026-07-02T06:36:52.442619+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:36:57.641632+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:37:00.131126+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from a number we have on file. Am I speaking with Sneha?"
+  },
+  {
+    "t": "2026-07-02T06:37:01.895711+00:00",
+    "event": "patient_said",
+    "text": "No, this is Samantha Olson. I\u2019m calling from plus one four zero eight six four six one one four zero, but my number on file should be two one two five five five zero one nine two."
+  },
+  {
+    "t": "2026-07-02T06:37:09.003128+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:37:11.664805+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:37:12.127959+00:00",
+    "event": "agent_said",
+    "text": "provide your date of birth."
+  },
+  {
+    "t": "2026-07-02T06:37:13.545697+00:00",
+    "event": "patient_said",
+    "text": "My date of birth is April 15, 1986."
+  },
+  {
+    "t": "2026-07-02T06:37:20.741495+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:37:32.749209+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:37:34.771012+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, I have your name as Samantha Olson and your date of birth as April 15th, 1986? Is that correct? If not, could you please spell your first and last name for me?"
+  },
+  {
+    "t": "2026-07-02T06:37:36.960906+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. It\u2019s Samantha Olson, and the date of birth you read is right. Since that\u2019s confirmed, can you quickly check if Metformin is covered under my Blue Cross Blue Shield plan, and then I need to request a refill for it right after."
+  },
+  {
+    "t": "2026-07-02T06:37:46.918482+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:37:48.502021+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:37:50.528270+00:00",
+    "event": "agent_said",
+    "text": ""
+  },
+  {
+    "t": "2026-07-02T06:37:51.047030+00:00",
+    "event": "patient_said",
+    "text": "Okay, let me wait with you a moment while they pull that up."
+  },
+  {
+    "t": "2026-07-02T06:37:51.051073+00:00",
+    "event": "patient_said",
+    "text": "Sure."
+  },
+  {
+    "t": "2026-07-02T06:37:51.917989+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:37:58.919343+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:38:00.612077+00:00",
+    "event": "agent_said",
+    "text": "Thanks for confirming your information. Let me check if Metformin is covered under your Blue Cross Blue Shield plan."
+  },
+  {
+    "t": "2026-07-02T06:38:01.443667+00:00",
+    "event": "patient_said",
+    "text": "Thanks. While you check, I also need that Metformin refill submitted as soon as possible."
+  },
+  {
+    "t": "2026-07-02T06:38:05.476062+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:38:09.184296+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:38:11.345455+00:00",
+    "event": "agent_said",
+    "text": "You're welcome. I'll get that information for you."
+  },
+  {
+    "t": "2026-07-02T06:38:11.411919+00:00",
+    "event": "patient_said",
+    "text": "Great, please go ahead and place the refill request too."
+  },
+  {
+    "t": "2026-07-02T06:38:16.578058+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:38:21.897474+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:38:24.021856+00:00",
+    "event": "agent_said",
+    "text": "Let me check on your Metformin coverage first, then I'll help with your refill request."
+  },
+  {
+    "t": "2026-07-02T06:38:24.251999+00:00",
+    "event": "patient_said",
+    "text": "Okay. Once you confirm the coverage, please handle the refill right away. I\u2019m hoping to wrap this up quickly."
+  },
+  {
+    "t": "2026-07-02T06:38:25.995908+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:38:32.283922+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:38:33.910423+00:00",
+    "event": "agent_said",
+    "text": "checking your insurance coverage for Metformin now. Once I have that I'll help with your refund request."
+  },
+  {
+    "t": "2026-07-02T06:38:34.477887+00:00",
+    "event": "patient_said",
+    "text": "Got it, I\u2019ll hold. Please move to the refill as soon as you\u2019re done."
+  },
+  {
+    "t": "2026-07-02T06:38:36.519101+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:38:41.382063+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:38:43.005780+00:00",
+    "event": "agent_said",
+    "text": "Thanks for your patience. I'll update you as soon as I have the information."
+  },
+  {
+    "t": "2026-07-02T06:38:43.768564+00:00",
+    "event": "patient_said",
+    "text": "Sounds good. I\u2019m standing by for the coverage details, then we can finish the refill request."
+  },
+  {
+    "t": "2026-07-02T06:38:45.857777+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:38:49.461230+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:38:50.681606+00:00",
+    "event": "patient_said",
+    "text": "Alright."
+  },
+  {
+    "t": "2026-07-02T06:38:51.783760+00:00",
+    "event": "agent_said",
+    "text": "I'll let you know as soon as I have an update."
+  },
+  {
+    "t": "2026-07-02T06:38:52.458507+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:38:57.599668+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:38:59.167765+00:00",
+    "event": "patient_said",
+    "text": "Okay, I\u2019ll stay on the line."
+  },
+  {
+    "t": "2026-07-02T06:39:00.210181+00:00",
+    "event": "agent_said",
+    "text": "still working on your request. I'll let you know as soon as I have the details."
+  },
+  {
+    "t": "2026-07-02T06:39:02.739658+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:39:06.800458+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:39:08.274966+00:00",
+    "event": "agent_said",
+    "text": "Thank you. I'll update you as soon as I have the information."
+  },
+  {
+    "t": "2026-07-02T06:39:09.987752+00:00",
+    "event": "patient_said",
+    "text": "I understand. If it\u2019s going to take longer, could you give me an estimate? I really need to confirm coverage and get that refill started today."
+  },
+  {
+    "t": "2026-07-02T06:39:12.036314+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:39:16.435196+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:39:18.040945+00:00",
+    "event": "agent_said",
+    "text": "for your patience. I'll let you know as soon as I have an update."
+  },
+  {
+    "t": "2026-07-02T06:39:21.299650+00:00",
+    "event": "patient_said",
+    "text": "If the coverage check is taking longer, please go ahead and submit the Metformin refill now, or transfer me to someone who can. If you still need more time, tell me the best way to get a quick update so I\u2019m not stuck on hold."
+  },
+  {
+    "t": "2026-07-02T06:39:21.521686+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:39:24.463502+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:39:25.771138+00:00",
+    "event": "agent_said",
+    "text": "I'll keep you updated."
+  },
+  {
+    "t": "2026-07-02T06:39:28.258735+00:00",
+    "event": "patient_said",
+    "text": "I can\u2019t stay on hold much longer. Please submit the Metformin refill now if you can, or transfer me to the pharmacy. If coverage is still pending, let me know the best way to get the update without waiting on the line."
+  },
+  {
+    "t": "2026-07-02T06:39:28.357906+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:39:35.094594+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5ef9dc2e2e6012fceb658bba9905fc65",
+    "status": "completed"
+  },
+  {
+    "t": "2026-07-02T06:39:39.578692+00:00",
+    "event": "recording_callback",
+    "recording_sid": "RE7f5de6d06a7ad059d1163fd74eb2393d",
+    "call_sid": "CA5ef9dc2e2e6012fceb658bba9905fc65",
+    "status": "completed"
+  },
+  {
+    "t": "2026-07-02T06:39:50.692536+00:00",
+    "event": "status_callback",
+    "call_sid": "CAc5c64297edc1485afbc100cd4765f810",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T06:39:50.876606+00:00",
+    "event": "status_callback",
+    "call_sid": "CAc5c64297edc1485afbc100cd4765f810",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T06:39:55.292773+00:00",
+    "event": "status_callback",
+    "call_sid": "CAc5c64297edc1485afbc100cd4765f810",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T06:39:55.566465+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-02"
+  },
+  {
+    "t": "2026-07-02T06:39:55.989874+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T06:39:55.990534+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T06:39:55.990582+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ4959c560fae99dfe6e9646c9132b2970"
+  },
+  {
+    "t": "2026-07-02T06:39:56.078791+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:40:08.719696+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:40:10.646506+00:00",
+    "event": "agent_said",
+    "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI? How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T06:40:12.050091+00:00",
+    "event": "patient_said",
+    "text": "Hi, I need to check if my Blue Cross Blue Shield covers Metformin, and I also need a refill for it\u2014can we do both quickly?"
+  },
+  {
+    "t": "2026-07-02T06:40:21.308495+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:40:26.615490+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:40:27.131547+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Sneha?"
+  },
+  {
+    "t": "2026-07-02T06:40:31.615711+00:00",
+    "event": "patient_said",
+    "text": "No, this is Samantha Olson. I\u2019m calling from plus one four zero eight six four six one one four zero, but my number on file is 212-555-0192. Please check Metformin coverage and help with the refill."
+  },
+  {
+    "t": "2026-07-02T06:40:32.507879+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:40:35.172627+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:40:35.567201+00:00",
+    "event": "agent_said",
+    "text": "please provide your date of birth."
+  },
+  {
+    "t": "2026-07-02T06:40:36.866745+00:00",
+    "event": "patient_said",
+    "text": "April 15, 1986."
+  },
+  {
+    "t": "2026-07-02T06:40:38.789645+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:40:45.211890+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:40:45.862867+00:00",
+    "event": "agent_said",
+    "text": "date of birth, which is the month, day, and year you were born. Could you share that with me?"
+  },
+  {
+    "t": "2026-07-02T06:40:46.868644+00:00",
+    "event": "patient_said",
+    "text": "April 15, 1986."
+  },
+  {
+    "t": "2026-07-02T06:40:48.789489+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:40:55.494318+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:40:57.649535+00:00",
+    "event": "agent_said",
+    "text": "To assist you, I need your full date of birth. Could you please tell me your birth month, day, and year?"
+  },
+  {
+    "t": "2026-07-02T06:40:57.841545+00:00",
+    "event": "patient_said",
+    "text": "April 15, 1986."
+  },
+  {
+    "t": "2026-07-02T06:41:04.752528+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:41:15.932985+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:41:17.841436+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, your name is Samantha Olson and your date of birth is April 15th, 1986. Is that correct? If so, could you please spell your first and last name for me?"
+  },
+  {
+    "t": "2026-07-02T06:41:19.863745+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. It\u2019s Samantha Olson, S a m a n t h a O l s o n."
+  },
+  {
+    "t": "2026-07-02T06:41:24.026448+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:41:29.184067+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:41:30.790183+00:00",
+    "event": "agent_said",
+    "text": "Thank you. Could you please spell your first and last name for me?"
+  },
+  {
+    "t": "2026-07-02T06:41:32.095023+00:00",
+    "event": "patient_said",
+    "text": "Samantha Olson. S a m a n t h a, O l s o n."
+  },
+  {
+    "t": "2026-07-02T06:41:41.092061+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:41:54.437259+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:41:56.137437+00:00",
+    "event": "agent_said",
+    "text": "your name is Samantha Olson, date of birth April 15, 1986, and your phone number is 408-646-1140. Is all of that correct?"
+  },
+  {
+    "t": "2026-07-02T06:42:00.536678+00:00",
+    "event": "patient_said",
+    "text": "No, that\u2019s the caller ID only. I\u2019m calling from plus one four zero eight six four six one one four zero, but the phone number on my chart is 212-555-0192. Please use 212-555-0192 for my record and move ahead."
+  },
+  {
+    "t": "2026-07-02T06:42:01.246671+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:42:04.753393+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:42:06.569491+00:00",
+    "event": "agent_said",
+    "text": "What is the phone number you have on file with us?"
+  },
+  {
+    "t": "2026-07-02T06:42:09.508431+00:00",
+    "event": "patient_said",
+    "text": "The number on file is 212-555-0192. I\u2019m calling from a different number, plus one four zero eight six four six one one four zero."
+  },
+  {
+    "t": "2026-07-02T06:42:32.305416+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:42:44.316297+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:42:44.891419+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false
+  },
+  {
+    "t": "2026-07-02T06:42:48.258382+00:00",
+    "event": "agent_said",
+    "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request for insurance coverage and a MET form and refill."
+  },
+  {
+    "t": "2026-07-02T06:42:53.820496+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T06:42:58.448025+00:00",
+    "event": "status_callback",
+    "call_sid": "CAc5c64297edc1485afbc100cd4765f810",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "id": "call-21",
+  "category": "scheduling",
+  "name": "Appointment on a holiday",
+  "description": "Patient tries to schedule an appointment on a holiday, not knowing the office is closed.",
+  "patient": {
+    "name": "Emily Watson",
+    "dob": "03/15/1980",
+    "phone": "312-555-0423",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Schedule a routine checkup on Thanksgiving Day; agree to an alternate date if informed of closure.",
+  "behavior": [
+    "Be friendly and respectful",
+    "Request an appointment specifically on Thanksgiving",
+    "Quickly agree to the next available date once informed of the holiday closure"
+  ],
+  "success_criteria": [
+    "Agent clearly communicates the office's closure on Thanksgiving",
+    "Agent suggests alternative dates in the same week",
+    "Patient agrees to reschedule the appointment on a non-holiday"
+  ],
+  "tags": [
+    "scheduling",
+    "holiday",
+    "office_hours"
+  ],
+  "generated_at": "2026-07-02T20:30:12.026562Z",
+  "orchestrator_hint": "Patient attempts to schedule an appointment on a holiday, unaware the office is closed.",
+  "source": "generated"
+}

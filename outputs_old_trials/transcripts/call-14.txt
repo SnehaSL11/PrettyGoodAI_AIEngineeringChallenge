@@ -1,0 +1,17 @@
+Call: call-14
+Recording: outputs/recordings/call-14.mp3
+Scenario: outputs/scenarios/call-14.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T19:34:56.993657+00:00] AGENT: recorded for quality and training purposes. Para español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T19:34:58.564158+00:00] PATIENT: Hi, this is Emily Carter. I wanted to ask if the clinic is open on Thanksgiving, and could you please give me the clinic’s address?
+[2026-07-02T19:35:25.039187+00:00] AGENT: The clinic is usually open Monday through Friday, but we are closed on major holidays like Thanksgiving. Let me get the clinic's address for you. One moment.
+[2026-07-02T19:35:26.908419+00:00] PATIENT: Okay, thanks for checking that—I'll just wait for the address.
+[2026-07-02T19:35:26.909038+00:00] PATIENT: No problem. I’ll hold.
+[2026-07-02T19:35:42.931035+00:00] AGENT: The clinic address is 1-2-3-4 Recovery Way, Suite 200, Austin. If you need anything else, just let me know.
+[2026-07-02T19:35:45.772753+00:00] PATIENT: Got it, thank you. Since you’re closed on Thanksgiving, that answers my question, and I have the address now—1234 Recovery Way, Suite 200, Austin. Thanks again, have a great day.
+[2026-07-02T19:36:01.428207+00:00] AGENT: welcome. Have a great day.
+[2026-07-02T19:36:02.860425+00:00] PATIENT: You too, goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Emily Carter. I wanted to ask if the clinic is open on Thanksgiving. And could you please give me the clinic's address? The clinic is usually open Monday through Friday, but we are closed on major holidays like Thanksgiving. Let me get the clinic's address for you. One moment. Okay, thanks for checking that. I'll just wait for the address. No problem. I'll hold. The clinic address is 1234 Recovery Way, Suite 200, Austin. If you need anything else, just let me know. Got it. Thank you. Since you're closed on Thanksgiving, that answers my question. And I have the address now. 1234 Recovery Way, Suite 200, Austin. Thanks again. Have a great day. You're welcome. Have a great day. You too. Goodbye.

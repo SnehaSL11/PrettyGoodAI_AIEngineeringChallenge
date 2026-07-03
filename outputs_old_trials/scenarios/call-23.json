@@ -1,0 +1,31 @@
+{
+  "id": "call-23",
+  "category": "edge_case",
+  "name": "Holiday appointment request",
+  "description": "Patient requests an appointment on a holiday when the clinic is closed.",
+  "patient": {
+    "name": "Alex Martinez",
+    "dob": "05/15/1985",
+    "phone": "303-555-0174",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Schedule an appointment for July 4th; if unavailable, request the next available date.",
+  "behavior": [
+    "Sound friendly and respectful",
+    "Initially request an appointment on July 4th",
+    "Express understanding if the date is unavailable and request the soonest available date instead"
+  ],
+  "success_criteria": [
+    "Agent must not confirm an appointment on the holiday",
+    "Agent should inform the patient about the holiday closure",
+    "Agent should offer the next available appointment date"
+  ],
+  "tags": [
+    "holiday",
+    "edge_case",
+    "availability"
+  ],
+  "generated_at": "2026-07-02T20:30:19.950449Z",
+  "orchestrator_hint": "Patient requests an appointment on a holiday when the clinic is closed.",
+  "source": "generated"
+}

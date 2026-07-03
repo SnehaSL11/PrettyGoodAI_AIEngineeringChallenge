@@ -1,0 +1,32 @@
+{
+  "id": "call-03",
+  "category": "reschedule",
+  "name": "Unavailable appointment reschedule",
+  "description": "Patient attempts to reschedule an appointment to a fully booked date.",
+  "patient": {
+    "name": "Monica Patel",
+    "dob": "05/15/1985",
+    "phone": "312-555-0132",
+    "insurance": "Blue Cross PPO"
+  },
+  "goal": "Reschedule an upcoming appointment to next Tuesday, then accept a later date if Tuesday is unavailable.",
+  "behavior": [
+    "Be understanding and flexible",
+    "Request to move the appointment to the soonest available Tuesday",
+    "Express willingness to consider other available dates if Tuesday is booked"
+  ],
+  "success_criteria": [
+    "Agent checks the availability for the requested Tuesday",
+    "Agent informs Monica that the requested date is fully booked",
+    "Agent offers alternative dates for rescheduling within the same week",
+    "Patient accepts a new appointment date provided by the agent"
+  ],
+  "tags": [
+    "rescheduling",
+    "appointment",
+    "availability"
+  ],
+  "generated_at": "2026-07-03T00:15:46.602092Z",
+  "orchestrator_hint": "Patient requests to change an upcoming appointment to a date that is not available.",
+  "source": "generated"
+}

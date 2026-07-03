@@ -1,0 +1,232 @@
+[
+  {
+    "t": "2026-07-02T19:17:16.056192+00:00",
+    "event": "status_callback",
+    "call_sid": "CAdebbb080475b0578b762cd78283e10bf",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T19:17:16.205920+00:00",
+    "event": "status_callback",
+    "call_sid": "CAdebbb080475b0578b762cd78283e10bf",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T19:17:21.895645+00:00",
+    "event": "status_callback",
+    "call_sid": "CAdebbb080475b0578b762cd78283e10bf",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T19:17:22.083528+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-09"
+  },
+  {
+    "t": "2026-07-02T19:17:22.581780+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T19:17:22.582030+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T19:17:22.582137+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZb6c771992ceeb8e5c6c46aca44eda116"
+  },
+  {
+    "t": "2026-07-02T19:17:22.665146+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:17:34.879968+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:17:36.308053+00:00",
+    "event": "agent_said",
+    "text": "may be recorded for quality and training purposes."
+  },
+  {
+    "t": "2026-07-02T19:17:39.699727+00:00",
+    "event": "patient_playback_hold",
+    "frames": 34,
+    "until": 160154.316795041
+  },
+  {
+    "t": "2026-07-02T19:17:39.699769+00:00",
+    "event": "patient_said",
+    "text": "Hi, this is Sophia Martinez\u2014I'm calling because I need a refill for my allergy medication, but I was told it\u2019s not on file. I\u2019m a bit surprised, and I\u2019m traveling soon\u2014what should I do next?"
+  },
+  {
+    "t": "2026-07-02T19:17:49.025975+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:17:53.870615+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:17:54.458994+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-02T19:17:58.312042+00:00",
+    "event": "patient_playback_hold",
+    "frames": 36,
+    "until": 160172.96945783298
+  },
+  {
+    "t": "2026-07-02T19:17:58.316997+00:00",
+    "event": "patient_said",
+    "text": "No, this is Sophia Martinez. I\u2019m calling from a different number that may show on your caller ID, but the phone number on file for my chart should be 312-555-0247."
+  },
+  {
+    "t": "2026-07-02T19:18:04.768586+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:18:08.113431+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:18:08.916587+00:00",
+    "event": "agent_said",
+    "text": "Please provide your full name and date of birth."
+  },
+  {
+    "t": "2026-07-02T19:18:09.947707+00:00",
+    "event": "patient_playback_hold",
+    "frames": 12,
+    "until": 160184.125427708
+  },
+  {
+    "t": "2026-07-02T19:18:09.947766+00:00",
+    "event": "patient_said",
+    "text": "Sophia Martinez, April 15, 1985."
+  },
+  {
+    "t": "2026-07-02T19:18:18.668159+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:18:27.271643+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:18:30.471453+00:00",
+    "event": "patient_playback_hold",
+    "frames": 28,
+    "until": 160204.96942954097
+  },
+  {
+    "t": "2026-07-02T19:18:30.471724+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. I really need that allergy medication refill before I travel, and I\u2019m surprised it\u2019s not showing in my record\u2014can you help with the next steps?"
+  },
+  {
+    "t": "2026-07-02T19:18:41.175410+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, I have your name as Sophia Martinez and your date of birth as April 15, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T19:18:45.306146+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:18:58.199583+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:19:01.026119+00:00",
+    "event": "patient_playback_hold",
+    "frames": 17,
+    "until": 160235.304608625
+  },
+  {
+    "t": "2026-07-02T19:19:01.026236+00:00",
+    "event": "patient_said",
+    "text": "Yes, please use the number on file: 312-555-0247."
+  },
+  {
+    "t": "2026-07-02T19:19:01.330448+00:00",
+    "event": "agent_said",
+    "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just spell them out for me."
+  },
+  {
+    "t": "2026-07-02T19:19:11.487910+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:19:22.351608+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:19:24.031188+00:00",
+    "event": "agent_said",
+    "text": "I have your phone number as 312-555-0247, and your date of birth is April 15, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T19:19:25.344008+00:00",
+    "event": "patient_playback_hold",
+    "frames": 25,
+    "until": 160259.783324
+  },
+  {
+    "t": "2026-07-02T19:19:25.345544+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. I\u2019m still surprised the allergy prescription isn\u2019t on file, and I\u2019m flying soon. What\u2019s the quickest way to get a refill sent in?"
+  },
+  {
+    "t": "2026-07-02T19:19:41.267920+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:19:58.423835+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:19:59.533619+00:00",
+    "event": "agent_said",
+    "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request for follow-up. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI Test Line. Goodbye."
+  },
+  {
+    "t": "2026-07-02T19:20:01.976994+00:00",
+    "event": "patient_playback_hold",
+    "frames": 18,
+    "until": 160296.277049166
+  },
+  {
+    "t": "2026-07-02T19:20:01.977071+00:00",
+    "event": "patient_said",
+    "text": "Oh\u2014okay. I guess I can\u2019t proceed here. I\u2019ll wait for the clinic\u2019s follow-up, thanks."
+  },
+  {
+    "t": "2026-07-02T19:20:12.983380+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-02T19:20:13.105042+00:00",
+    "event": "status_callback",
+    "call_sid": "CAdebbb080475b0578b762cd78283e10bf",
+    "status": "completed"
+  }
+]

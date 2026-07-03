@@ -1,0 +1,31 @@
+{
+  "id": "call-02",
+  "category": "interruption",
+  "name": "Abrupt switch from insurance question to refill request",
+  "description": "Patient asks about insurance coverage, then immediately requests a medication refill.",
+  "patient": {
+    "name": "Samantha Olson",
+    "dob": "04/15/1986",
+    "phone": "212-555-0192",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Ensure insurance coverage for diabetes medication, then request a refill for Metformin.",
+  "behavior": [
+    "Start by asking about insurance coverage for Metformin",
+    "Quickly switch to requesting a Metformin refill without pausing",
+    "Be slightly impatient, seeking quick answers"
+  ],
+  "success_criteria": [
+    "Agent acknowledges the insurance query and provides an appropriate response",
+    "Agent handles the abrupt topic switch smoothly",
+    "Agent processes the refill request correctly or redirects it appropriately"
+  ],
+  "tags": [
+    "interruption",
+    "insurance",
+    "medication"
+  ],
+  "generated_at": "2026-07-02T02:06:04.748671Z",
+  "orchestrator_hint": "Patient starts asking about insurance, then abruptly switches to requesting a refill without waiting for a response.",
+  "source": "generated"
+}

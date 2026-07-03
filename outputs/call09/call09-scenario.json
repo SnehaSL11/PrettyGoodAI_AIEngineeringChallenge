@@ -1,0 +1,31 @@
+{
+  "id": "call-09",
+  "category": "interruption",
+  "name": "Symptom discussion interrupted by availability inquiry",
+  "description": "Patient begins describing symptoms but quickly shifts to ask about doctor's availability.",
+  "patient": {
+    "name": "Emily Sanchez",
+    "dob": "05/14/1985",
+    "phone": "312-555-0234",
+    "insurance": "Blue Shield PPO"
+  },
+  "goal": "Find out when Dr. Thompson is available for an appointment.",
+  "behavior": [
+    "Start by briefly mentioning flu-like symptoms",
+    "Abruptly change the topic to Dr. Thompson's availability",
+    "Politely insist on knowing specific availability details"
+  ],
+  "success_criteria": [
+    "Agent acknowledges the symptoms but shifts the focus to scheduling",
+    "Agent provides Dr. Thompson's availability without needing to be asked again",
+    "Agent ensures the patient understands the available times"
+  ],
+  "tags": [
+    "interruption",
+    "scheduling",
+    "doctor_availability"
+  ],
+  "generated_at": "2026-07-03T00:16:14.408991Z",
+  "orchestrator_hint": "Patient starts discussing symptoms but abruptly asks for doctor's availability.",
+  "source": "generated"
+}

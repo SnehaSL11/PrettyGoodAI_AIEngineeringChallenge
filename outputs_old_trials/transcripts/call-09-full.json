@@ -1,0 +1,88 @@
+{
+  "call_id": "call-09",
+  "scenario_path": "outputs/scenarios/call-09.json",
+  "recording_path": "outputs/recordings/call-09.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Sophia Martinez. I'm calling because I need a refill for my allergy medication, but I was told it's not on file. I'm a bit surprised, and I'm traveling soon. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Sophia Martinez. I'm calling from a different number that may show on your caller ID, but the phone number on file for my chart should be 312-555-0247. Sophia Martinez, April 15, 1985. Just to confirm, I have your name as Sophia Martinez, and your date of birth is April 15, 1985. Is that correct? Yes, that's correct. I really need that allergy medication refill before I travel, and I'm surprised it's not showing in my record. Can you help with the next steps? Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just spell them out for me. Yes, please use the number on file, 312-555-0247. Thank you. You're welcome. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. 044-555-0247 I have your phone number as 312-555-0247, and your date of birth is April 15, 1985. Is that correct? Yes, that's correct. I'm still surprised the allergy prescription isn't on file, and I'm flying soon. What's the quickest way to get a refill sent in? 044-555-0247 I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request for follow-up. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. 044-555-0247 Oh, okay. I guess I can't proceed here. I'll wait for the clinic's follow-up. Thanks.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "may be recorded for quality and training purposes.",
+      "t": "2026-07-02T19:17:36.308053+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, this is Sophia Martinez\u2014I'm calling because I need a refill for my allergy medication, but I was told it\u2019s not on file. I\u2019m a bit surprised, and I\u2019m traveling soon\u2014what should I do next?",
+      "t": "2026-07-02T19:17:39.699769+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I see you're calling from the number we have on file. Am I speaking with Maya?",
+      "t": "2026-07-02T19:17:54.458994+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, this is Sophia Martinez. I\u2019m calling from a different number that may show on your caller ID, but the phone number on file for my chart should be 312-555-0247.",
+      "t": "2026-07-02T19:17:58.316997+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Please provide your full name and date of birth.",
+      "t": "2026-07-02T19:18:08.916587+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Sophia Martinez, April 15, 1985.",
+      "t": "2026-07-02T19:18:09.947766+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. I really need that allergy medication refill before I travel, and I\u2019m surprised it\u2019s not showing in my record\u2014can you help with the next steps?",
+      "t": "2026-07-02T19:18:30.471724+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just to confirm, I have your name as Sophia Martinez and your date of birth as April 15, 1985. Is that correct?",
+      "t": "2026-07-02T19:18:41.175410+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, please use the number on file: 312-555-0247.",
+      "t": "2026-07-02T19:19:01.026236+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just spell them out for me.",
+      "t": "2026-07-02T19:19:01.330448+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I have your phone number as 312-555-0247, and your date of birth is April 15, 1985. Is that correct?",
+      "t": "2026-07-02T19:19:24.031188+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. I\u2019m still surprised the allergy prescription isn\u2019t on file, and I\u2019m flying soon. What\u2019s the quickest way to get a refill sent in?",
+      "t": "2026-07-02T19:19:25.345544+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request for follow-up. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI Test Line. Goodbye.",
+      "t": "2026-07-02T19:19:59.533619+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Oh\u2014okay. I guess I can\u2019t proceed here. I\u2019ll wait for the clinic\u2019s follow-up, thanks.",
+      "t": "2026-07-02T19:20:01.977071+00:00"
+    }
+  ],
+  "turn_count": 14,
+  "session": {
+    "call_id": "call-09",
+    "twilio_call_sid": "CAdebbb080475b0578b762cd78283e10bf",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/scenarios/call-09.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/recordings/call-09.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

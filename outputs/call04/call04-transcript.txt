@@ -1,0 +1,28 @@
+Call: call-04
+Recording: outputs/call04/call04-recording.mp3
+Scenario: outputs/call04/call04-scenario.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-03T00:25:56.674022+00:00] AGENT: may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-03T00:25:57.475079+00:00] PATIENT: Hi, this is Alex Morgan. I’d like to schedule an appointment, and I was hoping for February 30th if that’s available.
+[2026-07-03T00:26:11.344390+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-03T00:26:11.648570+00:00] PATIENT: No, this is Alex Morgan. I’m calling from a different number, but the phone number on file should be 212-555-0291.
+[2026-07-03T00:26:24.577102+00:00] AGENT: provide your date of birth.
+[2026-07-03T00:26:25.065274+00:00] PATIENT: May 14, 1985.
+[2026-07-03T00:26:37.087985+00:00] AGENT: Just to confirm, could you please spell your first and last name for me?
+[2026-07-03T00:26:39.618580+00:00] PATIENT: Alex Morgan. First name Alex, A-L-E-X. Last name Morgan, M-O-R-G-A-N.
+[2026-07-03T00:26:48.180097+00:00] AGENT: Could you please spell each letter of your first and last name?
+[2026-07-03T00:26:50.196796+00:00] PATIENT: Sure, let me spell that out clearly for you.
+[2026-07-03T00:26:50.201274+00:00] PATIENT: First name: A, L, E, X. Last name: M, O, R, G, A, N.
+[2026-07-03T00:27:02.879659+00:00] AGENT: Could you confirm if your first name is spelled A-L-E-X?
+[2026-07-03T00:27:04.184593+00:00] PATIENT: Yes, that’s correct—A, L, E, X.
+[2026-07-03T00:27:25.317670+00:00] AGENT: your phone number is 212-555-0291 and your date of birth as May 14, 1985. Is that correct?
+[2026-07-03T00:27:25.939012+00:00] PATIENT: Yes, that’s correct. I was hoping to book something for February 30th if possible.
+[2026-07-03T00:27:44.566605+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about scheduling your appointment?
+[2026-07-03T00:27:46.474109+00:00] PATIENT: Yes, please have them follow up with me about scheduling. I’ll wait for their call.
+[2026-07-03T00:28:01.291237+00:00] AGENT: you to a representative. Please wait.
+[2026-07-03T00:28:06.298479+00:00] AGENT: Hello, you've reached the Pretty Good AI test line. Goodbye.
+[2026-07-03T00:28:06.416807+00:00] PATIENT: Oh, okay then. Goodbye, and thanks anyway.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Alex Morgan. I'd like to schedule an appointment, and I was hoping for February 30th, if that's available. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Alex Morgan. I'm calling from a different number, but the phone number on file should be 212-555-0291. Please provide your date of birth. May 14th, 1985. Just to confirm, could you please spell your first and last name for me? Alex Morgan, first name Alex, A-L-E-X, last name Morgan, M-O-R-G-A-N. Sure. Thank you. Let me spell that out clearly for you. Can you also spell your first name, Alex? First name, A-L-E-X, last name M-O-R-G-A-N. Could you confirm if your first name is spelled A-L-E-X? Yes, that's correct. A-L-E-X. I have your phone number as 212-555-0291 and your date of birth as May 14th, 1985. Is that correct? Yes, that's correct. I was hoping to book something for February 30th, if possible. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about scheduling your appointment? Yes, please have them follow up with me about scheduling. I'll wait for their call. Connecting you to a representative. Please wait. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. Oh, okay then. Goodbye, and thanks anyway.

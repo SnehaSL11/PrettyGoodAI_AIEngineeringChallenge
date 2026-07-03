@@ -1,0 +1,26 @@
+Call: call-03
+Recording: outputs/call03/call03-recording.mp3
+Scenario: outputs/call03/call03-scenario.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-03T00:23:17.876467+00:00] AGENT: for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-03T00:23:18.209859+00:00] PATIENT: Hi, this is Monica Patel. I’d like to reschedule my upcoming appointment to the soonest available Tuesday. If Tuesday isn’t available, I’m happy to take a later date that works.
+[2026-07-03T00:23:32.332712+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-03T00:23:34.791768+00:00] PATIENT: No, this is Monica Patel. I’m calling from plus one eight six six two eight four five nine four one, but my phone number on file should be three one two five five five zero one three two.
+[2026-07-03T00:23:40.159248+00:00] AGENT: please provide your full date of birth.
+[2026-07-03T00:23:41.483989+00:00] PATIENT: My date of birth is May 15, 1985.
+[2026-07-03T00:23:52.069908+00:00] AGENT: need your date of birth, which is the month, day, and year you were born. Could you share that with me?
+[2026-07-03T00:23:53.252558+00:00] PATIENT: It’s May 15, 1985.
+[2026-07-03T00:24:08.875318+00:00] AGENT: help find your record, can you tell me the phone number you have on file with us? If you're not sure, just let me know.
+[2026-07-03T00:24:09.458586+00:00] PATIENT: The phone number on file should be three one two five five five zero one three two.
+[2026-07-03T00:24:32.664831+00:00] AGENT: your phone number as 312-555-0132 and your date of birth as May 15, 1985. Is that correct?
+[2026-07-03T00:24:35.796410+00:00] PATIENT: That’s correct. Let me think about the next step.
+[2026-07-03T00:24:35.804904+00:00] PATIENT: Yes, that’s correct. I’d like to move my appointment to the soonest available Tuesday, and if Tuesday isn’t open, I can take a later date that’s available.
+[2026-07-03T00:25:01.032525+00:00] PATIENT: Okay, thank you. I’ll hold.
+[2026-07-03T00:25:02.056851+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request.
+[2026-07-03T00:25:05.106216+00:00] AGENT: Please wait.
+[2026-07-03T00:25:09.387035+00:00] AGENT: Hello, you've reached the Pretty Good AI test line. Goodbye.
+[2026-07-03T00:25:10.394404+00:00] PATIENT: Okay, thanks for your time. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Monica Patel. I'd like to reschedule my upcoming appointment to the soonest available Tuesday. If Tuesday isn't available, I'm happy to take a later date that works. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Monica Patel. I'm calling from plus 1-866-284-5941. But my phone number on file should be 312-555-0132. My date of birth is May 15, 1985. It's May 15, 1985. To help find your record, can you tell me the phone number you have on file with us? If you're not sure, just let me know. The phone number on file should be 312-555-0132. I have your phone number as 312-555-0132 and your date of birth as May 15, 1985. Is that correct? That's correct. Let me think about the next step. Yes, that's correct. I'd like to move my appointment to the soonest available Tuesday. And if Tuesday isn't open, I can take a later date that's available. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request. Connecting you to a representative. Okay, thank you. Please wait. I'll hold. Hello. You've reached the Pretty Good AI test line. Goodbye. Okay. Thanks for your time.

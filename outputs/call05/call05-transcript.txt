@@ -1,0 +1,26 @@
+Call: call-05
+Recording: outputs/call05/call05-recording.mp3
+Scenario: outputs/call05/call05-scenario.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-03T00:28:53.587635+00:00] AGENT: may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-03T00:28:56.030334+00:00] PATIENT: Hi, this is Emily Rodriguez. I’m calling to ask if you’re open on Memorial Day, and if so, what your hours are. If you’re closed, could you let me know what the next available day is for appointments?
+[2026-07-03T00:29:05.570926+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-03T00:29:08.028414+00:00] PATIENT: No, this is Emily Rodriguez. I’m calling from plus one, eight six six, two eight four, five nine four one, but the phone number on my medical record should be two one two, five five five, zero two three four.
+[2026-07-03T00:29:21.217776+00:00] AGENT: would you please provide your date of birth as well?
+[2026-07-03T00:29:22.529277+00:00] PATIENT: My date of birth is November 15, 1985.
+[2026-07-03T00:29:45.471495+00:00] AGENT: To confirm, I have your name as Emily Rodriguez, and your date of birth as November 15, 1985. Is that correct? If so, could you please spell your first and last name for me?
+[2026-07-03T00:29:47.069868+00:00] PATIENT: Sure, I’ll spell it for you clearly so you can confirm everything on your end.
+[2026-07-03T00:29:47.071281+00:00] PATIENT: First name Emily, spelled E M I L Y. Last name Rodriguez, spelled R O D R I G U E Z.
+[2026-07-03T00:30:19.469150+00:00] AGENT: Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, could you confirm your first name, last name, and date of birth for me one more time?
+[2026-07-03T00:30:21.306939+00:00] PATIENT: Yes, please use the number on file. It’s two one two, five five five, zero two three four.
+[2026-07-03T00:30:44.184339+00:00] AGENT: your phone number is 212-555-0234 and your date of birth as November 15, 1985. Is that correct?
+[2026-07-03T00:30:46.211427+00:00] PATIENT: Yes, that’s correct. Are you able to see whether the clinic is open on Memorial Day, and what the hours are?
+[2026-07-03T00:31:05.014416+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to a live agent?
+[2026-07-03T00:31:06.264051+00:00] PATIENT: Yes, please connect me to a live agent. Thank you.
+[2026-07-03T00:31:17.488116+00:00] AGENT: McEneasual representative. Please wait.
+[2026-07-03T00:31:22.948267+00:00] AGENT: you've reached the Pretty Good AI test line. Goodbye!
+[2026-07-03T00:31:24.082971+00:00] PATIENT: Oh, okay. Thanks anyway. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Emily Rodriguez. I'm calling to ask if you're open on Memorial Day. You're calling from the number that I have on file. And if so, what your hours are? Am I speaking with Maya? If you're closed, could you let me know what the next available day is for appointments? No, this is Emily Rodriguez. I'm calling from plus 1-866-284-5941. But the phone number on my medical record should be 212-555-0234. My date of birth is November 15th, 1985. Just to confirm, I have your name as Emily Rodriguez and your date of birth as November 15th, 1985. Is that correct? If so, could you please spell your first and last name for me? Sure, I'll spell it for you clearly so you can confirm everything on your end. First name, Emily, spelled E-M-I-L-Y. Last name, Rodriguez, spelled R-O-D-R-I-G-U-E-Z. Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, could you confirm your first name, last name, and date of birth for me one more time? Yes, please use the number on file. It's 212-555-0234. I have your phone number as 212-555-0234 and your date of birth as November 15th, 1985. Is that correct? Yes, that's correct. Are you able to see whether the clinic is open on Memorial Day and what the hours are? I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to a live agent? Yes, please connect me to a live agent. Thank you. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good A.I. Test Line. Please wait. Hello, you've reached the Pretty Good A.I. Test Line. Goodbye. Oh, okay. Thanks anyway. Goodbye.

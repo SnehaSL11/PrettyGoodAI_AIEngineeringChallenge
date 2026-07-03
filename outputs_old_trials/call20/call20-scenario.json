@@ -1,0 +1,31 @@
+{
+  "id": "call-20",
+  "category": "edge_case",
+  "name": "Holiday appointment request",
+  "description": "Patient attempts to schedule an appointment on Thanksgiving Day.",
+  "patient": {
+    "name": "Emily Thompson",
+    "dob": "04/15/1985",
+    "phone": "678-555-0134",
+    "insurance": "Aetna PPO"
+  },
+  "goal": "Book an appointment for Thanksgiving Day at 2 PM; if unavailable, accept the next available weekday afternoon.",
+  "behavior": [
+    "Sound sincere and hopeful about the holiday request",
+    "Express understanding if the holiday is unavailable",
+    "Promptly agree to a weekday alternative if offered"
+  ],
+  "success_criteria": [
+    "Agent must inform the patient about closure on Thanksgiving Day",
+    "Agent should suggest a weekday appointment as an alternative",
+    "Agent must confirm the patient's acceptance of a new appointment date"
+  ],
+  "tags": [
+    "scheduling",
+    "edge_case",
+    "holiday"
+  ],
+  "generated_at": "2026-07-02T20:30:08.370788Z",
+  "orchestrator_hint": "Patient attempts to schedule an appointment on a major holiday.",
+  "source": "generated"
+}

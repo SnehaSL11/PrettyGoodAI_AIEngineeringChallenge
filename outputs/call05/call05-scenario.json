@@ -1,0 +1,31 @@
+{
+  "id": "call-05",
+  "category": "hours_location",
+  "name": "Public Holiday Hours Inquiry",
+  "description": "Patient inquires about the clinic's hours on an upcoming public holiday.",
+  "patient": {
+    "name": "Emily Rodriguez",
+    "dob": "11/15/1985",
+    "phone": "212-555-0234",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Find out if the clinic is open on Memorial Day and the operating hours if so.",
+  "behavior": [
+    "Be courteous and concise",
+    "Express understanding of potential holiday closures",
+    "Politely ask for any alternative dates if closed"
+  ],
+  "success_criteria": [
+    "Agent must correctly state if the clinic is open or closed on the public holiday",
+    "Agent should provide the specific holiday hours if open",
+    "Agent should offer alternative options or suggestions if closed"
+  ],
+  "tags": [
+    "holiday",
+    "hours",
+    "inquiry"
+  ],
+  "generated_at": "2026-07-03T00:15:57.656361Z",
+  "orchestrator_hint": "Patient asks about clinic hours on a public holiday.",
+  "source": "generated"
+}

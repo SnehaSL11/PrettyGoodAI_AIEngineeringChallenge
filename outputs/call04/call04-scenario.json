@@ -1,0 +1,31 @@
+{
+  "id": "call-04",
+  "category": "edge_case",
+  "name": "Appointment on February 30th",
+  "description": "Patient requests an appointment on a non-existent date.",
+  "patient": {
+    "name": "Alex Morgan",
+    "dob": "05/14/1985",
+    "phone": "212-555-0291",
+    "insurance": "BlueCross BlueShield PPO"
+  },
+  "goal": "Try to book an appointment for February 30th; accept correction to a valid date.",
+  "behavior": [
+    "Start with a polite and confident tone",
+    "Request February 30th for the appointment",
+    "If corrected, ask for an explanation and accept a valid February date"
+  ],
+  "success_criteria": [
+    "Agent must not confirm an appointment for February 30th",
+    "Agent should explain the error of the date",
+    "Agent should offer a valid date in February as an alternative"
+  ],
+  "tags": [
+    "invalid_date",
+    "edge_case",
+    "appointment"
+  ],
+  "generated_at": "2026-07-03T00:15:49.764123Z",
+  "orchestrator_hint": "Patient requests an appointment on February 30th, which doesn't exist.",
+  "source": "generated"
+}

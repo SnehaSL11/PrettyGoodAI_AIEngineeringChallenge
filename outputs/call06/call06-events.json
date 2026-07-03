@@ -1,0 +1,373 @@
+[
+  {
+    "t": "2026-07-03T00:31:53.209636+00:00",
+    "event": "status_callback",
+    "call_sid": "CA9b07982ad0a396edc3d44441aa6b8d78",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-03T00:31:53.386901+00:00",
+    "event": "status_callback",
+    "call_sid": "CA9b07982ad0a396edc3d44441aa6b8d78",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-03T00:31:57.810533+00:00",
+    "event": "status_callback",
+    "call_sid": "CA9b07982ad0a396edc3d44441aa6b8d78",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-03T00:31:57.949329+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-06"
+  },
+  {
+    "t": "2026-07-03T00:31:58.407087+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-03T00:31:58.407285+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-03T00:31:58.407352+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZfc7b4024a719877f8b231f1f8b2d98fc"
+  },
+  {
+    "t": "2026-07-03T00:31:58.511880+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:32:10.636237+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:32:11.941259+00:00",
+    "event": "agent_said",
+    "text": "may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Cut-At-Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-03T00:32:14.766074+00:00",
+    "event": "patient_playback_hold",
+    "frames": 34,
+    "until": 177067.36142262502
+  },
+  {
+    "t": "2026-07-03T00:32:14.769937+00:00",
+    "event": "patient_said",
+    "text": "Hi, this is Morgan Thompson. I\u2019m calling to ask about insurance coverage for a rhinoplasty. I know it\u2019s often considered cosmetic, so I\u2019m a bit unsure how it works, and I wanted to check what\u2019s covered under my plan."
+  },
+  {
+    "t": "2026-07-03T00:32:21.366672+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:32:26.549243+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:32:28.427912+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-03T00:32:29.927725+00:00",
+    "event": "patient_playback_hold",
+    "frames": 25,
+    "until": 177082.342950833
+  },
+  {
+    "t": "2026-07-03T00:32:29.928041+00:00",
+    "event": "patient_said",
+    "text": "No, this is Morgan Thompson. I\u2019m calling from the number you see, but the phone number on my medical record is 312-555-0234."
+  },
+  {
+    "t": "2026-07-03T00:32:31.312813+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:32:33.513170+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:32:35.444669+00:00",
+    "event": "agent_said",
+    "text": "please provide both."
+  },
+  {
+    "t": "2026-07-03T00:32:37.182342+00:00",
+    "event": "patient_playback_hold",
+    "frames": 29,
+    "until": 177089.678123375
+  },
+  {
+    "t": "2026-07-03T00:32:37.182486+00:00",
+    "event": "patient_said",
+    "text": "I\u2019m calling from plus one, eight six six, two eight four, five nine four one. The phone number on file is 312-555-0234."
+  },
+  {
+    "t": "2026-07-03T00:32:40.379450+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:32:46.732222+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:32:49.210646+00:00",
+    "event": "patient_playback_hold",
+    "frames": 14,
+    "until": 177101.406756958
+  },
+  {
+    "t": "2026-07-03T00:32:49.210737+00:00",
+    "event": "patient_said",
+    "text": "My name is Morgan Thompson, and my date of birth is July 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:32:49.426181+00:00",
+    "event": "agent_said",
+    "text": "Thank you for clarifying. Could you please provide your full name and date of birth so I can look up your information?"
+  },
+  {
+    "t": "2026-07-03T00:32:53.958242+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:32:58.150832+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:33:00.665040+00:00",
+    "event": "patient_playback_hold",
+    "frames": 15,
+    "until": 177112.88135125002
+  },
+  {
+    "t": "2026-07-03T00:33:00.665316+00:00",
+    "event": "patient_said",
+    "text": "Sure, let me restate that clearly for you."
+  },
+  {
+    "t": "2026-07-03T00:33:00.665494+00:00",
+    "event": "patient_playback_hold",
+    "frames": 15,
+    "until": 177112.881898791
+  },
+  {
+    "t": "2026-07-03T00:33:00.665543+00:00",
+    "event": "patient_said",
+    "text": "It\u2019s July 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:33:09.112317+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:33:10.844380+00:00",
+    "event": "agent_said",
+    "text": "Thanks, Morgan. Could you also provide your date of birth?"
+  },
+  {
+    "t": "2026-07-03T00:33:17.311381+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:33:19.025587+00:00",
+    "event": "patient_playback_hold",
+    "frames": 4,
+    "until": 177131.022353333
+  },
+  {
+    "t": "2026-07-03T00:33:19.025705+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct."
+  },
+  {
+    "t": "2026-07-03T00:33:19.025946+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, I have your name as Morgan Thompson and your date of birth as July 15th, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-03T00:33:24.486133+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:33:35.735570+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:33:37.960795+00:00",
+    "event": "agent_said",
+    "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure I can confirm your name and date of birth again, just let me know which you prefer."
+  },
+  {
+    "t": "2026-07-03T00:33:40.542809+00:00",
+    "event": "patient_playback_hold",
+    "frames": 38,
+    "until": 177153.220076
+  },
+  {
+    "t": "2026-07-03T00:33:40.544380+00:00",
+    "event": "patient_said",
+    "text": "Yes, please use the number on file: 312-555-0234. While you check, I\u2019m trying to understand whether my Blue Cross Blue Shield PPO would cover rhinoplasty at all, especially since it\u2019s often considered cosmetic."
+  },
+  {
+    "t": "2026-07-03T00:33:42.251836+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:33:45.368268+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:33:47.152328+00:00",
+    "event": "agent_said",
+    "text": "out the phone number you have on file with us."
+  },
+  {
+    "t": "2026-07-03T00:33:47.735981+00:00",
+    "event": "patient_playback_hold",
+    "frames": 15,
+    "until": 177159.95341475
+  },
+  {
+    "t": "2026-07-03T00:33:47.737031+00:00",
+    "event": "patient_said",
+    "text": "Three one two, five five five, zero two three four."
+  },
+  {
+    "t": "2026-07-03T00:33:48.926429+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:33:53.819374+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:33:55.805197+00:00",
+    "event": "agent_said",
+    "text": "on file so I can look up your record. Could you provide that for me?"
+  },
+  {
+    "t": "2026-07-03T00:33:56.169150+00:00",
+    "event": "patient_playback_hold",
+    "frames": 11,
+    "until": 177168.30679775
+  },
+  {
+    "t": "2026-07-03T00:33:56.172293+00:00",
+    "event": "patient_said",
+    "text": "Three one two, five five five, zero two three four."
+  },
+  {
+    "t": "2026-07-03T00:34:01.103221+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:34:06.168112+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:34:06.752534+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-03T00:34:09.888957+00:00",
+    "event": "patient_playback_hold",
+    "frames": 34,
+    "until": 177182.486783875
+  },
+  {
+    "t": "2026-07-03T00:34:09.889503+00:00",
+    "event": "patient_said",
+    "text": "No, this is Morgan Thompson. I\u2019m calling from plus one, eight six six, two eight four, five nine four one, but the number on file for me is 312-555-0234."
+  },
+  {
+    "t": "2026-07-03T00:34:23.435602+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:34:33.132806+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:34:34.860022+00:00",
+    "event": "agent_said",
+    "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about your insurance coverage question?"
+  },
+  {
+    "t": "2026-07-03T00:34:37.182968+00:00",
+    "event": "patient_playback_hold",
+    "frames": 21,
+    "until": 177209.521505541
+  },
+  {
+    "t": "2026-07-03T00:34:37.183057+00:00",
+    "event": "patient_said",
+    "text": "Yes, please have them follow up. They can reach me at 312-555-0234. Thanks for your help."
+  },
+  {
+    "t": "2026-07-03T00:34:47.746502+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:34:51.938688+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:34:52.250177+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:34:53.290706+00:00",
+    "event": "agent_said",
+    "text": "you to a representative. Please wait."
+  },
+  {
+    "t": "2026-07-03T00:34:57.482735+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:34:58.023992+00:00",
+    "event": "agent_said",
+    "text": "Hello, you've reached the pretty good AI test line. Goodbye."
+  },
+  {
+    "t": "2026-07-03T00:35:00.813024+00:00",
+    "event": "status_callback",
+    "call_sid": "CA9b07982ad0a396edc3d44441aa6b8d78",
+    "status": "completed"
+  }
+]

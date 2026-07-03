@@ -1,0 +1,760 @@
+[
+  {
+    "t": "2026-07-02T22:04:04.823353+00:00",
+    "event": "status_callback",
+    "call_sid": "CA67e0165f19d8e3ab494197e762953f32",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T22:04:04.837606+00:00",
+    "event": "status_callback",
+    "call_sid": "CA67e0165f19d8e3ab494197e762953f32",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T22:04:09.108557+00:00",
+    "event": "status_callback",
+    "call_sid": "CA67e0165f19d8e3ab494197e762953f32",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T22:04:09.332429+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-31"
+  },
+  {
+    "t": "2026-07-02T22:04:12.735154+00:00",
+    "event": "realtime_bridge_error",
+    "error": "OpenAI Realtime error: {'type': 'error', 'event_id': 'event_DxJnuen16vieayu29nTbj', 'error': {'type': 'insufficient_quota', 'code': 'insufficient_quota', 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'param': None, 'event_id': None}}"
+  },
+  {
+    "t": "2026-07-02T22:04:13.022650+00:00",
+    "event": "status_callback",
+    "call_sid": "CA67e0165f19d8e3ab494197e762953f32",
+    "status": "completed"
+  },
+  {
+    "t": "2026-07-02T22:04:17.175283+00:00",
+    "event": "recording_callback",
+    "recording_sid": "REa3bbf47362f42ece0c6a5747601cf750",
+    "call_sid": "CA67e0165f19d8e3ab494197e762953f32",
+    "status": "completed"
+  },
+  {
+    "t": "2026-07-02T22:06:22.205159+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4aedce92214e4794e441835a69181f20",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T22:06:22.274363+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4aedce92214e4794e441835a69181f20",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T22:06:26.962574+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4aedce92214e4794e441835a69181f20",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T22:06:27.244063+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-31"
+  },
+  {
+    "t": "2026-07-02T22:06:31.080706+00:00",
+    "event": "realtime_bridge_error",
+    "error": "OpenAI Realtime error: {'type': 'error', 'event_id': 'event_DxJq9pCDgJbO2u2PVgqdC', 'error': {'type': 'insufficient_quota', 'code': 'insufficient_quota', 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'param': None, 'event_id': None}}"
+  },
+  {
+    "t": "2026-07-02T22:06:31.293628+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4aedce92214e4794e441835a69181f20",
+    "status": "completed"
+  },
+  {
+    "t": "2026-07-02T22:06:35.487147+00:00",
+    "event": "recording_callback",
+    "recording_sid": "REf9e959d65121dfa47d5b069094f61476",
+    "call_sid": "CA4aedce92214e4794e441835a69181f20",
+    "status": "completed"
+  },
+  {
+    "t": "2026-07-02T22:07:35.442242+00:00",
+    "event": "status_callback",
+    "call_sid": "CA3b118cd6075887c4650d64218b8ae8df",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T22:07:35.653638+00:00",
+    "event": "status_callback",
+    "call_sid": "CA3b118cd6075887c4650d64218b8ae8df",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T22:07:40.419232+00:00",
+    "event": "status_callback",
+    "call_sid": "CA3b118cd6075887c4650d64218b8ae8df",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T22:07:40.613689+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-31"
+  },
+  {
+    "t": "2026-07-02T22:07:43.372347+00:00",
+    "event": "realtime_bridge_error",
+    "error": "OpenAI Realtime error: {'type': 'error', 'event_id': 'event_DxJrJsBBGpfUJXPTbhwYS', 'error': {'type': 'insufficient_quota', 'code': 'insufficient_quota', 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'param': None, 'event_id': None}}"
+  },
+  {
+    "t": "2026-07-02T22:07:43.653864+00:00",
+    "event": "status_callback",
+    "call_sid": "CA3b118cd6075887c4650d64218b8ae8df",
+    "status": "completed"
+  },
+  {
+    "t": "2026-07-02T22:07:47.924606+00:00",
+    "event": "recording_callback",
+    "recording_sid": "REacd6abba4792886ac8e7f13d8b53449d",
+    "call_sid": "CA3b118cd6075887c4650d64218b8ae8df",
+    "status": "completed"
+  },
+  {
+    "t": "2026-07-02T22:09:38.703924+00:00",
+    "event": "status_callback",
+    "call_sid": "CAd73fc0bb9e6278d81e445c7881943219",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T22:09:38.883167+00:00",
+    "event": "status_callback",
+    "call_sid": "CAd73fc0bb9e6278d81e445c7881943219",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T22:09:43.332222+00:00",
+    "event": "status_callback",
+    "call_sid": "CAd73fc0bb9e6278d81e445c7881943219",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T22:09:43.551913+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-31"
+  },
+  {
+    "t": "2026-07-02T22:09:44.223088+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T22:09:44.223154+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T22:09:44.223458+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ33b96741bfebcbb49df5a6260e84cfd1"
+  },
+  {
+    "t": "2026-07-02T22:09:44.358984+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:09:55.891954+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:09:56.589966+00:00",
+    "event": "agent_said",
+    "text": "recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T22:09:59.231969+00:00",
+    "event": "patient_playback_hold",
+    "frames": 26,
+    "until": 169440.317875208
+  },
+  {
+    "t": "2026-07-02T22:09:59.231997+00:00",
+    "event": "patient_said",
+    "text": "Hi, this is Maya Patel. I\u2019d like to schedule a routine annual physical for Friday, July 10, 2026 at 10:30 AM, if that time is available."
+  },
+  {
+    "t": "2026-07-02T22:10:11.712553+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:10:14.314094+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:10:15.875398+00:00",
+    "event": "agent_said",
+    "text": "Please provide your date of birth."
+  },
+  {
+    "t": "2026-07-02T22:10:15.913711+00:00",
+    "event": "patient_playback_hold",
+    "frames": 8,
+    "until": 169456.64018625
+  },
+  {
+    "t": "2026-07-02T22:10:15.916094+00:00",
+    "event": "patient_said",
+    "text": "My date of birth is April 12, 1989."
+  },
+  {
+    "t": "2026-07-02T22:10:23.835879+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:10:35.679267+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:10:37.426473+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, I have your name as Maya Patel and your date of birth as April 12th, 1989. Is that correct? If so, please spell your first and last name for me."
+  },
+  {
+    "t": "2026-07-02T22:10:38.895804+00:00",
+    "event": "patient_playback_hold",
+    "frames": 27,
+    "until": 169480.003061875
+  },
+  {
+    "t": "2026-07-02T22:10:38.898167+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. My first name is Maya, spelled M A Y A, and my last name is Patel, spelled P A T E L."
+  },
+  {
+    "t": "2026-07-02T22:10:40.872127+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:10:44.472844+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:10:44.975061+00:00",
+    "event": "agent_said",
+    "text": "Could you please spell your first and last name for me?"
+  },
+  {
+    "t": "2026-07-02T22:10:46.757582+00:00",
+    "event": "patient_playback_hold",
+    "frames": 17,
+    "until": 169487.66508587502
+  },
+  {
+    "t": "2026-07-02T22:10:46.759331+00:00",
+    "event": "patient_said",
+    "text": "First name Maya, M A Y A. Last name Patel, P A T E L."
+  },
+  {
+    "t": "2026-07-02T22:10:48.050915+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:10:53.414156+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:10:55.044665+00:00",
+    "event": "agent_said",
+    "text": "your first name, Maya, and your last name, Patel, letter by letter."
+  },
+  {
+    "t": "2026-07-02T22:10:57.145450+00:00",
+    "event": "patient_playback_hold",
+    "frames": 33,
+    "until": 169498.373314708
+  },
+  {
+    "t": "2026-07-02T22:10:57.145486+00:00",
+    "event": "patient_said",
+    "text": "Sure, I\u2019ll spell it clearly for you."
+  },
+  {
+    "t": "2026-07-02T22:10:57.146628+00:00",
+    "event": "patient_playback_hold",
+    "frames": 33,
+    "until": 169498.3745145
+  },
+  {
+    "t": "2026-07-02T22:10:57.146637+00:00",
+    "event": "patient_said",
+    "text": "Maya is M as in Mary, A, Y, A. Patel is P as in Peter, A, T, E, L."
+  },
+  {
+    "t": "2026-07-02T22:10:58.780067+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:11:01.073448+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:11:01.846998+00:00",
+    "event": "agent_said",
+    "text": "Can you please do that for me?"
+  },
+  {
+    "t": "2026-07-02T22:11:03.620076+00:00",
+    "event": "patient_playback_hold",
+    "frames": 17,
+    "until": 169504.52783558302
+  },
+  {
+    "t": "2026-07-02T22:11:03.620197+00:00",
+    "event": "patient_said",
+    "text": "Maya is M, A, Y, A. Patel is P, A, T, E, L."
+  },
+  {
+    "t": "2026-07-02T22:11:04.856098+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:11:09.572246+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:11:11.214935+00:00",
+    "event": "agent_said",
+    "text": "Now, could you please spell your last name, Patel, letter by letter?"
+  },
+  {
+    "t": "2026-07-02T22:11:11.522176+00:00",
+    "event": "patient_playback_hold",
+    "frames": 10,
+    "until": 169512.2905445
+  },
+  {
+    "t": "2026-07-02T22:11:11.526685+00:00",
+    "event": "patient_said",
+    "text": "Patel is P, A, T, E, L."
+  },
+  {
+    "t": "2026-07-02T22:11:13.251174+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:11:18.059817+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:11:19.712188+00:00",
+    "event": "agent_said",
+    "text": "Thank you. Now please fill in your last name, Patel, letter by letter."
+  },
+  {
+    "t": "2026-07-02T22:11:20.733998+00:00",
+    "event": "patient_playback_hold",
+    "frames": 15,
+    "until": 169521.602669041
+  },
+  {
+    "t": "2026-07-02T22:11:20.736566+00:00",
+    "event": "patient_said",
+    "text": "Patel is P as in Peter, A, T, E, L."
+  },
+  {
+    "t": "2026-07-02T22:11:22.230598+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:11:33.410751+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:11:35.210909+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, your first name is spelled M-A-Y-A, and your last name is spelled T-E-L. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T22:11:36.024948+00:00",
+    "event": "patient_playback_hold",
+    "frames": 18,
+    "until": 169536.954144791
+  },
+  {
+    "t": "2026-07-02T22:11:36.028281+00:00",
+    "event": "patient_said",
+    "text": "Almost. The last name is Patel, spelled P A T E L, with a P and A at the beginning."
+  },
+  {
+    "t": "2026-07-02T22:11:38.814934+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:11:42.163378+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:11:43.710359+00:00",
+    "event": "agent_said",
+    "text": "Please spell your last name again, letter by letter."
+  },
+  {
+    "t": "2026-07-02T22:11:44.010788+00:00",
+    "event": "patient_playback_hold",
+    "frames": 12,
+    "until": 169544.82026441602
+  },
+  {
+    "t": "2026-07-02T22:11:44.010836+00:00",
+    "event": "patient_said",
+    "text": "P as in Peter, A, T, E, L."
+  },
+  {
+    "t": "2026-07-02T22:11:45.207176+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:11:50.437666+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:11:52.026626+00:00",
+    "event": "patient_playback_hold",
+    "frames": 5,
+    "until": 169552.696354333
+  },
+  {
+    "t": "2026-07-02T22:11:52.026660+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct."
+  },
+  {
+    "t": "2026-07-02T22:11:52.026753+00:00",
+    "event": "agent_said",
+    "text": "Your last name is spelled P-A-T-L, is that correct?"
+  },
+  {
+    "t": "2026-07-02T22:17:12.631768+00:00",
+    "event": "status_callback",
+    "call_sid": "CA10cc3d4062025a0eb6f00ef3bf1899d2",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T22:17:12.784401+00:00",
+    "event": "status_callback",
+    "call_sid": "CA10cc3d4062025a0eb6f00ef3bf1899d2",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T22:17:17.841900+00:00",
+    "event": "status_callback",
+    "call_sid": "CA10cc3d4062025a0eb6f00ef3bf1899d2",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T22:17:18.066356+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-31"
+  },
+  {
+    "t": "2026-07-02T22:17:18.649927+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T22:17:18.650054+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T22:17:18.650540+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ8aaec4328e778509f8d7cb3056a5bea7"
+  },
+  {
+    "t": "2026-07-02T22:17:18.791932+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:17:30.584966+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:17:31.744230+00:00",
+    "event": "agent_said",
+    "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T22:17:33.563570+00:00",
+    "event": "patient_playback_hold",
+    "frames": 20,
+    "until": 169823.755390208
+  },
+  {
+    "t": "2026-07-02T22:17:33.563607+00:00",
+    "event": "patient_said",
+    "text": "Hi, I\u2019d like to schedule a routine annual physical for Friday, July 10, 2026 at 10:30 AM, please."
+  },
+  {
+    "t": "2026-07-02T22:17:44.775323+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:17:49.550509+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:17:50.312733+00:00",
+    "event": "agent_said",
+    "text": "you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-02T22:17:52.368400+00:00",
+    "event": "patient_playback_hold",
+    "frames": 18,
+    "until": 169842.52065275
+  },
+  {
+    "t": "2026-07-02T22:17:52.368478+00:00",
+    "event": "patient_said",
+    "text": "Yes, this is Maya Patel. I\u2019m calling from a different number than the one on file, but I can verify my details when you need."
+  },
+  {
+    "t": "2026-07-02T22:17:58.988251+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:18:02.504901+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:18:02.928690+00:00",
+    "event": "agent_said",
+    "text": "Thanks, Maya. Please provide your date of birth."
+  },
+  {
+    "t": "2026-07-02T22:18:04.811802+00:00",
+    "event": "patient_playback_hold",
+    "frames": 11,
+    "until": 169854.824381791
+  },
+  {
+    "t": "2026-07-02T22:18:04.811966+00:00",
+    "event": "patient_said",
+    "text": "My date of birth is April 12, 1989."
+  },
+  {
+    "t": "2026-07-02T22:18:05.998499+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:18:07.573053+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:18:10.228966+00:00",
+    "event": "patient_playback_hold",
+    "frames": 7,
+    "until": 169860.161651583
+  },
+  {
+    "t": "2026-07-02T22:18:10.229122+00:00",
+    "event": "patient_said",
+    "text": "April 12, 1989."
+  },
+  {
+    "t": "2026-07-02T22:18:13.143429+00:00",
+    "event": "agent_said",
+    "text": "Earth."
+  },
+  {
+    "t": "2026-07-02T22:18:17.081831+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:18:28.348998+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:18:28.986268+00:00",
+    "event": "agent_said",
+    "text": "confirm I have your name as Maya Patel and your date of birth as April 12, 1989. Is that correct? If so, could you please spell your first and last name for me?"
+  },
+  {
+    "t": "2026-07-02T22:18:31.941917+00:00",
+    "event": "patient_playback_hold",
+    "frames": 29,
+    "until": 169882.315156
+  },
+  {
+    "t": "2026-07-02T22:18:31.942089+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. My first name is Maya, spelled M A Y A, and my last name is Patel, spelled P A T E L."
+  },
+  {
+    "t": "2026-07-02T22:18:46.098131+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:18:54.946407+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:18:56.709267+00:00",
+    "event": "agent_said",
+    "text": "Would you like to use the phone number you have on file with us to help look up your record? If so, please provide that number. If you're not sure, just let me know."
+  },
+  {
+    "t": "2026-07-02T22:18:59.239342+00:00",
+    "event": "patient_playback_hold",
+    "frames": 37,
+    "until": 169909.77327675
+  },
+  {
+    "t": "2026-07-02T22:18:59.239375+00:00",
+    "event": "patient_said",
+    "text": "Okay, let me share the number you should have on file for me."
+  },
+  {
+    "t": "2026-07-02T22:18:59.243671+00:00",
+    "event": "patient_playback_hold",
+    "frames": 37,
+    "until": 169909.777628791
+  },
+  {
+    "t": "2026-07-02T22:18:59.243690+00:00",
+    "event": "patient_said",
+    "text": "The phone number on file is 408-555-0192. I\u2019m calling from a different number, but that\u2019s the one linked to my chart."
+  },
+  {
+    "t": "2026-07-02T22:19:13.258622+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:19:23.744411+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:19:25.429953+00:00",
+    "event": "patient_playback_hold",
+    "frames": 4,
+    "until": 169935.304534375
+  },
+  {
+    "t": "2026-07-02T22:19:25.430038+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct."
+  },
+  {
+    "t": "2026-07-02T22:19:25.430307+00:00",
+    "event": "agent_said",
+    "text": "your phone number as 408-555-0192 and your day of birth is April 12, 1989. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T22:19:32.096357+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:19:40.187368+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:19:40.696853+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:19:42.049860+00:00",
+    "event": "agent_said",
+    "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request."
+  },
+  {
+    "t": "2026-07-02T22:19:44.472224+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:19:44.784887+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T22:19:45.820327+00:00",
+    "event": "agent_said",
+    "text": "you to a representative. Please wait."
+  },
+  {
+    "t": "2026-07-02T22:19:49.975876+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T22:19:51.461608+00:00",
+    "event": "agent_said",
+    "text": "you've reached the pretty good AI test line. Goodbye!"
+  },
+  {
+    "t": "2026-07-02T22:19:52.895774+00:00",
+    "event": "patient_playback_hold",
+    "frames": 12,
+    "until": 169962.931067708
+  },
+  {
+    "t": "2026-07-02T22:19:52.895797+00:00",
+    "event": "patient_said",
+    "text": "Okay, thank you. I\u2019ll wait for a follow-up from the clinic. Goodbye."
+  },
+  {
+    "t": "2026-07-02T22:20:02.104833+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-02T22:20:02.222506+00:00",
+    "event": "status_callback",
+    "call_sid": "CA10cc3d4062025a0eb6f00ef3bf1899d2",
+    "status": "completed"
+  }
+]

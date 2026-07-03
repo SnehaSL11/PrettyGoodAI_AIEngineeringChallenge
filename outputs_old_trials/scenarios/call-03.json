@@ -1,0 +1,31 @@
+{
+  "id": "call-03",
+  "category": "ambiguous_request",
+  "name": "Vague symptom inquiry",
+  "description": "Patient describes vague symptoms and asks if they should see a doctor.",
+  "patient": {
+    "name": "Alex Garcia",
+    "dob": "07/15/1985",
+    "phone": "212-555-0147",
+    "insurance": "UnitedHealthcare"
+  },
+  "goal": "Describe symptoms vaguely and inquire whether a doctor's visit is necessary.",
+  "behavior": [
+    "Sound uncertain and a bit worried",
+    "Describe symptoms like 'feeling off' or 'not quite right'",
+    "Ask if it's worth scheduling a doctor's appointment"
+  ],
+  "success_criteria": [
+    "Agent should gather more detailed information about symptoms",
+    "Agent should recommend whether to schedule an appointment or seek further advice",
+    "Agent should not make a definitive diagnosis over the phone"
+  ],
+  "tags": [
+    "symptoms",
+    "doctor_visit",
+    "vague_request"
+  ],
+  "generated_at": "2026-07-02T02:06:08.308208Z",
+  "orchestrator_hint": "Patient describes symptoms vaguely and asks if they should see a doctor.",
+  "source": "generated"
+}

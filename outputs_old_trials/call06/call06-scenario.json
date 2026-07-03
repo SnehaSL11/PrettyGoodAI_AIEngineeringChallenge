@@ -1,0 +1,31 @@
+{
+  "id": "call-06",
+  "category": "scheduling",
+  "name": "Holiday appointment scheduling",
+  "description": "Patient attempts to schedule an appointment on a public holiday.",
+  "patient": {
+    "name": "Emily Carter",
+    "dob": "11/12/1985",
+    "phone": "212-555-0145",
+    "insurance": "Aetna PPO"
+  },
+  "goal": "Schedule an appointment for a health check-up on Thanksgiving Day.",
+  "behavior": [
+    "Be courteous and clear about the request",
+    "Express flexibility but preference for the holiday",
+    "Accept an alternative date if the holiday is unavailable"
+  ],
+  "success_criteria": [
+    "Agent must inform the patient about the office being closed on public holidays",
+    "Agent should suggest alternative dates around the holiday",
+    "Agent must successfully schedule the appointment for a different day"
+  ],
+  "tags": [
+    "scheduling",
+    "public_holiday",
+    "appointment"
+  ],
+  "generated_at": "2026-07-02T19:05:11.267617Z",
+  "orchestrator_hint": "Patient wants to schedule an appointment on a public holiday.",
+  "source": "generated"
+}

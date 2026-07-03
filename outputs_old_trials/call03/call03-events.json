@@ -1,0 +1,273 @@
+[
+  {
+    "t": "2026-07-02T07:39:04.567915+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4d1d558bf797b9c47a2be1196fad3f7d",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T07:39:04.708188+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4d1d558bf797b9c47a2be1196fad3f7d",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T07:39:09.608773+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4d1d558bf797b9c47a2be1196fad3f7d",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T07:39:09.876046+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-03"
+  },
+  {
+    "t": "2026-07-02T07:39:11.184958+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T07:39:11.185020+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T07:39:11.185035+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZeddb3f1a8315793b724759932f33123f"
+  },
+  {
+    "t": "2026-07-02T07:39:11.324771+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T07:39:22.848650+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T07:39:23.485328+00:00",
+    "event": "agent_said",
+    "text": "quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T07:39:27.597297+00:00",
+    "event": "patient_playback_hold",
+    "frames": 33,
+    "until": 153227.44611566598
+  },
+  {
+    "t": "2026-07-02T07:39:27.597357+00:00",
+    "event": "patient_said",
+    "text": "Hi, I\u2019m Alex Garcia. I\u2019ve been feeling kind of off lately\u2014just not quite right\u2014and I\u2019m not sure if it\u2019s something that needs a doctor to check. Is it worth scheduling an appointment to be safe?"
+  },
+  {
+    "t": "2026-07-02T07:39:35.199251+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T07:39:40.446156+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T07:39:40.922709+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-02T07:39:45.671722+00:00",
+    "event": "patient_playback_hold",
+    "frames": 40,
+    "until": 153245.660954708
+  },
+  {
+    "t": "2026-07-02T07:39:45.674320+00:00",
+    "event": "patient_said",
+    "text": "No, this is Alex Garcia. I\u2019m calling from plus one eight six six two eight four five nine four one, but the phone number on my medical record should be two one two five five five zero one four seven."
+  },
+  {
+    "t": "2026-07-02T07:39:53.338529+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T07:39:56.941882+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T07:39:58.301815+00:00",
+    "event": "agent_said",
+    "text": "Please provide your full date of birth."
+  },
+  {
+    "t": "2026-07-02T07:39:58.965376+00:00",
+    "event": "patient_playback_hold",
+    "frames": 8,
+    "until": 153258.31492525
+  },
+  {
+    "t": "2026-07-02T07:39:58.966691+00:00",
+    "event": "patient_said",
+    "text": "July 15, 1985."
+  },
+  {
+    "t": "2026-07-02T07:40:07.241258+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T07:40:19.167402+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T07:40:21.341563+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, I have your name as Alex Garcia and your date of birth as July 15th, 1985. Is that correct? If so, please spell your first and last name for me."
+  },
+  {
+    "t": "2026-07-02T07:40:23.437847+00:00",
+    "event": "patient_playback_hold",
+    "frames": 35,
+    "until": 153283.3279175
+  },
+  {
+    "t": "2026-07-02T07:40:23.439626+00:00",
+    "event": "patient_said",
+    "text": "Sure, let me spell that out for you."
+  },
+  {
+    "t": "2026-07-02T07:40:23.446902+00:00",
+    "event": "patient_playback_hold",
+    "frames": 35,
+    "until": 153283.337013791
+  },
+  {
+    "t": "2026-07-02T07:40:23.446917+00:00",
+    "event": "patient_said",
+    "text": "Yes. First name Alex, A L E X. Last name Garcia, G A R C I A."
+  },
+  {
+    "t": "2026-07-02T07:40:39.719988+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T07:40:52.069062+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T07:40:54.054833+00:00",
+    "event": "agent_said",
+    "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, please confirm your first and last name and date of birth by spelling them out one more time."
+  },
+  {
+    "t": "2026-07-02T07:40:55.776049+00:00",
+    "event": "patient_playback_hold",
+    "frames": 22,
+    "until": 153315.40685558302
+  },
+  {
+    "t": "2026-07-02T07:40:55.776130+00:00",
+    "event": "patient_said",
+    "text": "Yes, please look it up with the number on file. It\u2019s two one two five five five zero one four seven."
+  },
+  {
+    "t": "2026-07-02T07:41:07.320670+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T07:41:23.334492+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T07:41:24.069192+00:00",
+    "event": "agent_said",
+    "text": "I have your phone number as 212-555-0147 and your date of birth as July 15th, 1985. Is that correct? If so, please confirm your first and last name by spelling them out one more time."
+  },
+  {
+    "t": "2026-07-02T07:41:26.464651+00:00",
+    "event": "patient_playback_hold",
+    "frames": 21,
+    "until": 153346.076078666
+  },
+  {
+    "t": "2026-07-02T07:41:26.465682+00:00",
+    "event": "patient_said",
+    "text": "First name Alex, A L E X. Last name Garcia, G A R C I A."
+  },
+  {
+    "t": "2026-07-02T07:41:38.559696+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T07:41:46.664144+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T07:41:48.714541+00:00",
+    "event": "agent_said",
+    "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?"
+  },
+  {
+    "t": "2026-07-02T07:41:50.415568+00:00",
+    "event": "patient_playback_hold",
+    "frames": 12,
+    "until": 153369.847629333
+  },
+  {
+    "t": "2026-07-02T07:41:50.418812+00:00",
+    "event": "patient_said",
+    "text": "Yes, please. I\u2019d like to talk with them about whether I should schedule a visit."
+  },
+  {
+    "t": "2026-07-02T07:41:57.340321+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T07:42:01.478610+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T07:42:01.512729+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T07:42:02.221977+00:00",
+    "event": "agent_said",
+    "text": "you to a representative. Please wait."
+  },
+  {
+    "t": "2026-07-02T07:42:07.039739+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T07:42:07.479131+00:00",
+    "event": "agent_said",
+    "text": "Hello, you've reached the pretty good AI test line. Goodbye."
+  },
+  {
+    "t": "2026-07-02T07:42:10.615320+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-02T07:42:10.810758+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4d1d558bf797b9c47a2be1196fad3f7d",
+    "status": "completed"
+  }
+]

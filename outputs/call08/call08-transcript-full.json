@@ -1,0 +1,108 @@
+{
+  "call_id": "call-08",
+  "scenario_path": "outputs/call08/call08-scenario.json",
+  "recording_path": "outputs/call08/call08-recording.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. May I help you today? Hi, I'm calling about my headaches and needing that thing you had me try before. I'm a little unsure what it was called, and I was hoping you could help me figure out which treatment or medication I'm referring to. Am I speaking with Maya? No, this is Sam Rivers. I'm calling from plus 1-866-284-5941, but the phone number on my medical record should be 303-555-0147. March 15, 1985, and I'm just trying to figure out which headache treatment or medication I meant when I said that thing. Sure, let me repeat that so you can look it up. March 15, 1985, I'm calling about headaches and trying to clarify which treatment or medication I meant. Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just let me know. Yes, please. The number on file should be 303-555-0147. I have your phone number as 303-555-0147, and your date of birth is March 15, 1985. Is that correct? Yes, that's correct. I'm just trying to figure out which headache treatment or medication I was referring to when I said that thing so I can tell the doctor exactly what I need. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please stay on the line while I document your request. Connecting you to a representative. OK, thanks. I'll stay on the line while you document it. You've reached the Pretty Good AI test line. Goodbye. Oh, OK. Thanks for letting me know. Goodbye.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. May I help you today?",
+      "t": "2026-07-03T00:39:19.956462+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, I\u2019m calling about my headaches and needing\u2026 that thing you had me try before. I\u2019m a little unsure what it was called, and I was hoping you could help me figure out which treatment or medication I\u2019m referring to.",
+      "t": "2026-07-03T00:39:21.422054+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I see you're calling from the number we have on file. Am I speaking with Maya?",
+      "t": "2026-07-03T00:39:33.943626+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, this is Sam Rivers. I\u2019m calling from plus one eight six six two eight four five nine four one, but the phone number on my medical record should be 303-555-0147.",
+      "t": "2026-07-03T00:39:36.941294+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "please provide your full date of birth.",
+      "t": "2026-07-03T00:39:47.559587+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "March 15, 1985. And I\u2019m just trying to figure out which headache treatment or medication I meant when I said \u201cthat thing.\u201d",
+      "t": "2026-07-03T00:39:49.803864+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "birth to look up your information. Could you please provide your date of birth?",
+      "t": "2026-07-03T00:39:57.516889+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Sure, let me repeat that so you can look it up.",
+      "t": "2026-07-03T00:39:59.877669+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "March 15, 1985. I\u2019m calling about headaches and trying to clarify which treatment or medication I meant.",
+      "t": "2026-07-03T00:39:59.878833+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just let me know.",
+      "t": "2026-07-03T00:40:27.685967+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, please. The number on file should be 303-555-0147.",
+      "t": "2026-07-03T00:40:28.261711+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I have your phone number as 303-555-0147, and your day of birth is March 15th, 1985. Is that correct?",
+      "t": "2026-07-03T00:40:50.610507+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. I\u2019m just trying to figure out which headache treatment or medication I was referring to when I said \u201cthat thing,\u201d so I can tell the doctor exactly what I need.",
+      "t": "2026-07-03T00:40:53.340032+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please stay on the line while I document your request.",
+      "t": "2026-07-03T00:41:16.473310+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Okay, thanks. I\u2019ll stay on the line while you document it.",
+      "t": "2026-07-03T00:41:16.620063+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bye.",
+      "t": "2026-07-03T00:41:20.271355+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Oh, okay. Thanks for letting me know. Goodbye.",
+      "t": "2026-07-03T00:41:26.639730+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "you've reached the Pretty Good AI test line. Goodbye!",
+      "t": "2026-07-03T00:41:29.035282+00:00"
+    }
+  ],
+  "turn_count": 18,
+  "session": {
+    "call_id": "call-08",
+    "twilio_call_sid": "CAbdc581bfaf1e4469994f47f735c1c712",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/call08/call08-scenario.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/call08/call08-recording.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

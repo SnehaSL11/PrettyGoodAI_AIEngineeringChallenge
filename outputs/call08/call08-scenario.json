@@ -1,0 +1,31 @@
+{
+  "id": "call-08",
+  "category": "ambiguous_request",
+  "name": "Headache treatment inquiry",
+  "description": "Patient asks about a 'thing' for their headaches without specifying what they need.",
+  "patient": {
+    "name": "Sam Rivers",
+    "dob": "03/15/1985",
+    "phone": "303-555-0147",
+    "insurance": "Blue Shield PPO"
+  },
+  "goal": "Get clarification on the specific headache treatment or medication the patient is referring to.",
+  "behavior": [
+    "Start by mentioning headaches and needing 'that thing'",
+    "Sound slightly unsure and seek clarification",
+    "Be open to suggestions or prompts from the agent to narrow down the options"
+  ],
+  "success_criteria": [
+    "Agent asks clarifying questions to identify the specific treatment or medication",
+    "Agent does not make assumptions about the treatment",
+    "Agent offers to look up the patient's recent prescriptions or treatment plans if needed"
+  ],
+  "tags": [
+    "headache",
+    "medication",
+    "clarification"
+  ],
+  "generated_at": "2026-07-03T00:16:10.844882Z",
+  "orchestrator_hint": "Patient asks about 'that thing for my headaches' without specifying medication or treatment.",
+  "source": "generated"
+}

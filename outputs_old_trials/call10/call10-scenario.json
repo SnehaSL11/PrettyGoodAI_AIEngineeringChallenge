@@ -1,0 +1,31 @@
+{
+  "id": "call-10",
+  "category": "edge_case",
+  "name": "Unlisted medication refill request",
+  "description": "Patient requests a refill for a medication not found in their records.",
+  "patient": {
+    "name": "Alex Murphy",
+    "dob": "02/14/1985",
+    "phone": "312-555-0247",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Obtain a refill for a medication that is not listed in their medical records.",
+  "behavior": [
+    "Remain calm and assertive",
+    "Insist the medication was recently prescribed",
+    "Request the clinic to check for any possible errors in their records"
+  ],
+  "success_criteria": [
+    "Agent must confirm the medication is not listed in the records",
+    "Agent should offer to escalate the issue or consult with a doctor",
+    "Agent should not confirm a refill without appropriate prescription verification"
+  ],
+  "tags": [
+    "medication",
+    "records discrepancy",
+    "refill"
+  ],
+  "generated_at": "2026-07-02T19:05:26.276487Z",
+  "orchestrator_hint": "Patient demands a refill for a medication not listed in their records",
+  "source": "generated"
+}

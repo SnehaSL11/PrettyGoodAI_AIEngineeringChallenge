@@ -1,0 +1,347 @@
+[
+  {
+    "t": "2026-07-02T20:37:24.539004+00:00",
+    "event": "status_callback",
+    "call_sid": "CAf0ca789b77b7e2b0ba75ac63efa7cca4",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T20:37:24.745499+00:00",
+    "event": "status_callback",
+    "call_sid": "CAf0ca789b77b7e2b0ba75ac63efa7cca4",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T20:37:29.308608+00:00",
+    "event": "status_callback",
+    "call_sid": "CAf0ca789b77b7e2b0ba75ac63efa7cca4",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T20:37:29.565062+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-19"
+  },
+  {
+    "t": "2026-07-02T20:37:30.053539+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T20:37:30.053606+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T20:37:30.053643+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ240a523bce884079fb42b424ecc8f877"
+  },
+  {
+    "t": "2026-07-02T20:37:30.125067+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:37:42.090597+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:37:43.167847+00:00",
+    "event": "agent_said",
+    "text": "be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T20:37:44.853070+00:00",
+    "event": "patient_playback_hold",
+    "frames": 17,
+    "until": 164959.270330041
+  },
+  {
+    "t": "2026-07-02T20:37:44.853196+00:00",
+    "event": "patient_said",
+    "text": "Hi, I need to cancel a check-up that\u2019s scheduled under the name Lexi Gomez, and I need it canceled as soon as possible."
+  },
+  {
+    "t": "2026-07-02T20:37:53.824050+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:37:58.209960+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:37:59.114123+00:00",
+    "event": "agent_said",
+    "text": "Please provide Lexi Gomez's date of birth so I can look up the appointment."
+  },
+  {
+    "t": "2026-07-02T20:38:00.591193+00:00",
+    "event": "patient_playback_hold",
+    "frames": 9,
+    "until": 164974.848901666
+  },
+  {
+    "t": "2026-07-02T20:38:00.592790+00:00",
+    "event": "patient_said",
+    "text": "Date of birth is May 14, 1986."
+  },
+  {
+    "t": "2026-07-02T20:38:08.047346+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:38:16.177183+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:38:16.713989+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, can you please spell out Lexi's first and last name for me? This helps make sure I have the correct information."
+  },
+  {
+    "t": "2026-07-02T20:38:18.869875+00:00",
+    "event": "patient_playback_hold",
+    "frames": 15,
+    "until": 164993.24812150002
+  },
+  {
+    "t": "2026-07-02T20:38:18.869930+00:00",
+    "event": "patient_said",
+    "text": "Lexi is L E X I, and Gomez is G O M E Z."
+  },
+  {
+    "t": "2026-07-02T20:38:22.671374+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:38:28.091104+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:38:28.584836+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:38:29.467830+00:00",
+    "event": "agent_said",
+    "text": "Thank you. Could you please spell out the last name Gomez as well?"
+  },
+  {
+    "t": "2026-07-02T20:38:33.687689+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:38:35.195269+00:00",
+    "event": "agent_said",
+    "text": "I need you to spell out the last name Bill Ness for me. Could you do that please?"
+  },
+  {
+    "t": "2026-07-02T20:38:36.508699+00:00",
+    "event": "patient_playback_hold",
+    "frames": 18,
+    "until": 165010.947443125
+  },
+  {
+    "t": "2026-07-02T20:38:36.508817+00:00",
+    "event": "patient_said",
+    "text": "The last name is Gomez, G O M E Z. I\u2019m not associated with any last name \u201cVilmaes.\u201d"
+  },
+  {
+    "t": "2026-07-02T20:38:40.144393+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:38:46.128150+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:38:47.001762+00:00",
+    "event": "agent_said",
+    "text": "you please spell out Gomez letter by letter? This helps me make sure I have it exactly right."
+  },
+  {
+    "t": "2026-07-02T20:38:48.353995+00:00",
+    "event": "patient_playback_hold",
+    "frames": 12,
+    "until": 165022.673095375
+  },
+  {
+    "t": "2026-07-02T20:38:48.357253+00:00",
+    "event": "patient_said",
+    "text": "Gomez is G O M E Z."
+  },
+  {
+    "t": "2026-07-02T20:38:57.629054+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:39:09.852580+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:39:12.080679+00:00",
+    "event": "agent_said",
+    "text": "Would you like to use the phone number you have on file with us to look up Lexi's record? If so, please provide that number. If you're not sure I can confirm the name and date of birth with you again, which would you prefer?"
+  },
+  {
+    "t": "2026-07-02T20:39:12.527889+00:00",
+    "event": "patient_playback_hold",
+    "frames": 18,
+    "until": 165046.967686083
+  },
+  {
+    "t": "2026-07-02T20:39:12.527908+00:00",
+    "event": "patient_said",
+    "text": "Yes, the phone number on file is 202-555-0147."
+  },
+  {
+    "t": "2026-07-02T20:39:14.547125+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:39:18.748395+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:39:21.290050+00:00",
+    "event": "patient_playback_hold",
+    "frames": 17,
+    "until": 165055.71009100002
+  },
+  {
+    "t": "2026-07-02T20:39:21.290090+00:00",
+    "event": "patient_said",
+    "text": "The phone number on file is 202-555-0147."
+  },
+  {
+    "t": "2026-07-02T20:39:22.657580+00:00",
+    "event": "agent_said",
+    "text": "Please tell me the phone number you have on file for Lexi Gomez."
+  },
+  {
+    "t": "2026-07-02T20:39:32.987934+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:39:43.273500+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:39:44.994602+00:00",
+    "event": "patient_playback_hold",
+    "frames": 5,
+    "until": 165079.175326875
+  },
+  {
+    "t": "2026-07-02T20:39:44.994629+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct."
+  },
+  {
+    "t": "2026-07-02T20:39:47.349466+00:00",
+    "event": "agent_said",
+    "text": "the phone number as 202-555-0147 and the date of birth is May 14th, 1986. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T20:39:50.663212+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:39:59.394658+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:39:59.989763+00:00",
+    "event": "agent_said",
+    "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?"
+  },
+  {
+    "t": "2026-07-02T20:40:02.893277+00:00",
+    "event": "patient_playback_hold",
+    "frames": 26,
+    "until": 165097.494496041
+  },
+  {
+    "t": "2026-07-02T20:40:02.894979+00:00",
+    "event": "patient_said",
+    "text": "Okay, let me get you pointed to the right place for follow-up."
+  },
+  {
+    "t": "2026-07-02T20:40:02.898937+00:00",
+    "event": "patient_playback_hold",
+    "frames": 26,
+    "until": 165097.500183875
+  },
+  {
+    "t": "2026-07-02T20:40:02.898951+00:00",
+    "event": "patient_said",
+    "text": "Yes, please connect me to patient support so this appointment under Lexi Gomez can be canceled promptly."
+  },
+  {
+    "t": "2026-07-02T20:40:04.713272+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:40:08.530534+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:40:08.840828+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:40:08.968811+00:00",
+    "event": "agent_said",
+    "text": "you to a representative. Please wait."
+  },
+  {
+    "t": "2026-07-02T20:40:14.070374+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:40:15.785366+00:00",
+    "event": "agent_said",
+    "text": "Hello, you've reached the pretty good AI test line. Goodbye."
+  },
+  {
+    "t": "2026-07-02T20:40:18.295699+00:00",
+    "event": "patient_playback_hold",
+    "frames": 34,
+    "until": 165113.05733912502
+  },
+  {
+    "t": "2026-07-02T20:40:18.295904+00:00",
+    "event": "patient_said",
+    "text": "Oh, it looks like I reached a test line instead of patient support. I still need that check-up canceled under Lexi Gomez, so I\u2019ll have to call back to reach the right team. Thank you, goodbye."
+  },
+  {
+    "t": "2026-07-02T20:40:32.393784+00:00",
+    "event": "status_callback",
+    "call_sid": "CAf0ca789b77b7e2b0ba75ac63efa7cca4",
+    "status": "completed"
+  }
+]

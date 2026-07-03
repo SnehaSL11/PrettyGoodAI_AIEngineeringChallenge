@@ -1,0 +1,31 @@
+{
+  "id": "call-19",
+  "category": "cancel",
+  "name": "Name mismatch during cancellation",
+  "description": "Patient tries to cancel an appointment but uses a different name than what is on record.",
+  "patient": {
+    "name": "Alexandra Gomez",
+    "dob": "05/14/1986",
+    "phone": "202-555-0147",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Cancel a check-up scheduled under the name 'Lexi Gomez'.",
+  "behavior": [
+    "Sound confident and assertive about the cancelation",
+    "Mention the appointment is under 'Lexi Gomez'",
+    "Express urgency in needing to cancel the appointment promptly"
+  ],
+  "success_criteria": [
+    "Agent identifies the name mismatch and asks for confirmation or verification",
+    "Agent does not proceed with the cancellation until verification is resolved",
+    "Agent offers assistance to correct or update the name on record"
+  ],
+  "tags": [
+    "cancellation",
+    "name_mismatch",
+    "appointment"
+  ],
+  "generated_at": "2026-07-02T20:30:05.038733Z",
+  "orchestrator_hint": "Patient attempts to cancel an appointment but provides a different name than on record.",
+  "source": "generated"
+}

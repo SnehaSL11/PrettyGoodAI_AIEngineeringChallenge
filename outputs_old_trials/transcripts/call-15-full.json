@@ -1,0 +1,48 @@
+{
+  "call_id": "call-15",
+  "scenario_path": "outputs/scenarios/call-15.json",
+  "recording_path": "outputs/recordings/call-15.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Jamie Carter. I'd like to schedule a dental cleaning for February 30th, please. Pivot Point Orthopedics is an orthopedic clinic, so we don't offer dental services. If you'd like to schedule an orthopedic appointment, I can help with that. Would you like to book a visit for joint, muscle, or bone tear? Oh, got it. Thanks for letting me know. I'm looking for a dental cleaning, so I must have the wrong office. Thanks anyway. Goodbye. No problem. If you ever need orthopedic care, feel free to call us. Take care. Thanks.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "All may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-02T19:36:40.276174+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, this is Jamie Carter. I\u2019d like to schedule a dental cleaning for February 30th, please.",
+      "t": "2026-07-02T19:36:42.423391+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Third Point Orthopedics is an orthopedic clinic, so we don't offer dental services. If you'd like to schedule an orthopedic appointment, I can help with that. Would you like to book a visit for joint, muscle, or bone tear?",
+      "t": "2026-07-02T19:37:04.299877+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Oh, got it, thanks for letting me know. I\u2019m looking for a dental cleaning, so I must have the wrong office\u2014thanks anyway, goodbye.",
+      "t": "2026-07-02T19:37:06.802920+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "No problem. If you ever need orthopedic care, feel free to call us. Take care.",
+      "t": "2026-07-02T19:37:25.545336+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Thanks, I appreciate it. Have a good day.",
+      "t": "2026-07-02T19:37:25.661929+00:00"
+    }
+  ],
+  "turn_count": 6,
+  "session": {
+    "call_id": "call-15",
+    "twilio_call_sid": "CAc44ab08f2fcf2100625160fb43da06b7",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/scenarios/call-15.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/recordings/call-15.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

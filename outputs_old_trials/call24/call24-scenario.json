@@ -1,0 +1,31 @@
+{
+  "id": "call-24",
+  "category": "ambiguous_request",
+  "name": "Unclear Symptoms Inquiry",
+  "description": "Patient describes symptoms vaguely and asks if they should see a doctor.",
+  "patient": {
+    "name": "Alex Martinez",
+    "dob": "05/14/1985",
+    "phone": "310-555-0257",
+    "insurance": "Blue Cross PPO"
+  },
+  "goal": "Determine if their symptoms warrant a doctor's visit without providing specific details.",
+  "behavior": [
+    "Sound uncertain and hesitant",
+    "Provide only vague symptom descriptions like 'not feeling right' or 'something's off'",
+    "Seek reassurance and guidance from the clinic"
+  ],
+  "success_criteria": [
+    "Agent should ask probing questions to clarify symptoms",
+    "Agent should provide guidance on whether a visit is necessary",
+    "Agent must not make a medical diagnosis over the phone"
+  ],
+  "tags": [
+    "symptoms",
+    "ambiguous_request",
+    "triage"
+  ],
+  "generated_at": "2026-07-02T20:30:23.985525Z",
+  "orchestrator_hint": "Patient describes symptoms vaguely, asking if they need to see a doctor without specifying the issue.",
+  "source": "generated"
+}

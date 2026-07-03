@@ -1,0 +1,30 @@
+Call: call-06
+Recording: outputs/recordings/call-06.mp3
+Scenario: outputs/scenarios/call-06.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T19:09:10.908940+00:00] AGENT: recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T19:09:13.401799+00:00] PATIENT: Hi, I’d like to schedule a routine health check-up, and I was hoping for an appointment on Thanksgiving Day if you have any availability. I can be flexible if that day isn’t possible.
+[2026-07-02T19:09:24.983986+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-02T19:09:27.798853+00:00] PATIENT: No, this is Emily Carter. I’m calling from plus one eight six six two eight four five nine four one, but the phone number on my medical record is 212-555-0145.
+[2026-07-02T19:09:31.552789+00:00] AGENT: birth.
+[2026-07-02T19:09:32.939700+00:00] PATIENT: My date of birth is November 12, 1985.
+[2026-07-02T19:09:45.012855+00:00] AGENT: I need your full name and date of birth to look up your chart. Could you please provide both?
+[2026-07-02T19:09:46.287200+00:00] PATIENT: Sure, I can share that info again so you can pull up my chart.
+[2026-07-02T19:09:46.290050+00:00] PATIENT: My full name is Emily Carter, and my date of birth is November 12, 1985.
+[2026-07-02T19:09:53.578622+00:00] AGENT: name including first and last name.
+[2026-07-02T19:09:53.919227+00:00] PATIENT: Emily Carter — first name Emily, last name Carter.
+[2026-07-02T19:10:21.917338+00:00] AGENT: can help you schedule a routine health checkup. Are you calling to book this appointment for yourself or for someone else?
+[2026-07-02T19:10:23.270918+00:00] PATIENT: It’s for myself. I’d prefer Thanksgiving Day if that’s available, but I’m happy to take the closest option if the office is closed.
+[2026-07-02T19:10:32.584251+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-02T19:10:34.477007+00:00] PATIENT: No, this is Emily Carter. I’m calling from a different number, but my number on file is 212-555-0145.
+[2026-07-02T19:10:41.460646+00:00] AGENT: out your first name for me. This will help me find your record.
+[2026-07-02T19:10:42.217773+00:00] PATIENT: Emily. E-M-I-L-Y.
+[2026-07-02T19:11:01.339926+00:00] AGENT: can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?
+[2026-07-02T19:11:02.598674+00:00] PATIENT: Yes, please connect me with the patient support team. Thank you for arranging that.
+[2026-07-02T19:11:14.050032+00:00] AGENT: you to a representative. Please wait.
+[2026-07-02T19:11:20.449441+00:00] AGENT: you've reached the Pretty Good AI test line. Goodbye!
+[2026-07-02T19:11:21.065795+00:00] PATIENT: Oh, alright. Thanks anyway. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi. I'd like to schedule a routine health checkup, and I was hoping for an appointment on Thanksgiving Day if you have any availability. I can be flexible if that day isn't possible. No. This is Emily Carter. I'm calling from plus 1-866-284-5941, but the phone number on my medical record is 212-555-0145. My date of birth is November 12, 1985. Sure, I can share that info again so you can pull up my chart. My full name is Emily Carter, and my date of birth is November 12, 1985. Emily Carter. First name Emily, last name Carter. I can help you schedule a routine health checkup. Are you calling to book this appointment for yourself or for someone else? It's for myself. I'd prefer Thanksgiving Day if that's available, but I'm happy to take the closest option if the office is closed. No. This is Emily Carter. I'm calling from a different number, but my number on file is 212-555-0145. Emily, E-M-I-L-Y. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team? Yes, please connect me with the patient support team. Thank you for arranging that. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good A.I. test line. Goodbye. Oh. All right. Thanks anyway. Goodbye.

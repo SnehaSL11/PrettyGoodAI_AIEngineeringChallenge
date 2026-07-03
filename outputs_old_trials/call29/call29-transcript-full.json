@@ -1,0 +1,178 @@
+{
+  "call_id": "call-29",
+  "scenario_path": "outputs/scenarios/call-29.json",
+  "recording_path": "outputs/recordings/call-29.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, I'd like to schedule a routine checkup for June 25, 2026 at 2 PM. That date should still work for me. I see you're calling from the number we have on file. May I speak with Maya? No, this is Emily Carter. I'm calling from plus 1-866-284-5941. But my number on file is 212-555-0145. My date of birth is November 12, 1985. Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just let me know. Yes, the number on file is 212-555-0145. I have your phone number as 212-555-0145. And your date of birth is November 12, 1985. Is that correct? Yes, that's correct. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I connect you to our patient support team. Connecting you to a representative. Please wait. Hello, you've reached the pretty good AI test line. Goodbye. OK, thanks for letting me know. Goodbye.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-02T22:21:45.771628+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, I\u2019d like to schedule a routine checkup for June 25, 2026 at 2:00 PM. That date should still work for me.",
+      "t": "2026-07-02T22:21:46.604535+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I see you're calling from the number we have on file. Can I speak with Maya?",
+      "t": "2026-07-02T22:21:59.120438+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, this is Emily Carter. I\u2019m calling from plus one eight six six two eight four five nine four one, but my number on file is 212-555-0145.",
+      "t": "2026-07-02T22:22:01.175936+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Please provide your date of birth.",
+      "t": "2026-07-02T22:22:12.336161+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "My date of birth is November 12, 1985.",
+      "t": "2026-07-02T22:22:13.448073+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just let me know.",
+      "t": "2026-07-02T22:22:33.356754+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, the number on file is 212-555-0145.",
+      "t": "2026-07-02T22:22:34.696801+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I have your phone number as 212-555-0145 and your date of birth is November 12th, 1985. Is that correct?",
+      "t": "2026-07-02T22:22:56.128249+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct.",
+      "t": "2026-07-02T22:22:56.673372+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "proceed further right now but I can make sure our clinic support team follows up with you. Please hold while I connect you to our patient support team. Connecting you to a representative. Please wait.",
+      "t": "2026-07-02T22:23:15.388074+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, you've reached the pretty good AI test line. Goodbye.",
+      "t": "2026-07-02T22:23:21.794128+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Okay, thanks for letting me know. Goodbye.",
+      "t": "2026-07-02T22:23:21.879725+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-02T22:24:53.170205+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, this is Emily Carter. I\u2019d like to schedule a routine checkup for June 25, 2026 at 2:00 PM, if that\u2019s available.",
+      "t": "2026-07-02T22:24:54.505709+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "you're calling from the number we have on file. Am I speaking with Maya?",
+      "t": "2026-07-02T22:25:11.390414+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, this is Emily Carter. I\u2019m calling from 1 866 284 5941, but my number on file should be 212 555 0145.",
+      "t": "2026-07-02T22:25:14.107877+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Please provide your full date of birth.",
+      "t": "2026-07-02T22:25:29.958721+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "My date of birth is November 12, 1985.",
+      "t": "2026-07-02T22:25:31.225228+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Spell your first and last name for me. And your date of birth is November 12, 1985, correct?",
+      "t": "2026-07-02T22:25:48.513176+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. Emily Carter, spelled E M I L Y, and Carter is C A R T E R.",
+      "t": "2026-07-02T22:25:49.781561+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you. Could you please spell your last name, Carter?",
+      "t": "2026-07-02T22:25:59.922613+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Carter is spelled C A R T E R.",
+      "t": "2026-07-02T22:26:01.601825+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Which would you prefer?",
+      "t": "2026-07-02T22:26:23.006770+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, please use the number on file. It\u2019s 212-555-0145.",
+      "t": "2026-07-02T22:26:23.746095+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Use only the phone number you have on file with us.",
+      "t": "2026-07-02T22:26:32.884962+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "212-555-0145",
+      "t": "2026-07-02T22:26:33.106454+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct.",
+      "t": "2026-07-02T22:26:52.952474+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "your phone number is 212-555-0145 and your date of birth is November 12, 1985. Is that correct?",
+      "t": "2026-07-02T22:26:52.952933+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request. Connecting you to a representative. Please wait.",
+      "t": "2026-07-02T22:27:12.465611+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, you've reached the Pretty Good AI test line. Goodbye.",
+      "t": "2026-07-02T22:27:18.542662+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Okay, thanks for the update. Goodbye.",
+      "t": "2026-07-02T22:27:18.545255+00:00"
+    }
+  ],
+  "turn_count": 32,
+  "session": {
+    "call_id": "call-29",
+    "twilio_call_sid": "CA6b1e819a87383ac468d5347cc0dbd7e0",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/scenarios/call-29.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/recordings/call-29.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

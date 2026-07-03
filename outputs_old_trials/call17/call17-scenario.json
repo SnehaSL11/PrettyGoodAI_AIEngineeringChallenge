@@ -1,0 +1,32 @@
+{
+  "id": "call-17",
+  "category": "ambiguous_request",
+  "name": "Feeling Off Consultation Inquiry",
+  "description": "Patient calls to inquire if they need a doctor visit due to vague symptoms.",
+  "patient": {
+    "name": "Alex Morgan",
+    "dob": "07/15/1985",
+    "phone": "323-555-0147",
+    "insurance": "Blue Cross Blue Shield PPO"
+  },
+  "goal": "Determine if an appointment is needed based on general feeling of being 'off'.",
+  "behavior": [
+    "Sound concerned but vague about symptoms",
+    "Mention feeling off without specifics",
+    "Ask if it's necessary to see a doctor for peace of mind",
+    "Be open to making an appointment if suggested"
+  ],
+  "success_criteria": [
+    "Agent asks for more specific symptoms or descriptions",
+    "Agent provides potential advice based on generalized symptoms",
+    "Agent suggests scheduling an appointment if symptoms persist or worsen"
+  ],
+  "tags": [
+    "symptoms",
+    "vague",
+    "consultation"
+  ],
+  "generated_at": "2026-07-02T20:29:56.889290Z",
+  "orchestrator_hint": "Patient describes symptoms as 'feeling off' without elaboration and asks if they should see a doctor.",
+  "source": "generated"
+}

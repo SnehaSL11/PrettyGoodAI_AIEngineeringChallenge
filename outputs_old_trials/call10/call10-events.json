@@ -1,0 +1,247 @@
+[
+  {
+    "t": "2026-07-02T19:20:49.968426+00:00",
+    "event": "status_callback",
+    "call_sid": "CAa4a4d2b1bf8f6fdda3f9921e36111a38",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T19:20:50.171667+00:00",
+    "event": "status_callback",
+    "call_sid": "CAa4a4d2b1bf8f6fdda3f9921e36111a38",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T19:20:55.223820+00:00",
+    "event": "status_callback",
+    "call_sid": "CAa4a4d2b1bf8f6fdda3f9921e36111a38",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T19:20:55.474561+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-10"
+  },
+  {
+    "t": "2026-07-02T19:20:55.890302+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T19:20:55.890380+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T19:20:55.890404+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZd36b9a6e19600080f54ec4040c9c0474"
+  },
+  {
+    "t": "2026-07-02T19:20:55.972122+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:21:08.222860+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:21:09.642709+00:00",
+    "event": "agent_said",
+    "text": "may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T19:21:12.316911+00:00",
+    "event": "patient_playback_hold",
+    "frames": 31,
+    "until": 160366.878455625
+  },
+  {
+    "t": "2026-07-02T19:21:12.317463+00:00",
+    "event": "patient_said",
+    "text": "Hi, this is Alex Murphy. I\u2019m calling to request a refill for a medication that was recently prescribed, but it doesn\u2019t seem to be showing up in my records. Could you check for any errors in the chart?"
+  },
+  {
+    "t": "2026-07-02T19:21:24.562271+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:21:29.546461+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:21:29.995721+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from a number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-02T19:21:34.609150+00:00",
+    "event": "patient_playback_hold",
+    "frames": 45,
+    "until": 160389.451102791
+  },
+  {
+    "t": "2026-07-02T19:21:34.609326+00:00",
+    "event": "patient_said",
+    "text": "No, this is Alex Murphy. I\u2019m calling from plus one eight six six two eight four five nine four one, but my phone number on file with your clinic should be three one two five five five zero two four seven. Could you pull up my chart under Alex Murphy?"
+  },
+  {
+    "t": "2026-07-02T19:21:36.437163+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:21:38.880741+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:21:40.653767+00:00",
+    "event": "agent_said",
+    "text": "your full date of birth."
+  },
+  {
+    "t": "2026-07-02T19:21:41.599270+00:00",
+    "event": "patient_playback_hold",
+    "frames": 20,
+    "until": 160395.94140741602
+  },
+  {
+    "t": "2026-07-02T19:21:41.599315+00:00",
+    "event": "patient_said",
+    "text": "My date of birth is February 14, 1985. Please check the chart and help me get that refill request started."
+  },
+  {
+    "t": "2026-07-02T19:22:02.541896+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:22:11.183204+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:22:13.110118+00:00",
+    "event": "agent_said",
+    "text": "As to confirm, could you please fill your first and last name for me? I have your date of birth as February 14, 1985."
+  },
+  {
+    "t": "2026-07-02T19:22:13.924865+00:00",
+    "event": "patient_playback_hold",
+    "frames": 19,
+    "until": 160428.24774075
+  },
+  {
+    "t": "2026-07-02T19:22:13.924882+00:00",
+    "event": "patient_said",
+    "text": "First name Alex, A-L-E-X. Last name Murphy, M-U-R-P-H-Y."
+  },
+  {
+    "t": "2026-07-02T19:22:26.380469+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:22:37.093850+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:22:37.882308+00:00",
+    "event": "agent_said",
+    "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please confirm the number you want me to use. If you're not sure, I can confirm your name and date of birth again."
+  },
+  {
+    "t": "2026-07-02T19:22:39.941379+00:00",
+    "event": "patient_playback_hold",
+    "frames": 21,
+    "until": 160454.304787708
+  },
+  {
+    "t": "2026-07-02T19:22:39.941435+00:00",
+    "event": "patient_said",
+    "text": "Yes, please use the number on file. It\u2019s 3 1 2, 5 5 5, 0 2 4 7."
+  },
+  {
+    "t": "2026-07-02T19:22:52.740123+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:23:04.966902+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:23:05.564741+00:00",
+    "event": "agent_said",
+    "text": "your phone number as 312-555-0247 and your date of birth as February 14, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T19:23:07.818583+00:00",
+    "event": "patient_playback_hold",
+    "frames": 21,
+    "until": 160482.182537958
+  },
+  {
+    "t": "2026-07-02T19:23:07.818649+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. Please go ahead and pull up my chart so we can fix the missing medication and get the refill request started."
+  },
+  {
+    "t": "2026-07-02T19:23:20.937666+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:23:33.967528+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:23:34.217989+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:23:35.850837+00:00",
+    "event": "agent_said",
+    "text": "I'm unable to access your records right now, so I can't process your refill request. I'll connect you to our patient support team for help. Please stay on the line. Connecting you to a representative. Please wait."
+  },
+  {
+    "t": "2026-07-02T19:23:39.463331+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:23:40.798430+00:00",
+    "event": "agent_said",
+    "text": "Hello, you've reached the pretty good AI test line. Goodbye."
+  },
+  {
+    "t": "2026-07-02T19:23:41.386250+00:00",
+    "event": "patient_playback_hold",
+    "frames": 10,
+    "until": 160515.530971333
+  },
+  {
+    "t": "2026-07-02T19:23:41.388906+00:00",
+    "event": "patient_said",
+    "text": "Oh, okay. Thanks anyway. Goodbye."
+  },
+  {
+    "t": "2026-07-02T19:23:50.083473+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-02T19:23:50.251498+00:00",
+    "event": "status_callback",
+    "call_sid": "CAa4a4d2b1bf8f6fdda3f9921e36111a38",
+    "status": "completed"
+  }
+]

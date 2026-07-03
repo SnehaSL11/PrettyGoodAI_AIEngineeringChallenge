@@ -1,0 +1,31 @@
+Call: call-12
+Recording: outputs/recordings/call-12.mp3
+Scenario: outputs/scenarios/call-12.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T19:28:10.707047+00:00] AGENT: be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T19:28:11.803886+00:00] PATIENT: Hi, this is Alex Morgan. I’ve been feeling really tired with occasional headaches, and I’m not sure if I should schedule an appointment or try some home remedies first. Could you advise me?
+[2026-07-02T19:28:26.161279+00:00] AGENT: I see you're calling from a number we have on file. Am I speaking with Maya?
+[2026-07-02T19:28:27.486969+00:00] PATIENT: No, this is Alex Morgan. I’m calling from plus one, eight six six, two eight four, five nine four one, but my number on file should be nine one seven, five five five, zero two four six.
+[2026-07-02T19:28:38.405355+00:00] AGENT: Please provide your full date of birth.
+[2026-07-02T19:28:39.758832+00:00] PATIENT: June 15, 1985.
+[2026-07-02T19:28:48.263259+00:00] PATIENT: June 15, 1985.
+[2026-07-02T19:28:50.677482+00:00] AGENT: Could you please state your date of birth as month, day, and year?
+[2026-07-02T19:29:00.431357+00:00] AGENT: Could you please spell your first and last name for me just to make sure I have it correct?
+[2026-07-02T19:29:03.127512+00:00] PATIENT: Sure, let me spell that for you clearly.
+[2026-07-02T19:29:03.131151+00:00] PATIENT: Alex Morgan — Alex is A L E X, and Morgan is M O R G A N.
+[2026-07-02T19:29:10.323426+00:00] AGENT: Go ahead and spell your first and last name, please.
+[2026-07-02T19:29:12.174851+00:00] PATIENT: Alex Morgan. Alex is A L E X, and Morgan is M O R G A N.
+[2026-07-02T19:29:36.963246+00:00] AGENT: And have your phone number as 866-284-5941 and your date of birth as June 15, 1985. Is that correct?
+[2026-07-02T19:29:38.288920+00:00] PATIENT: My date of birth is correct, but the number on file should be nine one seven, five five five, zero two four six. I’m just calling from a different phone today.
+[2026-07-02T19:29:46.206132+00:00] AGENT: Could you please confirm the phone number you have on file with us?
+[2026-07-02T19:29:46.598243+00:00] PATIENT: Nine one seven, five five five, zero two four six.
+[2026-07-02T19:29:52.653451+00:00] AGENT: you have on file with us, could you please provide that?
+[2026-07-02T19:29:54.592693+00:00] PATIENT: Nine one seven, five five five, zero two four six.
+[2026-07-02T19:30:10.894350+00:00] AGENT: have their number is 917-555-0246. Is that correct?
+[2026-07-02T19:30:12.070506+00:00] PATIENT: Yes, that’s correct.
+[2026-07-02T19:30:26.134995+00:00] AGENT: Thanks for confirming. How can I assist you today with your tiredness and headaches? Would you like to schedule an appointment or speak with a provider?
+[2026-07-02T19:30:30.124236+00:00] PATIENT: I’m just not sure if this sounds like something that needs a visit. It’s mostly general tiredness and occasional headaches, nothing severe. Are there home remedies I should try first, or do you think I should book an appointment to be safe?
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Alex Morgan. I've been feeling really tired with occasional headaches, and I'm not sure if I should schedule an appointment or try some home remedies first. I see you're calling from a number we have on file. Could you advise me? Am I speaking with Maya? No, this is Alex Morgan. I'm calling from plus 1-866-284-5941. But my number on file should be 917-555-0246. June 15, 1985. Just to confirm, could you please state your date of birth as months, day, and year? June 15, 1985. Could you please spell your first and last name for me, just to make sure I have it correct? Sure. Let me spell that for you clearly. Alex Morgan. Alex is A-L-E-X, and Morgan is M-O-R-G-A-N. Alex Morgan. Alex is A-L-E-X, and Morgan is M-O-R-G-A-N. I have your phone number as 866-284-5941, and your date of birth as June 15, 1985. Is that correct? My date of birth is correct, but the number on file should be 917-555-0246. I'm just calling from a different phone today. 917-555-0246. 917-555-0246. I have your number as 917-555-0246. Is that correct? Yes, that's correct. Thanks for confirming. How can I assist you today with your tiredness and headaches? Would you like to schedule an appointment or speak with a provider? I'm just not sure if this sounds like something that needs a visit. It's mostly general tiredness and occasional headaches, nothing severe. Are there home remedies I should try first, or do you think I should book an appointment to be saved? I can't give medical advice, but if your symptoms are ongoing or concerning, it's a good idea to check in with a provider. Would you like to schedule an appointment to discuss your tiredness and headaches?

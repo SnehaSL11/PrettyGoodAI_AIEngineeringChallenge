@@ -54,7 +54,7 @@ flowchart TB
         ORCH["Orchestrator\n(what to test next)"]
         GEN["Scenario Generator LLM\n(who + goal + criteria)"]
         VAL["Scenario Validator\n(schema + retry)"]
-        STORE["outputs/scenarios/\ncall-NN.json"]
+        STORE["outputs/callNN/\ncallNN-scenario.json"]
         ORCH --> GEN --> VAL --> STORE
     end
 
@@ -82,7 +82,7 @@ flowchart TB
         TR["Whisper Transcriber"]
         MERGE["Transcript Merger"]
         EV["Bug Evaluator LLM"]
-        ART["outputs/recordings · transcripts · bug_report.md"]
+        ART["outputs/callNN/\nbug_report.md"]
         REC --> TR --> MERGE --> EV --> ART
     end
 
@@ -107,41 +107,6 @@ The Patient Agent never sees `success_criteria` during the call — only persona
 
 ---
 
-## Generated scenario schema
-
-Every scenario is saved as `outputs/scenarios/call-{NN}.json` before dialing.
-
-```json
-{
-  "id": "call-07-gen",
-  "category": "edge_case",
-  "patient": {
-    "name": "Jordan Lee",
-    "dob": "09/22/1991",
-    "phone": "415-555-0188",
-    "insurance": "Kaiser HMO"
-  },
-  "goal": "Request a lisinopril refill, then interrupt to ask if the office is open Saturdays.",
-  "behavior": [
-    "Start with the refill request",
-    "Mid-call, interrupt with a hours question",
-    "Stay polite; keep responses to 1-2 sentences"
-  ],
-  "success_criteria": [
-    "Agent handles interruption without losing refill context",
-    "Agent answers Saturday hours accurately",
-    "Agent does not schedule on closed days"
-  ],
-  "tags": ["refill", "interruption", "multi_intent"],
-  "generated_at": "2026-07-01T12:00:00Z",
-  "orchestrator_hint": "Test multi-intent handling after 6 scheduling calls"
-}
-```
-
-Optional seed files in `scenarios/seeds/` exist only for local debugging — batch runs use generated scenarios.
-
----
-
 ## Call sequence
 
 ```mermaid
@@ -158,7 +123,7 @@ sequenceDiagram
     R->>O: What should we test next?
     O->>G: category + hints + avoid list
     G->>G: Validate JSON schema
-    G->>R: Save outputs/scenarios/call-NN.json
+    G->>R: Save outputs/callNN/callNN-scenario.json
 
     R->>T: Create outbound call (+18054398008)
     T->>A: Connect PSTN
@@ -180,73 +145,8 @@ sequenceDiagram
     R->>T: Hangup or 180s timeout
     T->>F: recording callback (MP3 URL)
     F->>F: Whisper → merge transcript → Bug Evaluator
-    F->>F: Write outputs/ artifacts
+    F->>F: Write outputs/callNN/ artifacts + bug_report.md
     R->>O: Update call history for next iteration
-```
-
----
-
-## Audio pipeline
-
-```mermaid
-flowchart LR
-    A["Athena Agent"] <-->|PSTN| T["Twilio\nmulaw 8kHz"]
-    T <-->|WSS Media Stream| B["Audio Bridge"]
-    B <-->|PCM16 24kHz| RT["OpenAI Realtime\nServer VAD"]
-```
-
-| Direction | Format | Handler |
-|-----------|--------|---------|
-| Twilio → Server | mulaw, 8 kHz, base64 JSON | `voice/audio_utils.py` |
-| Server → Realtime | PCM16, 24 kHz | resample + append buffer |
-| Realtime → Server | PCM16, 24 kHz | response audio deltas |
-| Server → Twilio | mulaw, 8 kHz | resample + encode |
-
----
-
-## Orchestrator logic
-
-The Orchestrator ensures **diversity across 10+ calls** and optional **adaptive retesting**.
-
-**Inputs:**
-- `call_history.json` — past call IDs, categories, durations, bug counts
-- `bug_report.md` — summaries of issues found
-- Target distribution (e.g. 30% edge cases)
-
-**Outputs:**
-```json
-{
-  "next_category": "edge_case",
-  "hint": "Patient insists on Sunday morning appointment",
-  "avoid": ["simple_scheduling", "basic_refill"],
-  "rationale": "6 scheduling calls done; no weekend-hours test yet"
-}
-```
-
-**Category pool:** `scheduling`, `reschedule`, `cancel`, `refill`, `insurance`, `hours_location`, `edge_case`, `interruption`, `ambiguous_request`
-
----
-
-## Patient Agent prompt (built from generated scenario)
-
-```
-You are {patient.name}, a real patient calling a medical office.
-
-Your goal: {goal}
-
-When asked, your details are:
-- Date of birth: {patient.dob}
-- Phone: {patient.phone}
-- Insurance: {patient.insurance}
-
-How to behave:
-{behavior bullets}
-
-Rules:
-- Never say you are a bot, tester, or AI
-- Sound natural; prefer 1-2 sentences per turn
-- Actively work toward your goal
-- Answer the agent's questions cooperatively
 ```
 
 ---
@@ -255,71 +155,90 @@ Rules:
 
 ```mermaid
 flowchart LR
-    MP3["Twilio MP3"] --> DL["Download"]
+    MP3["Twilio MP3"] --> DL["Download to callNN-recording.mp3"]
     DL --> WH["Whisper API"]
-    WH --> TXT["call-NN.txt"]
-    LOG["Session event log"] --> MERGE["Transcript Merger"]
+    WH --> TXT["callNN-transcript.txt"]
+    LOG["callNN-events.json"] --> MERGE["Transcript Merger"]
     TXT --> MERGE
-    MERGE --> JSON["call-NN-full.json"]
+    MERGE --> JSON["callNN-transcript-full.json"]
     JSON --> EV["Bug Evaluator"]
-    SCN["call-NN.json\nsuccess_criteria"] --> EV
+    SCN["callNN-scenario.json\nsuccess_criteria"] --> EV
+    EV --> PER["callNN-bugs.md"]
     EV --> BUG["bug_report.md"]
 ```
 
-**Bug report entry references:**
-- `outputs/transcripts/call-NN.txt` — readable transcript
-- `outputs/recordings/call-NN.mp3` — audio evidence
-- `outputs/scenarios/call-NN.json` — what was being tested
+**Per-call folder** (`outputs/call01/`, etc.) holds scenario, recording, transcripts, session log, events, and bugs. Root `outputs/bug_report.md` aggregates all calls.
 
 ---
 
 ## Repository structure
 
 ```
-PreetyGoodAIChallenge/
+PrettyGoodAI_AIEngineeringChallenge/
 ├── ARCHITECTURE.md
 ├── README.md
 ├── .env.example
 ├── requirements.txt
+├── config.py                       # Settings from .env; per-call output paths
 ├── main.py                         # uvicorn entry
-├── runner.py                       # CLI: batch, single, generate-only
+├── runner.py                       # CLI: batch, call, generate, analyze
 │
 ├── app/
-│   ├── main.py                     # FastAPI routes
-│   └── session_registry.py         # active CallSession lookup
+│   ├── main.py                     # FastAPI app + /health
+│   ├── session_registry.py         # active CallSession lookup
+│   └── routes/
+│       └── voice.py                # Twilio webhooks + media stream WS
 │
 ├── planning/
-│   ├── orchestrator.py             # LLM: pick next test focus
+│   ├── planner.py                  # orchestrator → generator → save pipeline
+│   ├── orchestrator.py             # LLM: pick next test category
 │   ├── generator.py                # LLM: create scenario JSON
 │   ├── validator.py                # schema check + retry
+│   ├── prompts.py                  # orchestrator + generator system prompts
+│   ├── llm.py                      # shared OpenAI client
 │   └── history.py                  # call_history.json read/write
 │
 ├── telephony/
-│   └── twilio_client.py            # outbound call + hangup
+│   ├── twilio_client.py            # outbound call, status, recording download
+│   └── call_service.py             # place call + wait (CLI workflow)
 │
 ├── voice/
-│   ├── bridge.py                   # Twilio WS ↔ Realtime WS
-│   └── audio_utils.py              # mulaw, resample
+│   ├── realtime_bridge.py          # Twilio WS ↔ OpenAI Realtime WS
+│   ├── media_bridge.py             # silent/echo debug bridge (Phase 3)
+│   ├── audio_utils.py              # mulaw ↔ PCM16 conversion
+│   └── turn_state.py               # turn-taking + cooldown state
 │
 ├── patient/
-│   ├── agent.py                    # Realtime session + prompt builder
-│   └── models.py                   # Scenario dataclass
+│   ├── models.py                   # Scenario schema + call history models
+│   ├── prompt_builder.py           # Realtime patient system prompt
+│   └── agent.py                    # re-exports prompt builder helpers
 │
 ├── analysis/
 │   ├── pipeline.py                 # post-call orchestration
 │   ├── transcriber.py              # Whisper wrapper
-│   └── evaluator.py                # bug detection LLM
+│   ├── transcript_merger.py        # merge session turns + Whisper text
+│   ├── overlap_detector.py         # turn-timing overlap signals
+│   ├── evaluator.py                # bug detection LLM
+│   ├── bug_report.py               # format + append bug_report.md
+│   └── models.py                   # EvaluationResult, BugFinding
 │
 ├── scenarios/
-│   └── seeds/                      # optional debug scenarios only
+│   └── seeds/                      # optional hand-written YAML (debug)
 │
-└── outputs/
-    ├── scenarios/                  # generated call-NN.json (committed)
-    ├── recordings/                 # call-NN.mp3
-    ├── transcripts/                # call-NN.txt, call-NN-full.json
-    ├── logs/
-    ├── call_history.json
-    └── bug_report.md
+├── tests/
+│   └── test_phase2_offline.py      # offline schema/history tests
+│
+└── outputs/                        # OUTPUT_DIR (configurable)
+    ├── bug_report.md               # aggregated bugs (all calls)
+    ├── call_history.json           # run index
+    └── callNN/                     # one folder per call (call01, call02, …)
+        ├── callNN-scenario.json
+        ├── callNN-recording.mp3
+        ├── callNN-transcript.txt
+        ├── callNN-transcript-full.json
+        ├── callNN-session.json
+        ├── callNN-events.json
+        └── callNN-bugs.md
 ```
 
 ---
@@ -336,7 +255,7 @@ PreetyGoodAIChallenge/
 
 **5. Post-call Whisper on Twilio recording.** One transcription pass on the full two-sided MP3. No duplicate real-time transcription. Session event logs supplement speaker labeling.
 
-**6. Local file artifacts, no database.** Recordings, transcripts, scenarios, and bug reports map directly to GitHub submission requirements.
+**6. Local file artifacts, no database.** Each call’s artifacts live in one folder under `outputs/callNN/`; `bug_report.md` and `call_history.json` sit at the output root.
 
 ---
 
@@ -375,7 +294,7 @@ python runner.py batch --count 12
 | Failure | Action |
 |---------|--------|
 | Invalid generated JSON | Retry generator up to 3×; skip category on persistent failure |
-| Twilio call failed | Log to `outputs/logs/`; do not run post-call; retry once |
+| Twilio call failed | Log to call folder events; do not run post-call; retry once |
 | WebSocket drop mid-call | Graceful hangup; save partial session log |
 | Recording unavailable | Fall back to session event log; flag in metadata |
 | Evaluator finds no issues | Still write entry: "No issues detected against criteria" |
@@ -403,6 +322,6 @@ python runner.py batch --count 12
 ```bash
 python runner.py batch --count 12          # generate + call + analyze (submission run)
 python runner.py generate --count 5        # preview scenarios without calling
-python runner.py call --scenario outputs/scenarios/call-03.json
-python runner.py call --seed scenarios/seeds/weekend_appointment.yaml  # debug only
+python runner.py call --scenario outputs/call01/call01-scenario.json --analyze
+python runner.py analyze --call call-01    # re-run analysis on existing recording
 ```

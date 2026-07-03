@@ -1,0 +1,31 @@
+{
+  "id": "call-22",
+  "category": "refill",
+  "name": "Refill request without medication name",
+  "description": "Patient requests a refill but can't remember the medication name, only its use.",
+  "patient": {
+    "name": "Emily Johnson",
+    "dob": "03/15/1985",
+    "phone": "312-555-0199",
+    "insurance": "UnitedHealthcare PPO"
+  },
+  "goal": "Get a refill for the medication used to control blood pressure.",
+  "behavior": [
+    "Sound a bit confused about the medication name",
+    "Mention it is for blood pressure control",
+    "Provide any additional information like the color or shape of the pill if asked"
+  ],
+  "success_criteria": [
+    "Agent must confirm the medication based on its use and description",
+    "Agent should verify the patient's identity and prescription history",
+    "Agent should complete the refill process or explain the next steps if necessary"
+  ],
+  "tags": [
+    "medication",
+    "refill",
+    "blood_pressure"
+  ],
+  "generated_at": "2026-07-02T20:30:16.191210Z",
+  "orchestrator_hint": "Patient requests a refill for a medication but doesn't remember the name, only describing its use.",
+  "source": "generated"
+}

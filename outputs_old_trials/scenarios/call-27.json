@@ -1,0 +1,31 @@
+{
+  "id": "call-27",
+  "category": "hours_location",
+  "name": "Holiday hours inquiry for Radiology",
+  "description": "Patient inquires about Radiology department's hours and location during the upcoming holiday.",
+  "patient": {
+    "name": "Emily Thompson",
+    "dob": "04/15/1985",
+    "phone": "212-555-0345",
+    "insurance": "BlueCross BlueShield"
+  },
+  "goal": "Find out the holiday hours and location for the Radiology department.",
+  "behavior": [
+    "Sound curious and friendly",
+    "Ask specifically about Radiology hours on the holiday",
+    "Clarify if the department is in the same building as usual"
+  ],
+  "success_criteria": [
+    "Agent must provide holiday hours for the Radiology department",
+    "Agent should clarify the location of the Radiology department",
+    "Agent must confirm if these hours differ from regular hours"
+  ],
+  "tags": [
+    "holiday hours",
+    "department location",
+    "hours_location"
+  ],
+  "generated_at": "2026-07-02T20:30:35.948291Z",
+  "orchestrator_hint": "Patient asks about holiday hours and location for a specific department.",
+  "source": "generated"
+}

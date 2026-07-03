@@ -1,0 +1,31 @@
+{
+  "id": "call-11",
+  "category": "reschedule",
+  "name": "Rescheduling for a holiday",
+  "description": "Patient attempts to reschedule an appointment to a holiday when the clinic is closed.",
+  "patient": {
+    "name": "Stephanie Miller",
+    "dob": "03/15/1985",
+    "phone": "212-555-0490",
+    "insurance": "Blue Shield PPO"
+  },
+  "goal": "Reschedule my existing appointment to July 4th at 2 PM; then settle for the next available weekday.",
+  "behavior": [
+    "Be friendly and understanding",
+    "Insist on July 4th initially",
+    "Once informed of the closure, agree to the next available weekday"
+  ],
+  "success_criteria": [
+    "Agent should inform the patient about the holiday closure",
+    "Agent should not confirm an appointment on the holiday",
+    "Agent should provide a weekday alternative"
+  ],
+  "tags": [
+    "reschedule",
+    "holiday",
+    "appointment"
+  ],
+  "generated_at": "2026-07-03T00:16:21.130145Z",
+  "orchestrator_hint": "Patient attempts to reschedule an appointment for a holiday when the clinic is closed.",
+  "source": "generated"
+}

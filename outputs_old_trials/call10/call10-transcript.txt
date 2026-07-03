@@ -1,0 +1,23 @@
+Call: call-10
+Recording: outputs/recordings/call-10.mp3
+Scenario: outputs/scenarios/call-10.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T19:21:09.642709+00:00] AGENT: may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T19:21:12.317463+00:00] PATIENT: Hi, this is Alex Murphy. I’m calling to request a refill for a medication that was recently prescribed, but it doesn’t seem to be showing up in my records. Could you check for any errors in the chart?
+[2026-07-02T19:21:29.995721+00:00] AGENT: I see you're calling from a number we have on file. Am I speaking with Maya?
+[2026-07-02T19:21:34.609326+00:00] PATIENT: No, this is Alex Murphy. I’m calling from plus one eight six six two eight four five nine four one, but my phone number on file with your clinic should be three one two five five five zero two four seven. Could you pull up my chart under Alex Murphy?
+[2026-07-02T19:21:40.653767+00:00] AGENT: your full date of birth.
+[2026-07-02T19:21:41.599315+00:00] PATIENT: My date of birth is February 14, 1985. Please check the chart and help me get that refill request started.
+[2026-07-02T19:22:13.110118+00:00] AGENT: As to confirm, could you please fill your first and last name for me? I have your date of birth as February 14, 1985.
+[2026-07-02T19:22:13.924882+00:00] PATIENT: First name Alex, A-L-E-X. Last name Murphy, M-U-R-P-H-Y.
+[2026-07-02T19:22:37.882308+00:00] AGENT: Would you like me to look up your record using the phone number you have on file with us? If so, please confirm the number you want me to use. If you're not sure, I can confirm your name and date of birth again.
+[2026-07-02T19:22:39.941435+00:00] PATIENT: Yes, please use the number on file. It’s 3 1 2, 5 5 5, 0 2 4 7.
+[2026-07-02T19:23:05.564741+00:00] AGENT: your phone number as 312-555-0247 and your date of birth as February 14, 1985. Is that correct?
+[2026-07-02T19:23:07.818649+00:00] PATIENT: Yes, that’s correct. Please go ahead and pull up my chart so we can fix the missing medication and get the refill request started.
+[2026-07-02T19:23:35.850837+00:00] AGENT: I'm unable to access your records right now, so I can't process your refill request. I'll connect you to our patient support team for help. Please stay on the line. Connecting you to a representative. Please wait.
+[2026-07-02T19:23:40.798430+00:00] AGENT: Hello, you've reached the pretty good AI test line. Goodbye.
+[2026-07-02T19:23:41.388906+00:00] PATIENT: Oh, okay. Thanks anyway. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Alex Murphy. I'm calling to request a refill for a medication that was recently prescribed, but it doesn't seem to be showing up in my records. Could you check for any errors in the chart? I see you're calling from a number we have on file. Am I speaking with Maya? No, this is Alex Murphy. I'm calling from plus 1-866-284-5941, but my phone number on file with your clinic should be 312-555-0247. Could you pull up my chart under Alex Murphy? My date of birth is February 14th, 1985. Please check the chart and help me get that refill request started. Just to confirm, could you please spell your first and last name for me? I have your date of birth as February 14th, 1985. First name Alex, A-L-E-X. Last name Murphy, M-U-R-P-H-Y. Would you like me to look up your record using the phone number you have on file with us? If so, please confirm the number you want me to use. If you're not sure, I can confirm your name and date of birth again. Yes, please use the number on file. It's 312-555-0247. I have your phone number as 312-555-0247 and your date of birth as February 14th, 1985. Is that correct? Yes, that's correct. Please go ahead and pull up my chart so we can fix the missing medication and get the refill request started. I'm unable to access your records right now, so I can't process your refill request. I'll connect you to our patient support team for help. Please stay on the line. Connecting you to our patient support team is a little bit more difficult than you might think. Please stay on the line. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI test line. Goodbye. Oh, okay. Thanks anyway. Goodbye.

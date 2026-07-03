@@ -1,0 +1,31 @@
+{
+  "id": "call-05",
+  "category": "cancel",
+  "name": "Cancellation due to date confusion",
+  "description": "Patient wants to cancel an appointment they mistakenly believe is tomorrow but is actually next week.",
+  "patient": {
+    "name": "Emily Turner",
+    "dob": "05/14/1985",
+    "phone": "212-555-0175",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Cancel what they think is tomorrow's appointment, accept when clarified it's next week.",
+  "behavior": [
+    "Sound slightly confused but polite",
+    "Express urgency in needing to cancel",
+    "Once corrected, acknowledge the actual date and decide to keep the appointment"
+  ],
+  "success_criteria": [
+    "Agent should confirm the actual date of the appointment",
+    "Agent must explain the appointment is next week, not tomorrow",
+    "Agent should ensure the patient decides whether to keep or reschedule the correct appointment date"
+  ],
+  "tags": [
+    "cancellation",
+    "appointment",
+    "date_confusion"
+  ],
+  "generated_at": "2026-07-02T19:05:07.194689Z",
+  "orchestrator_hint": "Patient requests to cancel an appointment they mistakenly believe is tomorrow, but it's actually next week.",
+  "source": "generated"
+}

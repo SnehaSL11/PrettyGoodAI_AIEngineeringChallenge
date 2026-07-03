@@ -1,0 +1,154 @@
+[
+  {
+    "t": "2026-07-02T19:15:17.923713+00:00",
+    "event": "status_callback",
+    "call_sid": "CAed6808cd9badbfde2afab5dba7d1dbe0",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T19:15:18.095859+00:00",
+    "event": "status_callback",
+    "call_sid": "CAed6808cd9badbfde2afab5dba7d1dbe0",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T19:15:24.507147+00:00",
+    "event": "status_callback",
+    "call_sid": "CAed6808cd9badbfde2afab5dba7d1dbe0",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T19:15:24.739114+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-08"
+  },
+  {
+    "t": "2026-07-02T19:15:25.190117+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T19:15:25.190177+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T19:15:25.190200+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ97cc14aa7e3ed93ca03f927211c59c06"
+  },
+  {
+    "t": "2026-07-02T19:15:25.272821+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:15:37.057144+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:15:39.845408+00:00",
+    "event": "agent_said",
+    "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T19:15:43.232221+00:00",
+    "event": "patient_playback_hold",
+    "frames": 33,
+    "until": 160037.82679116598
+  },
+  {
+    "t": "2026-07-02T19:15:43.232327+00:00",
+    "event": "patient_said",
+    "text": "Hi, I\u2019m trying to confirm your hours and the correct location because I think I may have mixed up the street name. Is the clinic near Greenwood Avenue, or is it actually on Greenwich Street?"
+  },
+  {
+    "t": "2026-07-02T19:15:57.183140+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:16:10.418588+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:16:11.079773+00:00",
+    "event": "agent_said",
+    "text": "Our clinic is located at 1234 Recovery Way, Suite 200, Austin. It's not on Greenwood Avenue or Greenwich Street. Would you like directions or any other details about our location?"
+  },
+  {
+    "t": "2026-07-02T19:16:13.317798+00:00",
+    "event": "patient_playback_hold",
+    "frames": 19,
+    "until": 160067.633043833
+  },
+  {
+    "t": "2026-07-02T19:16:13.317880+00:00",
+    "event": "patient_said",
+    "text": "Thanks for clearing that up. Could you please confirm your hours as well, so I can be sure I\u2019m planning for the right time?"
+  },
+  {
+    "t": "2026-07-02T19:16:22.951283+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:16:36.697123+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:16:38.973056+00:00",
+    "event": "agent_said",
+    "text": "open Monday, Tuesday, and Thursday from 9 a.m. to 4 p.m., Wednesday from 12 p.m. to 7 p.m., and Friday from 9 a.m. to 12 p.m. Let me know if you need anything else."
+  },
+  {
+    "t": "2026-07-02T19:16:39.883578+00:00",
+    "event": "patient_playback_hold",
+    "frames": 23,
+    "until": 160094.27939675
+  },
+  {
+    "t": "2026-07-02T19:16:39.884400+00:00",
+    "event": "patient_said",
+    "text": "That\u2019s perfect, thank you. I was mixing it up, so I\u2019m glad I checked. I\u2019ll plan around those hours. Thanks again, and have a great day."
+  },
+  {
+    "t": "2026-07-02T19:16:50.649151+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T19:16:54.733438+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T19:16:56.367364+00:00",
+    "event": "agent_said",
+    "text": "welcome. Glad I could help. Have a great day."
+  },
+  {
+    "t": "2026-07-02T19:16:56.368112+00:00",
+    "event": "patient_playback_hold",
+    "frames": 5,
+    "until": 160110.404284625
+  },
+  {
+    "t": "2026-07-02T19:16:56.368121+00:00",
+    "event": "patient_said",
+    "text": "You too, goodbye."
+  },
+  {
+    "t": "2026-07-02T19:16:58.218341+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-02T19:16:58.373620+00:00",
+    "event": "status_callback",
+    "call_sid": "CAed6808cd9badbfde2afab5dba7d1dbe0",
+    "status": "completed"
+  }
+]

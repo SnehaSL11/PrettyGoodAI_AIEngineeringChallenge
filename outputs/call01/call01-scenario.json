@@ -1,0 +1,33 @@
+{
+  "id": "call-01",
+  "category": "interruption",
+  "name": "Interruption during clinic hours inquiry",
+  "description": "Patient asks about clinic hours but interrupts to request a medication refill.",
+  "patient": {
+    "name": "Emily Carter",
+    "dob": "05/14/1986",
+    "phone": "312-555-0123",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Successfully request a refill for her thyroid medication despite initially asking about clinic hours.",
+  "behavior": [
+    "Start by asking about clinic hours",
+    "Quickly shift to asking for a thyroid medication refill",
+    "Sound apologetic for changing the topic abruptly",
+    "Mention the urgency of the refill if needed"
+  ],
+  "success_criteria": [
+    "Agent should address the clinic hours question first",
+    "Agent must handle the medication refill request appropriately",
+    "Agent should confirm the details of the medication before proceeding",
+    "Agent should verify patient information related to the refill"
+  ],
+  "tags": [
+    "medication",
+    "interruption",
+    "refill_request"
+  ],
+  "generated_at": "2026-07-03T00:15:38.254229Z",
+  "orchestrator_hint": "Patient starts asking about clinic hours but quickly shifts to a medication refill request before the agent can respond.",
+  "source": "generated"
+}

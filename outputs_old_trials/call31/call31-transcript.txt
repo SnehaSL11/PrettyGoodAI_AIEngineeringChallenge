@@ -1,0 +1,50 @@
+Call: call-31
+Recording: outputs/recordings/call-31.mp3
+Scenario: outputs/scenarios/call-31.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T22:09:56.589966+00:00] AGENT: recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T22:09:59.231997+00:00] PATIENT: Hi, this is Maya Patel. I’d like to schedule a routine annual physical for Friday, July 10, 2026 at 10:30 AM, if that time is available.
+[2026-07-02T22:10:15.875398+00:00] AGENT: Please provide your date of birth.
+[2026-07-02T22:10:15.916094+00:00] PATIENT: My date of birth is April 12, 1989.
+[2026-07-02T22:10:37.426473+00:00] AGENT: Just to confirm, I have your name as Maya Patel and your date of birth as April 12th, 1989. Is that correct? If so, please spell your first and last name for me.
+[2026-07-02T22:10:38.898167+00:00] PATIENT: Yes, that’s correct. My first name is Maya, spelled M A Y A, and my last name is Patel, spelled P A T E L.
+[2026-07-02T22:10:44.975061+00:00] AGENT: Could you please spell your first and last name for me?
+[2026-07-02T22:10:46.759331+00:00] PATIENT: First name Maya, M A Y A. Last name Patel, P A T E L.
+[2026-07-02T22:10:55.044665+00:00] AGENT: your first name, Maya, and your last name, Patel, letter by letter.
+[2026-07-02T22:10:57.145486+00:00] PATIENT: Sure, I’ll spell it clearly for you.
+[2026-07-02T22:10:57.146637+00:00] PATIENT: Maya is M as in Mary, A, Y, A. Patel is P as in Peter, A, T, E, L.
+[2026-07-02T22:11:01.846998+00:00] AGENT: Can you please do that for me?
+[2026-07-02T22:11:03.620197+00:00] PATIENT: Maya is M, A, Y, A. Patel is P, A, T, E, L.
+[2026-07-02T22:11:11.214935+00:00] AGENT: Now, could you please spell your last name, Patel, letter by letter?
+[2026-07-02T22:11:11.526685+00:00] PATIENT: Patel is P, A, T, E, L.
+[2026-07-02T22:11:19.712188+00:00] AGENT: Thank you. Now please fill in your last name, Patel, letter by letter.
+[2026-07-02T22:11:20.736566+00:00] PATIENT: Patel is P as in Peter, A, T, E, L.
+[2026-07-02T22:11:35.210909+00:00] AGENT: Just to confirm, your first name is spelled M-A-Y-A, and your last name is spelled T-E-L. Is that correct?
+[2026-07-02T22:11:36.028281+00:00] PATIENT: Almost. The last name is Patel, spelled P A T E L, with a P and A at the beginning.
+[2026-07-02T22:11:43.710359+00:00] AGENT: Please spell your last name again, letter by letter.
+[2026-07-02T22:11:44.010836+00:00] PATIENT: P as in Peter, A, T, E, L.
+[2026-07-02T22:11:52.026660+00:00] PATIENT: Yes, that’s correct.
+[2026-07-02T22:11:52.026753+00:00] AGENT: Your last name is spelled P-A-T-L, is that correct?
+[2026-07-02T22:17:31.744230+00:00] AGENT: be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T22:17:33.563607+00:00] PATIENT: Hi, I’d like to schedule a routine annual physical for Friday, July 10, 2026 at 10:30 AM, please.
+[2026-07-02T22:17:50.312733+00:00] AGENT: you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-02T22:17:52.368478+00:00] PATIENT: Yes, this is Maya Patel. I’m calling from a different number than the one on file, but I can verify my details when you need.
+[2026-07-02T22:18:02.928690+00:00] AGENT: Thanks, Maya. Please provide your date of birth.
+[2026-07-02T22:18:04.811966+00:00] PATIENT: My date of birth is April 12, 1989.
+[2026-07-02T22:18:10.229122+00:00] PATIENT: April 12, 1989.
+[2026-07-02T22:18:13.143429+00:00] AGENT: Earth.
+[2026-07-02T22:18:28.986268+00:00] AGENT: confirm I have your name as Maya Patel and your date of birth as April 12, 1989. Is that correct? If so, could you please spell your first and last name for me?
+[2026-07-02T22:18:31.942089+00:00] PATIENT: Yes, that’s correct. My first name is Maya, spelled M A Y A, and my last name is Patel, spelled P A T E L.
+[2026-07-02T22:18:56.709267+00:00] AGENT: Would you like to use the phone number you have on file with us to help look up your record? If so, please provide that number. If you're not sure, just let me know.
+[2026-07-02T22:18:59.239375+00:00] PATIENT: Okay, let me share the number you should have on file for me.
+[2026-07-02T22:18:59.243690+00:00] PATIENT: The phone number on file is 408-555-0192. I’m calling from a different number, but that’s the one linked to my chart.
+[2026-07-02T22:19:25.430038+00:00] PATIENT: Yes, that’s correct.
+[2026-07-02T22:19:25.430307+00:00] AGENT: your phone number as 408-555-0192 and your day of birth is April 12, 1989. Is that correct?
+[2026-07-02T22:19:42.049860+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request.
+[2026-07-02T22:19:45.820327+00:00] AGENT: you to a representative. Please wait.
+[2026-07-02T22:19:51.461608+00:00] AGENT: you've reached the pretty good AI test line. Goodbye!
+[2026-07-02T22:19:52.895797+00:00] PATIENT: Okay, thank you. I’ll wait for a follow-up from the clinic. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes only.

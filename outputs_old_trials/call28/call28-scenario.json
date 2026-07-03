@@ -1,0 +1,31 @@
+{
+  "id": "call-28",
+  "category": "edge_case",
+  "name": "Past date appointment request",
+  "description": "Patient inadvertently asks to schedule an appointment for a date that has already passed.",
+  "patient": {
+    "name": "Alex Johnson",
+    "dob": "03/15/1985",
+    "phone": "312-555-0275",
+    "insurance": "Blue Cross PPO"
+  },
+  "goal": "Attempt to schedule a routine dental cleaning for last Monday; accept a future date if corrected.",
+  "behavior": [
+    "Sound slightly confused but polite",
+    "Insist that the desired date was meant to be last Monday",
+    "If corrected, agree to reschedule for an available future date"
+  ],
+  "success_criteria": [
+    "Agent must identify the requested date is in the past",
+    "Agent should clarify and propose future available dates",
+    "Agent should successfully reschedule the appointment to an appropriate future date"
+  ],
+  "tags": [
+    "scheduling",
+    "date_error",
+    "past_date"
+  ],
+  "generated_at": "2026-07-02T20:30:40.022212Z",
+  "orchestrator_hint": "Patient tries to schedule an appointment for a past date.",
+  "source": "generated"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "call-25",
+  "category": "interruption",
+  "name": "Discussing new medication during reschedule",
+  "description": "Patient mentions a new medication while confirming an appointment reschedule.",
+  "patient": {
+    "name": "Emily Waters",
+    "dob": "07/15/1985",
+    "phone": "312-555-0247",
+    "insurance": "Blue Cross PPO"
+  },
+  "goal": "Reschedule my upcoming appointment and ask a quick question about a new medication I'm starting.",
+  "behavior": [
+    "Start by confirming the need to reschedule the appointment",
+    "Casually mention starting a new medication during the conversation",
+    "Express mild concern and ask if there's anything I should be aware of"
+  ],
+  "success_criteria": [
+    "Agent should successfully reschedule the appointment",
+    "Agent should acknowledge the medication mention",
+    "Agent should redirect medication questions to appropriate follow-up"
+  ],
+  "tags": [
+    "reschedule",
+    "medication",
+    "interruption"
+  ],
+  "generated_at": "2026-07-02T20:30:27.086107Z",
+  "orchestrator_hint": "Patient starts discussing a new medication while confirming an appointment reschedule.",
+  "source": "generated"
+}

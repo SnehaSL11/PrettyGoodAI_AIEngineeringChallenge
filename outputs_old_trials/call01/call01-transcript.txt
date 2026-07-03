@@ -1,0 +1,19 @@
+Call: call-01
+Recording: outputs/recordings/call-01.mp3
+Scenario: outputs/scenarios/call-01.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T18:47:53.510567+00:00] AGENT: recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T18:47:56.402570+00:00] PATIENT: Hi, this is Maya Patel. I’m calling to schedule an annual physical, just a routine checkup. I work weekdays, so I’d really prefer Sunday at 10 AM if that’s available.
+[2026-07-02T18:48:12.878533+00:00] PATIENT: April 12, 1989.
+[2026-07-02T18:48:12.884264+00:00] AGENT: Please provide your date of birth.
+[2026-07-02T18:48:31.360310+00:00] AGENT: Can you please spell your first and last name to make sure I have it correct? I have your date of birth as April 12th, 1989. Is that right?
+[2026-07-02T18:48:31.635552+00:00] PATIENT: Yes, that’s correct. My name is spelled M-A-Y-A P-A-T-E-L.
+[2026-07-02T18:48:53.282445+00:00] AGENT: your phone number is 866-284-5941 and your date of birth as April 12, 1989. Is that correct?
+[2026-07-02T18:48:55.616579+00:00] PATIENT: One moment, I want to make sure I clarify the right number on file.
+[2026-07-02T18:48:55.616654+00:00] PATIENT: No, that’s the number I’m calling from. I’m Maya Patel, and the phone number on file in my chart should be 408-555-0192.
+[2026-07-02T18:49:30.430683+00:00] PATIENT: Oh, alright. Thanks anyway for your time. Goodbye.
+[2026-07-02T18:49:31.193284+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I update your request. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hello, thanks for calling Pivot Point Orthopedics. How can I help you today? Are you still there? I am going to end the call now. Goodbye.

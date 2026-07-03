@@ -1,0 +1,32 @@
+{
+  "id": "call-11",
+  "category": "interruption",
+  "name": "Insurance coverage inquiry mid-discussion",
+  "description": "Patient interrupts conversation about medication side effects to ask about insurance coverage.",
+  "patient": {
+    "name": "Morgan Taylor",
+    "dob": "03/15/1985",
+    "phone": "310-555-0247",
+    "insurance": "Blue Cross PPO"
+  },
+  "goal": "Inquire if their insurance covers a potential new medication while discussing side effects of current medication.",
+  "behavior": [
+    "Start with discussing the side effects of the current medication",
+    "Politely interrupt to ask if a new medication would be covered by insurance",
+    "Express concern about out-of-pocket costs if insurance doesn't cover it",
+    "Show appreciation for any assistance offered"
+  ],
+  "success_criteria": [
+    "Agent acknowledges the original concern about medication side effects",
+    "Agent addresses the insurance coverage inquiry and provides guidance or directs appropriately",
+    "Agent maintains a supportive and patient-focused attitude throughout the call"
+  ],
+  "tags": [
+    "interruption",
+    "medication",
+    "insurance"
+  ],
+  "generated_at": "2026-07-02T19:05:30.306028Z",
+  "orchestrator_hint": "Patient suddenly asks about insurance coverage while discussing medication side effects.",
+  "source": "generated"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "call-12",
+  "category": "ambiguous_request",
+  "name": "Vague symptom discussion",
+  "description": "Patient describes symptoms vaguely and seeks advice on whether to see a doctor or get medication.",
+  "patient": {
+    "name": "Alex Morgan",
+    "dob": "03/15/1985",
+    "phone": "310-555-0247",
+    "insurance": "Blue Cross PPO"
+  },
+  "goal": "Get advice on whether the symptoms described require an in-person appointment or can be managed with over-the-counter medication.",
+  "behavior": [
+    "Sound uncertain about the severity of the symptoms",
+    "Describe symptoms without clear details (e.g., 'not feeling well', 'a bit off')",
+    "Ask if medication can help without specifying which kind"
+  ],
+  "success_criteria": [
+    "Agent should ask clarifying questions about the symptoms",
+    "Agent should determine if the symptoms require a doctor's evaluation",
+    "Agent should provide general advice on whether to visit a doctor or use over-the-counter medication"
+  ],
+  "tags": [
+    "symptoms",
+    "advice",
+    "appointment_decision"
+  ],
+  "generated_at": "2026-07-03T00:16:25.267225Z",
+  "orchestrator_hint": "Patient describes symptoms in vague terms, unsure whether to schedule an appointment or request medication advice.",
+  "source": "generated"
+}

@@ -1,0 +1,269 @@
+[
+  {
+    "t": "2026-07-02T20:34:11.614279+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5dd4d4891efd6ea28f3bb487553ea421",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T20:34:11.731525+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5dd4d4891efd6ea28f3bb487553ea421",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T20:34:16.804998+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5dd4d4891efd6ea28f3bb487553ea421",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T20:34:17.001128+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-18"
+  },
+  {
+    "t": "2026-07-02T20:34:17.790440+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T20:34:17.790508+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T20:34:17.790528+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ8719a1b76c6a1f179e81273dfcc26379"
+  },
+  {
+    "t": "2026-07-02T20:34:17.865888+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:34:29.859426+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:34:31.882330+00:00",
+    "event": "agent_said",
+    "text": "recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T20:34:33.725259+00:00",
+    "event": "patient_playback_hold",
+    "frames": 29,
+    "until": 164768.37695041602
+  },
+  {
+    "t": "2026-07-02T20:34:33.729522+00:00",
+    "event": "patient_said",
+    "text": "Hi, this is Emily Tran. I\u2019m a bit concerned and wanted to ask if you could check whether my insurance covers the medication Xeljanz. If it is covered, I\u2019d also like to know what my copayment would be."
+  },
+  {
+    "t": "2026-07-02T20:34:43.076762+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:34:48.099539+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:34:48.585861+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-02T20:34:52.280041+00:00",
+    "event": "patient_playback_hold",
+    "frames": 36,
+    "until": 164787.07228725
+  },
+  {
+    "t": "2026-07-02T20:34:52.280476+00:00",
+    "event": "patient_said",
+    "text": "No, this is Emily Tran. I\u2019m calling from plus one, eight six six, two eight four, five nine four one, but the phone number on my record should be three two three, five five five, zero one two seven."
+  },
+  {
+    "t": "2026-07-02T20:34:53.934008+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:34:57.217083+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:34:57.751685+00:00",
+    "event": "agent_said",
+    "text": "provide your full name and date of birth."
+  },
+  {
+    "t": "2026-07-02T20:34:59.588635+00:00",
+    "event": "patient_playback_hold",
+    "frames": 14,
+    "until": 164793.941155708
+  },
+  {
+    "t": "2026-07-02T20:34:59.588694+00:00",
+    "event": "patient_said",
+    "text": "My name is Emily Tran, and my date of birth is May 14, 1985."
+  },
+  {
+    "t": "2026-07-02T20:35:15.900067+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:35:24.249785+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:35:26.077641+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, I have your name as Emily Tran and your date of birth as May 14th, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T20:35:28.119217+00:00",
+    "event": "patient_playback_hold",
+    "frames": 23,
+    "until": 164822.652504041
+  },
+  {
+    "t": "2026-07-02T20:35:28.119305+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. Could you please check if my BlueCross BlueShield plan covers Xeljanz, and what my copayment would be if it\u2019s covered?"
+  },
+  {
+    "t": "2026-07-02T20:35:37.934693+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:35:51.023707+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:35:52.137237+00:00",
+    "event": "agent_said",
+    "text": "Before I can check that, would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Which would you prefer?"
+  },
+  {
+    "t": "2026-07-02T20:35:54.179297+00:00",
+    "event": "patient_playback_hold",
+    "frames": 20,
+    "until": 164848.653390708
+  },
+  {
+    "t": "2026-07-02T20:35:54.179396+00:00",
+    "event": "patient_said",
+    "text": "Yes, please look me up using the number on file. It should be three two three, five five five, zero one two seven."
+  },
+  {
+    "t": "2026-07-02T20:36:05.594352+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:36:18.509641+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:36:19.095699+00:00",
+    "event": "agent_said",
+    "text": "your phone number is 323-555-0127 and your date of birth as May 14th, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T20:36:21.995919+00:00",
+    "event": "patient_playback_hold",
+    "frames": 19,
+    "until": 164876.450792
+  },
+  {
+    "t": "2026-07-02T20:36:21.995996+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. Could you please check if Xeljanz is covered under my plan and let me know the copayment if it is?"
+  },
+  {
+    "t": "2026-07-02T20:36:33.297217+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:36:42.159271+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:36:43.954729+00:00",
+    "event": "agent_said",
+    "text": "I can't access your information right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request for them."
+  },
+  {
+    "t": "2026-07-02T20:36:45.190209+00:00",
+    "event": "patient_playback_hold",
+    "frames": 17,
+    "until": 164899.605751833
+  },
+  {
+    "t": "2026-07-02T20:36:45.190278+00:00",
+    "event": "patient_said",
+    "text": "Okay, I\u2019ll hang on while you get that set up."
+  },
+  {
+    "t": "2026-07-02T20:36:45.190319+00:00",
+    "event": "patient_playback_hold",
+    "frames": 17,
+    "until": 164899.60589404101
+  },
+  {
+    "t": "2026-07-02T20:36:45.191369+00:00",
+    "event": "patient_said",
+    "text": "Thank you, I appreciate that. I\u2019ll hold."
+  },
+  {
+    "t": "2026-07-02T20:36:47.184998+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T20:36:52.361467+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T20:36:52.910336+00:00",
+    "event": "agent_said",
+    "text": "you've reached the Pretty Good AI test line. Goodbye!"
+  },
+  {
+    "t": "2026-07-02T20:36:54.923815+00:00",
+    "event": "patient_playback_hold",
+    "frames": 12,
+    "until": 164909.239630916
+  },
+  {
+    "t": "2026-07-02T20:36:54.924006+00:00",
+    "event": "patient_said",
+    "text": "Oh, okay. Thank you for your time and for trying to help. Goodbye."
+  },
+  {
+    "t": "2026-07-02T20:37:04.140506+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-02T20:37:04.282921+00:00",
+    "event": "status_callback",
+    "call_sid": "CA5dd4d4891efd6ea28f3bb487553ea421",
+    "status": "completed"
+  }
+]

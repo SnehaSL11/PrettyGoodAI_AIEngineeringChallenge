@@ -1,0 +1,427 @@
+[
+  {
+    "t": "2026-07-03T00:51:10.420017+00:00",
+    "event": "status_callback",
+    "call_sid": "CA3cd198defa77a2299d88262bd107f54b",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-03T00:51:10.506854+00:00",
+    "event": "status_callback",
+    "call_sid": "CA3cd198defa77a2299d88262bd107f54b",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-03T00:51:14.736679+00:00",
+    "event": "status_callback",
+    "call_sid": "CA3cd198defa77a2299d88262bd107f54b",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-03T00:51:14.896176+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-12"
+  },
+  {
+    "t": "2026-07-03T00:51:15.469260+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-03T00:51:15.469657+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-03T00:51:15.469704+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZc51dad1222937246f2644f792604dce9"
+  },
+  {
+    "t": "2026-07-03T00:51:15.548052+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:51:27.426129+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:51:29.472356+00:00",
+    "event": "agent_said",
+    "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-03T00:51:31.528731+00:00",
+    "event": "patient_playback_hold",
+    "frames": 34,
+    "until": 178224.11360108302
+  },
+  {
+    "t": "2026-07-03T00:51:31.528794+00:00",
+    "event": "patient_said",
+    "text": "Hi, I\u2019m feeling a bit off and not sure how serious it is. Could you tell me if this is something that usually needs an in-person visit, or if it might be okay to try an over-the-counter medication first?"
+  },
+  {
+    "t": "2026-07-03T00:51:35.279368+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:51:40.528606+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:51:43.044113+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-03T00:51:43.861507+00:00",
+    "event": "patient_playback_hold",
+    "frames": 28,
+    "until": 178236.32658599998
+  },
+  {
+    "t": "2026-07-03T00:51:43.865959+00:00",
+    "event": "patient_said",
+    "text": "No, this is Alex Morgan. I\u2019m calling from a different number, but the phone number on my chart should be 310-555-0247."
+  },
+  {
+    "t": "2026-07-03T00:51:45.320223+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:51:49.462916+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:51:51.111284+00:00",
+    "event": "agent_said",
+    "text": "Can you please confirm, I'm speaking with Maya."
+  },
+  {
+    "t": "2026-07-03T00:51:52.592689+00:00",
+    "event": "patient_playback_hold",
+    "frames": 27,
+    "until": 178245.037848916
+  },
+  {
+    "t": "2026-07-03T00:51:52.592802+00:00",
+    "event": "patient_said",
+    "text": "No, this is Alex Morgan. I\u2019m calling from a different number, but my number on file is 310-555-0247."
+  },
+  {
+    "t": "2026-07-03T00:51:58.185934+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:52:01.446673+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:52:02.699763+00:00",
+    "event": "agent_said",
+    "text": "Please provide your full name and date of birth."
+  },
+  {
+    "t": "2026-07-03T00:52:03.565522+00:00",
+    "event": "patient_playback_hold",
+    "frames": 12,
+    "until": 178255.710875458
+  },
+  {
+    "t": "2026-07-03T00:52:03.566675+00:00",
+    "event": "patient_said",
+    "text": "Alex Morgan, and my date of birth is March 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:52:13.588644+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:52:25.606869+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:52:27.861201+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, I have your name as Alex Morgan and your date of birth as March 15th, 1985. Is that correct? If so, please spell your first and last name for me."
+  },
+  {
+    "t": "2026-07-03T00:52:29.647622+00:00",
+    "event": "patient_playback_hold",
+    "frames": 18,
+    "until": 178281.91329566602
+  },
+  {
+    "t": "2026-07-03T00:52:29.648517+00:00",
+    "event": "patient_said",
+    "text": "A-L-E-X Morgan, M-O-R-G-A-N."
+  },
+  {
+    "t": "2026-07-03T00:52:32.957310+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:52:36.708890+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:52:37.571226+00:00",
+    "event": "agent_said",
+    "text": "And please spell your last name, Morgan."
+  },
+  {
+    "t": "2026-07-03T00:52:38.487231+00:00",
+    "event": "patient_playback_hold",
+    "frames": 7,
+    "until": 178290.533068958
+  },
+  {
+    "t": "2026-07-03T00:52:38.487985+00:00",
+    "event": "patient_said",
+    "text": "M-O-R-G-A-N."
+  },
+  {
+    "t": "2026-07-03T00:52:40.555552+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:52:45.449240+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:52:45.911859+00:00",
+    "event": "agent_said",
+    "text": "Could you please spell out your full last name, Morgan, one letter at a time?"
+  },
+  {
+    "t": "2026-07-03T00:52:47.936595+00:00",
+    "event": "patient_playback_hold",
+    "frames": 18,
+    "until": 178300.202245791
+  },
+  {
+    "t": "2026-07-03T00:52:47.940255+00:00",
+    "event": "patient_said",
+    "text": "Sure. M, O, R, G, A, N."
+  },
+  {
+    "t": "2026-07-03T00:52:49.657180+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:52:53.223782+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:52:54.968216+00:00",
+    "event": "agent_said",
+    "text": "ahead and spell your last name Morgan for me."
+  },
+  {
+    "t": "2026-07-03T00:52:55.939824+00:00",
+    "event": "patient_playback_hold",
+    "frames": 21,
+    "until": 178308.265862375
+  },
+  {
+    "t": "2026-07-03T00:52:55.939926+00:00",
+    "event": "patient_said",
+    "text": "M as in Mike, O, R, G, as in George, A, N."
+  },
+  {
+    "t": "2026-07-03T00:52:57.297793+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:53:03.959687+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:53:05.814367+00:00",
+    "event": "agent_said",
+    "text": "last name Morgan, one letter at a time. For example, M-O-R-G-A-N."
+  },
+  {
+    "t": "2026-07-03T00:53:06.380957+00:00",
+    "event": "patient_playback_hold",
+    "frames": 15,
+    "until": 178318.58713154102
+  },
+  {
+    "t": "2026-07-03T00:53:06.381121+00:00",
+    "event": "patient_said",
+    "text": "M-O-R-G-A-N."
+  },
+  {
+    "t": "2026-07-03T00:53:08.957352+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:53:20.386281+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:53:22.109467+00:00",
+    "event": "agent_said",
+    "text": "need you to spell your full last name Morgan one letter at a time. For example, M-O-R-G-A-N. Could you do that for me?"
+  },
+  {
+    "t": "2026-07-03T00:53:23.890177+00:00",
+    "event": "patient_playback_hold",
+    "frames": 23,
+    "until": 178336.256517375
+  },
+  {
+    "t": "2026-07-03T00:53:23.890633+00:00",
+    "event": "patient_said",
+    "text": "Alright, let me go through that carefully for you."
+  },
+  {
+    "t": "2026-07-03T00:53:23.894204+00:00",
+    "event": "patient_playback_hold",
+    "frames": 23,
+    "until": 178336.26066916602
+  },
+  {
+    "t": "2026-07-03T00:53:23.894256+00:00",
+    "event": "patient_said",
+    "text": "M-O-R-G-A-N."
+  },
+  {
+    "t": "2026-07-03T00:53:25.404013+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:53:28.780975+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:53:29.291099+00:00",
+    "event": "agent_said",
+    "text": "Morgan, one letter at a time."
+  },
+  {
+    "t": "2026-07-03T00:53:30.975556+00:00",
+    "event": "patient_playback_hold",
+    "frames": 16,
+    "until": 178343.202076833
+  },
+  {
+    "t": "2026-07-03T00:53:30.976195+00:00",
+    "event": "patient_said",
+    "text": "M-O-R-G-A-N."
+  },
+  {
+    "t": "2026-07-03T00:53:32.195224+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:53:42.984569+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:53:44.735500+00:00",
+    "event": "agent_said",
+    "text": "Morgan one letter at a time, for example, M-O-R-G-A-N. Could you provide each letter?"
+  },
+  {
+    "t": "2026-07-03T00:53:45.919946+00:00",
+    "event": "patient_playback_hold",
+    "frames": 18,
+    "until": 178358.186675833
+  },
+  {
+    "t": "2026-07-03T00:53:45.923669+00:00",
+    "event": "patient_said",
+    "text": "M. O. R. G. A. N."
+  },
+  {
+    "t": "2026-07-03T00:53:47.795623+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:53:53.004981+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:53:54.871210+00:00",
+    "event": "agent_said",
+    "text": "Thank you. Please continue spelling your last name one letter at a time."
+  },
+  {
+    "t": "2026-07-03T00:53:55.742457+00:00",
+    "event": "patient_playback_hold",
+    "frames": 19,
+    "until": 178368.029216958
+  },
+  {
+    "t": "2026-07-03T00:53:55.742682+00:00",
+    "event": "patient_said",
+    "text": "M. O. R. G. A. N."
+  },
+  {
+    "t": "2026-07-03T00:53:57.176227+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:54:03.237152+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:54:05.233636+00:00",
+    "event": "agent_said",
+    "text": "one letter at a time. For example, M-O-R-G-A-N."
+  },
+  {
+    "t": "2026-07-03T00:54:05.691265+00:00",
+    "event": "patient_playback_hold",
+    "frames": 17,
+    "until": 178377.938303333
+  },
+  {
+    "t": "2026-07-03T00:54:05.694986+00:00",
+    "event": "patient_said",
+    "text": "M. O. R. G. A. N."
+  },
+  {
+    "t": "2026-07-03T00:54:13.716152+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:54:17.876100+00:00",
+    "event": "status_callback",
+    "call_sid": "CA3cd198defa77a2299d88262bd107f54b",
+    "status": "completed"
+  }
+]

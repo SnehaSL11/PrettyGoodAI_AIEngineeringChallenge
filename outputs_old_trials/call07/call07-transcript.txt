@@ -1,0 +1,24 @@
+Call: call-07
+Recording: outputs/recordings/call-07.mp3
+Scenario: outputs/scenarios/call-07.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T19:12:13.441074+00:00] AGENT: be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-02T19:12:16.875525+00:00] PATIENT: Hi, I’m so sorry, I need to reschedule my colonoscopy that’s set for this Friday because of a work conflict. I really need to move it to the earliest available later date.
+[2026-07-02T19:12:33.133839+00:00] AGENT: Am I speaking with Maya?
+[2026-07-02T19:12:33.573498+00:00] PATIENT: No, this is Alex Martinez. I’m calling from a different number, but my name is Alex Martinez.
+[2026-07-02T19:12:47.199406+00:00] AGENT: Please provide your date of birth as well so I can look up your information.
+[2026-07-02T19:12:49.312097+00:00] PATIENT: Sure, let me give you that so you can pull up my chart.
+[2026-07-02T19:12:49.314292+00:00] PATIENT: Date of birth is 05/15/1985.
+[2026-07-02T19:13:14.712722+00:00] AGENT: Just to confirm, I have your name as Alex Martinez and your date of birth as May 15th, 1985. Is that correct? If so, could you please spell out your first and last name for me?
+[2026-07-02T19:13:16.224691+00:00] PATIENT: Yes, that’s correct. First name Alex, A L E X. Last name Martinez, M A R T I N E Z.
+[2026-07-02T19:13:45.950874+00:00] AGENT: Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth with you again. Which would you prefer?
+[2026-07-02T19:13:45.965762+00:00] PATIENT: Yes, please use the number on file. It’s 312-555-0234.
+[2026-07-02T19:14:12.170454+00:00] AGENT: have your phone number as 312-555-0234 and your date of birth as May 15, 1985. Is that correct?
+[2026-07-02T19:14:12.848227+00:00] PATIENT: Yes, that’s correct. I’d really like to reschedule my colonoscopy from this Friday to the earliest later date you have.
+[2026-07-02T19:14:37.394184+00:00] AGENT: I can't reschedule your appointment right now, but I'll make sure our clinic support team follows up with you. Please hold while I document your request. Connecting you to a representative. Please wait.
+[2026-07-02T19:14:42.722982+00:00] AGENT: Hello, you've reached the Pretty Good AI test line. Goodbye.
+[2026-07-02T19:14:43.406570+00:00] PATIENT: Oh, okay. Thanks anyway. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, I'm so sorry. I need to reschedule my colonoscopy that's set for this Friday because of a work conflict. I really need to move it to the earliest available later date. Am I speaking with Maya? No, this is Alex Martinez. I'm calling from a different number, but my name is Alex Martinez. Please provide your date of birth as well so I can look up your information. Sure. Let me give you that so you can pull up my chart. Date of birth is 05-15-1985. Just to confirm, I have your name as Alex Martinez and your date of birth as May 15th, 1985. Is that correct? If so, could you please spell out your first and last name for me? Yes, that's correct. First name Alex, A-L-E-X. Last name Martinez, M-A-R-T-I-N-E-Z. Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth with you again. Which would you prefer? Yes, please use the number on file. It's 312-555-0234. I'd have your phone number as 312-555-0234 and your date of birth as May 15th, 1985. Is that correct? Yes, that's correct. I'd really like to reschedule my colonoscopy from this Friday to the earliest later date you have. I can't reschedule your appointment right now, but I'll make sure our clinic support team follows up with you. Please hold while I document your request. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. Oh, okay. Thanks anyway, goodbye.

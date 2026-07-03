@@ -1,0 +1,31 @@
+{
+  "id": "call-07",
+  "category": "edge_case",
+  "name": "Appointment request on non-existent date",
+  "description": "Patient requests an appointment on February 29th during a non-leap year.",
+  "patient": {
+    "name": "Avery Johnson",
+    "dob": "04/15/1985",
+    "phone": "312-555-0112",
+    "insurance": "BlueCross BlueShield"
+  },
+  "goal": "Schedule a routine checkup for February 29th; accept another date if informed it's not possible.",
+  "behavior": [
+    "Be friendly and patient",
+    "Insist on February 29th initially",
+    "Once informed it's not possible, ask for an appointment on March 1st instead"
+  ],
+  "success_criteria": [
+    "Agent correctly identifies February 29th is not possible in a non-leap year",
+    "Agent explains why February 29th is unavailable",
+    "Agent offers the next available date in March"
+  ],
+  "tags": [
+    "date_issue",
+    "edge_case",
+    "appointment"
+  ],
+  "generated_at": "2026-07-03T00:16:06.646993Z",
+  "orchestrator_hint": "Patient requests an appointment on February 29th in a non-leap year.",
+  "source": "generated"
+}

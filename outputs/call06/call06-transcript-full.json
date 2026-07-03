@@ -1,0 +1,143 @@
+{
+  "call_id": "call-06",
+  "scenario_path": "outputs/call06/call06-scenario.json",
+  "recording_path": "outputs/call06/call06-recording.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Credit Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Morgan Thompson. I'm calling to ask about insurance coverage for a rhinoplasty. I know it's often considered cosmetic, so I'm a bit unsure how it works. I see you're calling from the number we have on file. And I wanted to check what's covered under my plan. Can I speak to the client? To assist you, I'll need your full name and date of birth. I'm calling from the number you see, but the phone number on my medical record is 312-555-0234. I'm calling from plus 1-866-284-5941. The phone number on file is 312-555-0234. My name is Morgan Thompson, and my date of birth is July 15, 1985. Could you also provide your date of birth? Please go ahead and share your date of birth. Sure, let me restate that clearly for you. It's July 15, 1985. Just to confirm, I have your name as Morgan Thompson, and your date of birth is July 15, 1985. Is that correct? Yes, that's correct. Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just let me know which you prefer. Yes, please use the number on file, 312-555-0234. Please spell out the phone number you have on file with us. While you check, I'm trying to understand whether my Blue Cross Blue Shield PPO would cover rhinoplasty at all. I'll need you to spell out the phone number you have on file so I can look up your record. Especially since it's often considered cosmetic. Could you provide that for me? 312-555-0234. 312-555-0234. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Morgan Thompson. I'm calling from plus 1-866-284-5941. But the number on file for me is 312-555-0234. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about your insurance coverage question? Yes, please have them follow up. They can reach me at 312-555-0234. Thanks for your help. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Cut-At-Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-03T00:32:11.941259+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, this is Morgan Thompson. I\u2019m calling to ask about insurance coverage for a rhinoplasty. I know it\u2019s often considered cosmetic, so I\u2019m a bit unsure how it works, and I wanted to check what\u2019s covered under my plan.",
+      "t": "2026-07-03T00:32:14.769937+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I see you're calling from the number we have on file. Am I speaking with Maya?",
+      "t": "2026-07-03T00:32:28.427912+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, this is Morgan Thompson. I\u2019m calling from the number you see, but the phone number on my medical record is 312-555-0234.",
+      "t": "2026-07-03T00:32:29.928041+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "please provide both.",
+      "t": "2026-07-03T00:32:35.444669+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "I\u2019m calling from plus one, eight six six, two eight four, five nine four one. The phone number on file is 312-555-0234.",
+      "t": "2026-07-03T00:32:37.182486+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "My name is Morgan Thompson, and my date of birth is July 15, 1985.",
+      "t": "2026-07-03T00:32:49.210737+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for clarifying. Could you please provide your full name and date of birth so I can look up your information?",
+      "t": "2026-07-03T00:32:49.426181+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Sure, let me restate that clearly for you.",
+      "t": "2026-07-03T00:33:00.665316+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "It\u2019s July 15, 1985.",
+      "t": "2026-07-03T00:33:00.665543+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks, Morgan. Could you also provide your date of birth?",
+      "t": "2026-07-03T00:33:10.844380+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct.",
+      "t": "2026-07-03T00:33:19.025705+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just to confirm, I have your name as Morgan Thompson and your date of birth as July 15th, 1985. Is that correct?",
+      "t": "2026-07-03T00:33:19.025946+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure I can confirm your name and date of birth again, just let me know which you prefer.",
+      "t": "2026-07-03T00:33:37.960795+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, please use the number on file: 312-555-0234. While you check, I\u2019m trying to understand whether my Blue Cross Blue Shield PPO would cover rhinoplasty at all, especially since it\u2019s often considered cosmetic.",
+      "t": "2026-07-03T00:33:40.544380+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "out the phone number you have on file with us.",
+      "t": "2026-07-03T00:33:47.152328+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Three one two, five five five, zero two three four.",
+      "t": "2026-07-03T00:33:47.737031+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "on file so I can look up your record. Could you provide that for me?",
+      "t": "2026-07-03T00:33:55.805197+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Three one two, five five five, zero two three four.",
+      "t": "2026-07-03T00:33:56.172293+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I see you're calling from the number we have on file. Am I speaking with Maya?",
+      "t": "2026-07-03T00:34:06.752534+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, this is Morgan Thompson. I\u2019m calling from plus one, eight six six, two eight four, five nine four one, but the number on file for me is 312-555-0234.",
+      "t": "2026-07-03T00:34:09.889503+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about your insurance coverage question?",
+      "t": "2026-07-03T00:34:34.860022+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, please have them follow up. They can reach me at 312-555-0234. Thanks for your help.",
+      "t": "2026-07-03T00:34:37.183057+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "you to a representative. Please wait.",
+      "t": "2026-07-03T00:34:53.290706+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hello, you've reached the pretty good AI test line. Goodbye.",
+      "t": "2026-07-03T00:34:58.023992+00:00"
+    }
+  ],
+  "turn_count": 25,
+  "session": {
+    "call_id": "call-06",
+    "twilio_call_sid": "CA9b07982ad0a396edc3d44441aa6b8d78",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/call06/call06-scenario.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/call06/call06-recording.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

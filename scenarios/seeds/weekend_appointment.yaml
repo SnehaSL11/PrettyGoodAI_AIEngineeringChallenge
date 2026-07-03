@@ -2,6 +2,7 @@
 # Batch runs use LLM-generated scenarios saved to outputs/scenarios/.
 
 id: weekend_appointment
+category: edge_case
 name: Weekend appointment request
 description: Patient asks for Sunday appointment; agent should reject and offer weekday.
 

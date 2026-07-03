@@ -1,0 +1,228 @@
+{
+  "call_id": "call-31",
+  "scenario_path": "outputs/scenarios/call-31.json",
+  "recording_path": "outputs/recordings/call-31.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes only.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-02T22:09:56.589966+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, this is Maya Patel. I\u2019d like to schedule a routine annual physical for Friday, July 10, 2026 at 10:30 AM, if that time is available.",
+      "t": "2026-07-02T22:09:59.231997+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Please provide your date of birth.",
+      "t": "2026-07-02T22:10:15.875398+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "My date of birth is April 12, 1989.",
+      "t": "2026-07-02T22:10:15.916094+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just to confirm, I have your name as Maya Patel and your date of birth as April 12th, 1989. Is that correct? If so, please spell your first and last name for me.",
+      "t": "2026-07-02T22:10:37.426473+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. My first name is Maya, spelled M A Y A, and my last name is Patel, spelled P A T E L.",
+      "t": "2026-07-02T22:10:38.898167+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Could you please spell your first and last name for me?",
+      "t": "2026-07-02T22:10:44.975061+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "First name Maya, M A Y A. Last name Patel, P A T E L.",
+      "t": "2026-07-02T22:10:46.759331+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "your first name, Maya, and your last name, Patel, letter by letter.",
+      "t": "2026-07-02T22:10:55.044665+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Sure, I\u2019ll spell it clearly for you.",
+      "t": "2026-07-02T22:10:57.145486+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Maya is M as in Mary, A, Y, A. Patel is P as in Peter, A, T, E, L.",
+      "t": "2026-07-02T22:10:57.146637+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Can you please do that for me?",
+      "t": "2026-07-02T22:11:01.846998+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Maya is M, A, Y, A. Patel is P, A, T, E, L.",
+      "t": "2026-07-02T22:11:03.620197+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Now, could you please spell your last name, Patel, letter by letter?",
+      "t": "2026-07-02T22:11:11.214935+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Patel is P, A, T, E, L.",
+      "t": "2026-07-02T22:11:11.526685+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you. Now please fill in your last name, Patel, letter by letter.",
+      "t": "2026-07-02T22:11:19.712188+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Patel is P as in Peter, A, T, E, L.",
+      "t": "2026-07-02T22:11:20.736566+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just to confirm, your first name is spelled M-A-Y-A, and your last name is spelled T-E-L. Is that correct?",
+      "t": "2026-07-02T22:11:35.210909+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Almost. The last name is Patel, spelled P A T E L, with a P and A at the beginning.",
+      "t": "2026-07-02T22:11:36.028281+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Please spell your last name again, letter by letter.",
+      "t": "2026-07-02T22:11:43.710359+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "P as in Peter, A, T, E, L.",
+      "t": "2026-07-02T22:11:44.010836+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct.",
+      "t": "2026-07-02T22:11:52.026660+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Your last name is spelled P-A-T-L, is that correct?",
+      "t": "2026-07-02T22:11:52.026753+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-02T22:17:31.744230+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, I\u2019d like to schedule a routine annual physical for Friday, July 10, 2026 at 10:30 AM, please.",
+      "t": "2026-07-02T22:17:33.563607+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "you're calling from the number we have on file. Am I speaking with Maya?",
+      "t": "2026-07-02T22:17:50.312733+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, this is Maya Patel. I\u2019m calling from a different number than the one on file, but I can verify my details when you need.",
+      "t": "2026-07-02T22:17:52.368478+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thanks, Maya. Please provide your date of birth.",
+      "t": "2026-07-02T22:18:02.928690+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "My date of birth is April 12, 1989.",
+      "t": "2026-07-02T22:18:04.811966+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "April 12, 1989.",
+      "t": "2026-07-02T22:18:10.229122+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Earth.",
+      "t": "2026-07-02T22:18:13.143429+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "confirm I have your name as Maya Patel and your date of birth as April 12, 1989. Is that correct? If so, could you please spell your first and last name for me?",
+      "t": "2026-07-02T22:18:28.986268+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. My first name is Maya, spelled M A Y A, and my last name is Patel, spelled P A T E L.",
+      "t": "2026-07-02T22:18:31.942089+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Would you like to use the phone number you have on file with us to help look up your record? If so, please provide that number. If you're not sure, just let me know.",
+      "t": "2026-07-02T22:18:56.709267+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Okay, let me share the number you should have on file for me.",
+      "t": "2026-07-02T22:18:59.239375+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "The phone number on file is 408-555-0192. I\u2019m calling from a different number, but that\u2019s the one linked to my chart.",
+      "t": "2026-07-02T22:18:59.243690+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct.",
+      "t": "2026-07-02T22:19:25.430038+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "your phone number as 408-555-0192 and your day of birth is April 12, 1989. Is that correct?",
+      "t": "2026-07-02T22:19:25.430307+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request.",
+      "t": "2026-07-02T22:19:42.049860+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "you to a representative. Please wait.",
+      "t": "2026-07-02T22:19:45.820327+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "you've reached the pretty good AI test line. Goodbye!",
+      "t": "2026-07-02T22:19:51.461608+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Okay, thank you. I\u2019ll wait for a follow-up from the clinic. Goodbye.",
+      "t": "2026-07-02T22:19:52.895797+00:00"
+    }
+  ],
+  "turn_count": 42,
+  "session": {
+    "call_id": "call-31",
+    "twilio_call_sid": "CA10cc3d4062025a0eb6f00ef3bf1899d2",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/scenarios/call-31.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/recordings/call-31.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

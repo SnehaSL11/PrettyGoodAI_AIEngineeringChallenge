@@ -1,0 +1,31 @@
+{
+  "id": "call-26",
+  "category": "cancel",
+  "name": "Wrong date cancellation request",
+  "description": "Patient tries to cancel an appointment but mistakenly gives the wrong date.",
+  "patient": {
+    "name": "Emily Carter",
+    "dob": "04/15/1985",
+    "phone": "312-555-0246",
+    "insurance": "Blue Shield PPO"
+  },
+  "goal": "Cancel an appointment originally scheduled for next Tuesday, but mistakenly provide this Tuesday as the date.",
+  "behavior": [
+    "Sound a bit unsure about the date",
+    "Insist gently if initially told there's no appointment on the provided date",
+    "Recheck personal calendar when prompted"
+  ],
+  "success_criteria": [
+    "Agent should identify the correct appointment date",
+    "Agent must confirm the cancellation of the correct appointment",
+    "Agent should ensure the patient understands which appointment was canceled"
+  ],
+  "tags": [
+    "cancellation",
+    "appointment",
+    "patient_error"
+  ],
+  "generated_at": "2026-07-02T20:30:32.376986Z",
+  "orchestrator_hint": "Patient attempts to cancel an appointment but provides the wrong date.",
+  "source": "generated"
+}

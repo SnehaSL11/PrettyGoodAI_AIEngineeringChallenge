@@ -1,0 +1,8 @@
+{
+  "call_id": "call-27",
+  "twilio_call_sid": "CA7147f2fb5a0d65d58da8749bfa8e6420",
+  "twilio_status": "completed",
+  "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/scenarios/call-27.json",
+  "bridge_mode": "realtime",
+  "recording_path": "outputs/recordings/call-27.mp3"
+}

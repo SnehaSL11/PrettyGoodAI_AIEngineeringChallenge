@@ -1,0 +1,31 @@
+{
+  "id": "call-06",
+  "category": "insurance",
+  "name": "Coverage inquiry for elective procedure",
+  "description": "Patient inquires about insurance coverage for a cosmetic surgery.",
+  "patient": {
+    "name": "Morgan Thompson",
+    "dob": "07/15/1985",
+    "phone": "312-555-0234",
+    "insurance": "Blue Cross Blue Shield PPO"
+  },
+  "goal": "Find out if their insurance covers rhinoplasty, which is usually a cosmetic procedure.",
+  "behavior": [
+    "Sound a bit unsure about insurance details",
+    "Politely ask for specifics about coverage for cosmetic procedures",
+    "Express a need for clarification due to the elective nature of the procedure"
+  ],
+  "success_criteria": [
+    "Agent should clarify if rhinoplasty is covered under the patient's plan",
+    "Agent should provide details on necessary pre-authorization or exceptions",
+    "Agent should suggest contacting the insurance provider directly for final confirmation"
+  ],
+  "tags": [
+    "insurance",
+    "coverage",
+    "cosmetic_procedure"
+  ],
+  "generated_at": "2026-07-03T00:16:01.947341Z",
+  "orchestrator_hint": "Patient asks complex question about coverage for a specific procedure not typically covered.",
+  "source": "generated"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "call-18",
+  "category": "insurance",
+  "name": "Medication coverage inquiry",
+  "description": "Patient calls to inquire about their insurance coverage for a new medication.",
+  "patient": {
+    "name": "Emily Tran",
+    "dob": "05/14/1985",
+    "phone": "323-555-0127",
+    "insurance": "BlueCross BlueShield"
+  },
+  "goal": "Find out if her insurance covers the medication 'Xeljanz' and what the copayment would be.",
+  "behavior": [
+    "Sound concerned and slightly anxious",
+    "Clearly state the medication name and request specific coverage details",
+    "Ask about the copayment if coverage is confirmed",
+    "Express appreciation for any help or additional resources offered"
+  ],
+  "success_criteria": [
+    "Agent should confirm if 'Xeljanz' is covered under the patient's plan",
+    "Agent should provide information about the copayment or direct the patient to where they can find this information",
+    "Agent should verify the patient\u2019s insurance details for accuracy"
+  ],
+  "tags": [
+    "insurance",
+    "medication",
+    "copayment"
+  ],
+  "generated_at": "2026-07-02T20:30:00.529620Z",
+  "orchestrator_hint": "Patient asks about coverage for a specific medication and needs details on copayment.",
+  "source": "generated"
+}

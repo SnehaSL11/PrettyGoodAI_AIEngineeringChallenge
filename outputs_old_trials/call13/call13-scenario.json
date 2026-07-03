@@ -1,0 +1,31 @@
+{
+  "id": "call-13",
+  "category": "edge_case",
+  "name": "Holiday appointment request",
+  "description": "Patient tries to book an appointment on a public holiday when the office should be closed.",
+  "patient": {
+    "name": "Alex Martinez",
+    "dob": "06/15/1985",
+    "phone": "303-555-0192",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Schedule a checkup on New Year's Day; if unavailable, shift to the next available weekday.",
+  "behavior": [
+    "Be courteous and clear",
+    "Insist on New Year's Day initially",
+    "If not possible, agree to the first available slot after the holiday"
+  ],
+  "success_criteria": [
+    "Agent must not confirm an appointment on New Year's Day",
+    "Agent should explain the office is closed on public holidays",
+    "Agent should provide the next available date for an appointment"
+  ],
+  "tags": [
+    "scheduling",
+    "public_holiday",
+    "edge_case"
+  ],
+  "generated_at": "2026-07-02T19:05:38.360790Z",
+  "orchestrator_hint": "Patient attempts to schedule an appointment on a public holiday.",
+  "source": "generated"
+}

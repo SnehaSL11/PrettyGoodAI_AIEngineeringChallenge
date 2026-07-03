@@ -1,0 +1,22 @@
+Call: call-09
+Recording: outputs/recordings/call-09.mp3
+Scenario: outputs/scenarios/call-09.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-02T19:17:36.308053+00:00] AGENT: may be recorded for quality and training purposes.
+[2026-07-02T19:17:39.699769+00:00] PATIENT: Hi, this is Sophia Martinez—I'm calling because I need a refill for my allergy medication, but I was told it’s not on file. I’m a bit surprised, and I’m traveling soon—what should I do next?
+[2026-07-02T19:17:54.458994+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-02T19:17:58.316997+00:00] PATIENT: No, this is Sophia Martinez. I’m calling from a different number that may show on your caller ID, but the phone number on file for my chart should be 312-555-0247.
+[2026-07-02T19:18:08.916587+00:00] AGENT: Please provide your full name and date of birth.
+[2026-07-02T19:18:09.947766+00:00] PATIENT: Sophia Martinez, April 15, 1985.
+[2026-07-02T19:18:30.471724+00:00] PATIENT: Yes, that’s correct. I really need that allergy medication refill before I travel, and I’m surprised it’s not showing in my record—can you help with the next steps?
+[2026-07-02T19:18:41.175410+00:00] AGENT: Just to confirm, I have your name as Sophia Martinez and your date of birth as April 15, 1985. Is that correct?
+[2026-07-02T19:19:01.026236+00:00] PATIENT: Yes, please use the number on file: 312-555-0247.
+[2026-07-02T19:19:01.330448+00:00] AGENT: Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just spell them out for me.
+[2026-07-02T19:19:24.031188+00:00] AGENT: I have your phone number as 312-555-0247, and your date of birth is April 15, 1985. Is that correct?
+[2026-07-02T19:19:25.345544+00:00] PATIENT: Yes, that’s correct. I’m still surprised the allergy prescription isn’t on file, and I’m flying soon. What’s the quickest way to get a refill sent in?
+[2026-07-02T19:19:59.533619+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request for follow-up. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI Test Line. Goodbye.
+[2026-07-02T19:20:01.977071+00:00] PATIENT: Oh—okay. I guess I can’t proceed here. I’ll wait for the clinic’s follow-up, thanks.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Sophia Martinez. I'm calling because I need a refill for my allergy medication, but I was told it's not on file. I'm a bit surprised, and I'm traveling soon. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Sophia Martinez. I'm calling from a different number that may show on your caller ID, but the phone number on file for my chart should be 312-555-0247. Sophia Martinez, April 15, 1985. Just to confirm, I have your name as Sophia Martinez, and your date of birth is April 15, 1985. Is that correct? Yes, that's correct. I really need that allergy medication refill before I travel, and I'm surprised it's not showing in my record. Can you help with the next steps? Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just spell them out for me. Yes, please use the number on file, 312-555-0247. Thank you. You're welcome. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. 044-555-0247 I have your phone number as 312-555-0247, and your date of birth is April 15, 1985. Is that correct? Yes, that's correct. I'm still surprised the allergy prescription isn't on file, and I'm flying soon. What's the quickest way to get a refill sent in? 044-555-0247 I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I document your request for follow-up. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye. 044-555-0247 Oh, okay. I guess I can't proceed here. I'll wait for the clinic's follow-up. Thanks.

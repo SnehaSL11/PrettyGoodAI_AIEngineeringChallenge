@@ -1,0 +1,31 @@
+{
+  "id": "call-02",
+  "category": "ambiguous_request",
+  "name": "Feeling off consultation request",
+  "description": "Patient expresses vague symptoms and requests advice.",
+  "patient": {
+    "name": "Taylor Morgan",
+    "dob": "03/15/1985",
+    "phone": "303-555-0299",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Seek advice on what to do about feeling generally unwell and tired.",
+  "behavior": [
+    "Sound slightly concerned but not frantic",
+    "Describe symptoms as feeling generally unwell or 'off'",
+    "Ask if a check-up or specific advice is recommended"
+  ],
+  "success_criteria": [
+    "Agent should ask clarifying questions about symptoms",
+    "Agent should suggest an appointment for a physical evaluation",
+    "Agent should not dismiss the symptoms without advice"
+  ],
+  "tags": [
+    "consultation",
+    "symptoms",
+    "advice"
+  ],
+  "generated_at": "2026-07-03T00:15:42.941627Z",
+  "orchestrator_hint": "Patient describes vague symptoms like 'feeling off' and seeks advice.",
+  "source": "generated"
+}

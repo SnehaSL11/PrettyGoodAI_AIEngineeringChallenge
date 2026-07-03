@@ -1,0 +1,33 @@
+Call: call-06
+Recording: outputs/call06/call06-recording.mp3
+Scenario: outputs/call06/call06-scenario.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-03T00:32:11.941259+00:00] AGENT: may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Cut-At-Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-03T00:32:14.769937+00:00] PATIENT: Hi, this is Morgan Thompson. I’m calling to ask about insurance coverage for a rhinoplasty. I know it’s often considered cosmetic, so I’m a bit unsure how it works, and I wanted to check what’s covered under my plan.
+[2026-07-03T00:32:28.427912+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-03T00:32:29.928041+00:00] PATIENT: No, this is Morgan Thompson. I’m calling from the number you see, but the phone number on my medical record is 312-555-0234.
+[2026-07-03T00:32:35.444669+00:00] AGENT: please provide both.
+[2026-07-03T00:32:37.182486+00:00] PATIENT: I’m calling from plus one, eight six six, two eight four, five nine four one. The phone number on file is 312-555-0234.
+[2026-07-03T00:32:49.210737+00:00] PATIENT: My name is Morgan Thompson, and my date of birth is July 15, 1985.
+[2026-07-03T00:32:49.426181+00:00] AGENT: Thank you for clarifying. Could you please provide your full name and date of birth so I can look up your information?
+[2026-07-03T00:33:00.665316+00:00] PATIENT: Sure, let me restate that clearly for you.
+[2026-07-03T00:33:00.665543+00:00] PATIENT: It’s July 15, 1985.
+[2026-07-03T00:33:10.844380+00:00] AGENT: Thanks, Morgan. Could you also provide your date of birth?
+[2026-07-03T00:33:19.025705+00:00] PATIENT: Yes, that’s correct.
+[2026-07-03T00:33:19.025946+00:00] AGENT: Just to confirm, I have your name as Morgan Thompson and your date of birth as July 15th, 1985. Is that correct?
+[2026-07-03T00:33:37.960795+00:00] AGENT: Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure I can confirm your name and date of birth again, just let me know which you prefer.
+[2026-07-03T00:33:40.544380+00:00] PATIENT: Yes, please use the number on file: 312-555-0234. While you check, I’m trying to understand whether my Blue Cross Blue Shield PPO would cover rhinoplasty at all, especially since it’s often considered cosmetic.
+[2026-07-03T00:33:47.152328+00:00] AGENT: out the phone number you have on file with us.
+[2026-07-03T00:33:47.737031+00:00] PATIENT: Three one two, five five five, zero two three four.
+[2026-07-03T00:33:55.805197+00:00] AGENT: on file so I can look up your record. Could you provide that for me?
+[2026-07-03T00:33:56.172293+00:00] PATIENT: Three one two, five five five, zero two three four.
+[2026-07-03T00:34:06.752534+00:00] AGENT: I see you're calling from the number we have on file. Am I speaking with Maya?
+[2026-07-03T00:34:09.889503+00:00] PATIENT: No, this is Morgan Thompson. I’m calling from plus one, eight six six, two eight four, five nine four one, but the number on file for me is 312-555-0234.
+[2026-07-03T00:34:34.860022+00:00] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about your insurance coverage question?
+[2026-07-03T00:34:37.183057+00:00] PATIENT: Yes, please have them follow up. They can reach me at 312-555-0234. Thanks for your help.
+[2026-07-03T00:34:53.290706+00:00] AGENT: you to a representative. Please wait.
+[2026-07-03T00:34:58.023992+00:00] AGENT: Hello, you've reached the pretty good AI test line. Goodbye.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Credit Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Morgan Thompson. I'm calling to ask about insurance coverage for a rhinoplasty. I know it's often considered cosmetic, so I'm a bit unsure how it works. I see you're calling from the number we have on file. And I wanted to check what's covered under my plan. Can I speak to the client? To assist you, I'll need your full name and date of birth. I'm calling from the number you see, but the phone number on my medical record is 312-555-0234. I'm calling from plus 1-866-284-5941. The phone number on file is 312-555-0234. My name is Morgan Thompson, and my date of birth is July 15, 1985. Could you also provide your date of birth? Please go ahead and share your date of birth. Sure, let me restate that clearly for you. It's July 15, 1985. Just to confirm, I have your name as Morgan Thompson, and your date of birth is July 15, 1985. Is that correct? Yes, that's correct. Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Just let me know which you prefer. Yes, please use the number on file, 312-555-0234. Please spell out the phone number you have on file with us. While you check, I'm trying to understand whether my Blue Cross Blue Shield PPO would cover rhinoplasty at all. I'll need you to spell out the phone number you have on file so I can look up your record. Especially since it's often considered cosmetic. Could you provide that for me? 312-555-0234. 312-555-0234. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Morgan Thompson. I'm calling from plus 1-866-284-5941. But the number on file for me is 312-555-0234. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about your insurance coverage question? Yes, please have them follow up. They can reach me at 312-555-0234. Thanks for your help. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.

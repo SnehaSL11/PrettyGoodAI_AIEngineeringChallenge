@@ -1,0 +1,323 @@
+[
+  {
+    "t": "2026-07-03T00:35:26.770541+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4c8ac1f8da2ea5a1f11ffd84bce89b97",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-03T00:35:26.930718+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4c8ac1f8da2ea5a1f11ffd84bce89b97",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-03T00:35:31.444516+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4c8ac1f8da2ea5a1f11ffd84bce89b97",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-03T00:35:31.551228+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-07"
+  },
+  {
+    "t": "2026-07-03T00:35:32.064491+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-03T00:35:32.064577+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-03T00:35:32.064595+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZc804d3631aa7135264da4cf9d5c91aad"
+  },
+  {
+    "t": "2026-07-03T00:35:32.144827+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:35:44.275411+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:35:46.412169+00:00",
+    "event": "agent_said",
+    "text": "may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-03T00:35:47.619871+00:00",
+    "event": "patient_playback_hold",
+    "frames": 17,
+    "until": 177279.879988375
+  },
+  {
+    "t": "2026-07-03T00:35:47.619959+00:00",
+    "event": "patient_said",
+    "text": "Hi, I\u2019m Avery Johnson. I\u2019d like to schedule a routine checkup for February 29th if that\u2019s available."
+  },
+  {
+    "t": "2026-07-03T00:35:51.934141+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:35:56.809395+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:35:57.818111+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-03T00:36:00.590079+00:00",
+    "event": "patient_playback_hold",
+    "frames": 36,
+    "until": 177293.230319083
+  },
+  {
+    "t": "2026-07-03T00:36:00.593270+00:00",
+    "event": "patient_said",
+    "text": "No, this is Avery Johnson. I\u2019m calling from plus one, eight six six, two eight four, five nine four one, but the number on my medical record should be 312-555-0112."
+  },
+  {
+    "t": "2026-07-03T00:36:17.262992+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:36:21.669288+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:36:22.082598+00:00",
+    "event": "agent_said",
+    "text": "Thanks for clarifying. Could you please provide your date of birth?"
+  },
+  {
+    "t": "2026-07-03T00:36:23.396799+00:00",
+    "event": "patient_playback_hold",
+    "frames": 9,
+    "until": 177315.497711166
+  },
+  {
+    "t": "2026-07-03T00:36:23.396951+00:00",
+    "event": "patient_said",
+    "text": "My date of birth is April 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:36:31.065255+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:36:40.404371+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:36:41.135263+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, could you please spell your first and last name for me? And your date of birth is April 15, 1985, correct?"
+  },
+  {
+    "t": "2026-07-03T00:36:43.830681+00:00",
+    "event": "patient_playback_hold",
+    "frames": 29,
+    "until": 177336.327645791
+  },
+  {
+    "t": "2026-07-03T00:36:43.830796+00:00",
+    "event": "patient_said",
+    "text": "Avery Johnson\u2014that\u2019s A-V-E-R-Y, J-O-H-N-S-O-N. And yes, my date of birth is April 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:36:48.792125+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:36:52.856506+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:36:53.279451+00:00",
+    "event": "agent_said",
+    "text": "Thank you. Could you please spell your last name as well?"
+  },
+  {
+    "t": "2026-07-03T00:36:54.917690+00:00",
+    "event": "patient_playback_hold",
+    "frames": 11,
+    "until": 177347.04245020798
+  },
+  {
+    "t": "2026-07-03T00:36:54.923111+00:00",
+    "event": "patient_said",
+    "text": "Johnson is J-O-H-N-S-O-N."
+  },
+  {
+    "t": "2026-07-03T00:36:56.015419+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:36:58.920718+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:36:59.518544+00:00",
+    "event": "agent_said",
+    "text": "Please spell your last name Johnson for me."
+  },
+  {
+    "t": "2026-07-03T00:37:00.750063+00:00",
+    "event": "patient_playback_hold",
+    "frames": 12,
+    "until": 177352.89118550002
+  },
+  {
+    "t": "2026-07-03T00:37:00.750103+00:00",
+    "event": "patient_said",
+    "text": "Johnson is spelled J-O-H-N-S-O-N."
+  },
+  {
+    "t": "2026-07-03T00:37:09.501859+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:37:21.310787+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:37:22.396983+00:00",
+    "event": "agent_said",
+    "text": "your phone number is 315-550-0112 and your date of birth is April 15, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-03T00:37:25.674653+00:00",
+    "event": "patient_playback_hold",
+    "frames": 39,
+    "until": 177378.34956679097
+  },
+  {
+    "t": "2026-07-03T00:37:25.675965+00:00",
+    "event": "patient_said",
+    "text": "Let me quickly clear that up so we\u2019ve got the right contact info."
+  },
+  {
+    "t": "2026-07-03T00:37:25.676190+00:00",
+    "event": "patient_playback_hold",
+    "frames": 39,
+    "until": 177378.351163916
+  },
+  {
+    "t": "2026-07-03T00:37:25.682720+00:00",
+    "event": "patient_said",
+    "text": "The phone number on file is 312-555-0112, not 315. And yes, my date of birth is April 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:37:28.552792+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:37:37.130787+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:37:38.864385+00:00",
+    "event": "agent_said",
+    "text": "problem. Please confirm should your contact number be 315-550-0112."
+  },
+  {
+    "t": "2026-07-03T00:37:41.348236+00:00",
+    "event": "patient_playback_hold",
+    "frames": 34,
+    "until": 177393.922338291
+  },
+  {
+    "t": "2026-07-03T00:37:41.350030+00:00",
+    "event": "patient_said",
+    "text": "No, it should be 312-555-0112. I\u2019m calling from a different number, but the one on my record is 312-555-0112."
+  },
+  {
+    "t": "2026-07-03T00:37:55.201853+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:38:07.387350+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:38:09.018290+00:00",
+    "event": "agent_said",
+    "text": "I have your contact number as 312-555-0112, and your date of birth as April 15, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-03T00:38:09.019376+00:00",
+    "event": "patient_playback_hold",
+    "frames": 4,
+    "until": 177420.993411625
+  },
+  {
+    "t": "2026-07-03T00:38:09.019445+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct."
+  },
+  {
+    "t": "2026-07-03T00:38:12.546886+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:38:16.436754+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:38:17.232456+00:00",
+    "event": "agent_said",
+    "text": "for confirming. How can I help you today?"
+  },
+  {
+    "t": "2026-07-03T00:38:18.348860+00:00",
+    "event": "patient_playback_hold",
+    "frames": 12,
+    "until": 177430.482973375
+  },
+  {
+    "t": "2026-07-03T00:38:18.350447+00:00",
+    "event": "patient_said",
+    "text": "I\u2019d like to schedule a routine checkup for February 29th if that\u2019s available."
+  },
+  {
+    "t": "2026-07-03T00:38:25.386872+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:38:34.396522+00:00",
+    "event": "status_callback",
+    "call_sid": "CA4c8ac1f8da2ea5a1f11ffd84bce89b97",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "t": "2026-07-02T18:47:34.883869+00:00",
+    "event": "status_callback",
+    "call_sid": "CA129af2d45f1ce48058a04e961e7f59a8",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-02T18:47:35.065221+00:00",
+    "event": "status_callback",
+    "call_sid": "CA129af2d45f1ce48058a04e961e7f59a8",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-02T18:47:39.692538+00:00",
+    "event": "status_callback",
+    "call_sid": "CA129af2d45f1ce48058a04e961e7f59a8",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-02T18:47:39.917513+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-01"
+  },
+  {
+    "t": "2026-07-02T18:47:40.739785+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-02T18:47:40.740928+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-02T18:47:40.740993+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ9218f1e15d4b5b9c579f39ea7b5a7fbb"
+  },
+  {
+    "t": "2026-07-02T18:47:40.838637+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T18:47:52.628415+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T18:47:53.510567+00:00",
+    "event": "agent_said",
+    "text": "recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-02T18:47:56.400513+00:00",
+    "event": "patient_playback_hold",
+    "frames": 28,
+    "until": 158370.866935125
+  },
+  {
+    "t": "2026-07-02T18:47:56.402570+00:00",
+    "event": "patient_said",
+    "text": "Hi, this is Maya Patel. I\u2019m calling to schedule an annual physical, just a routine checkup. I work weekdays, so I\u2019d really prefer Sunday at 10 AM if that\u2019s available."
+  },
+  {
+    "t": "2026-07-02T18:48:08.578273+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T18:48:11.217672+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T18:48:12.878449+00:00",
+    "event": "patient_playback_hold",
+    "frames": 5,
+    "until": 158386.885268625
+  },
+  {
+    "t": "2026-07-02T18:48:12.878533+00:00",
+    "event": "patient_said",
+    "text": "April 12, 1989."
+  },
+  {
+    "t": "2026-07-02T18:48:12.884264+00:00",
+    "event": "agent_said",
+    "text": "Please provide your date of birth."
+  },
+  {
+    "t": "2026-07-02T18:48:19.177550+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T18:48:29.482577+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T18:48:31.360310+00:00",
+    "event": "agent_said",
+    "text": "Can you please spell your first and last name to make sure I have it correct? I have your date of birth as April 12th, 1989. Is that right?"
+  },
+  {
+    "t": "2026-07-02T18:48:31.635505+00:00",
+    "event": "patient_playback_hold",
+    "frames": 15,
+    "until": 158405.842797333
+  },
+  {
+    "t": "2026-07-02T18:48:31.635552+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. My name is spelled M-A-Y-A P-A-T-E-L."
+  },
+  {
+    "t": "2026-07-02T18:48:40.715266+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T18:48:51.621071+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T18:48:53.282445+00:00",
+    "event": "agent_said",
+    "text": "your phone number is 866-284-5941 and your date of birth as April 12, 1989. Is that correct?"
+  },
+  {
+    "t": "2026-07-02T18:48:55.614118+00:00",
+    "event": "patient_playback_hold",
+    "frames": 33,
+    "until": 158430.181994916
+  },
+  {
+    "t": "2026-07-02T18:48:55.616579+00:00",
+    "event": "patient_said",
+    "text": "One moment, I want to make sure I clarify the right number on file."
+  },
+  {
+    "t": "2026-07-02T18:48:55.616626+00:00",
+    "event": "patient_playback_hold",
+    "frames": 33,
+    "until": 158430.184536125
+  },
+  {
+    "t": "2026-07-02T18:48:55.616654+00:00",
+    "event": "patient_said",
+    "text": "No, that\u2019s the number I\u2019m calling from. I\u2019m Maya Patel, and the phone number on file in my chart should be 408-555-0192."
+  },
+  {
+    "t": "2026-07-02T18:49:11.136655+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-02T18:49:28.624716+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-02T18:49:30.430660+00:00",
+    "event": "patient_playback_hold",
+    "frames": 10,
+    "until": 158464.539406416
+  },
+  {
+    "t": "2026-07-02T18:49:30.430683+00:00",
+    "event": "patient_said",
+    "text": "Oh, alright. Thanks anyway for your time. Goodbye."
+  },
+  {
+    "t": "2026-07-02T18:49:31.193284+00:00",
+    "event": "agent_said",
+    "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I update your request. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye."
+  },
+  {
+    "t": "2026-07-02T18:49:39.057244+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-02T18:49:39.236775+00:00",
+    "event": "status_callback",
+    "call_sid": "CA129af2d45f1ce48058a04e961e7f59a8",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "id": "call-08",
+  "category": "hours_location",
+  "name": "Confused about clinic location",
+  "description": "Patient inquires about clinic hours and location but confuses street names.",
+  "patient": {
+    "name": "Alex Thompson",
+    "dob": "05/15/1985",
+    "phone": "718-555-0234",
+    "insurance": "Blue Cross PPO"
+  },
+  "goal": "Verify the clinic hours and correct location after confusing it with another street.",
+  "behavior": [
+    "Sound a bit unsure about the street name",
+    "Ask if the clinic is near 'Greenwood Avenue', mistaking it for 'Greenwich Street'",
+    "Politely ask for confirmation of the clinic's hours"
+  ],
+  "success_criteria": [
+    "Agent must clarify the correct street name to the patient",
+    "Agent should provide accurate clinic hours",
+    "Agent should confirm the clinic's proper location"
+  ],
+  "tags": [
+    "location",
+    "hours",
+    "confusion",
+    "information"
+  ],
+  "generated_at": "2026-07-02T19:05:19.379766Z",
+  "orchestrator_hint": "Patient inquires about clinic hours and location but confuses street names.",
+  "source": "generated"
+}

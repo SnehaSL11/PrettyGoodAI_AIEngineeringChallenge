@@ -1,0 +1,284 @@
+[
+  {
+    "t": "2026-07-03T00:28:33.402488+00:00",
+    "event": "status_callback",
+    "call_sid": "CAd76344eed45e1b652261f1b2a170014b",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-03T00:28:33.509449+00:00",
+    "event": "status_callback",
+    "call_sid": "CAd76344eed45e1b652261f1b2a170014b",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-03T00:28:38.628005+00:00",
+    "event": "status_callback",
+    "call_sid": "CAd76344eed45e1b652261f1b2a170014b",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-03T00:28:38.852734+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-05"
+  },
+  {
+    "t": "2026-07-03T00:28:39.418519+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-03T00:28:39.418863+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-03T00:28:39.419104+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZ503388e4f16924664930dbaa86aec15e"
+  },
+  {
+    "t": "2026-07-03T00:28:39.502195+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:28:51.644659+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:28:53.587635+00:00",
+    "event": "agent_said",
+    "text": "may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-03T00:28:56.030281+00:00",
+    "event": "patient_playback_hold",
+    "frames": 33,
+    "until": 176868.60117725
+  },
+  {
+    "t": "2026-07-03T00:28:56.030334+00:00",
+    "event": "patient_said",
+    "text": "Hi, this is Emily Rodriguez. I\u2019m calling to ask if you\u2019re open on Memorial Day, and if so, what your hours are. If you\u2019re closed, could you let me know what the next available day is for appointments?"
+  },
+  {
+    "t": "2026-07-03T00:28:58.775383+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:29:03.697932+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:29:05.570926+00:00",
+    "event": "agent_said",
+    "text": "I see you're calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-03T00:29:08.028303+00:00",
+    "event": "patient_playback_hold",
+    "frames": 41,
+    "until": 176880.759451125
+  },
+  {
+    "t": "2026-07-03T00:29:08.028414+00:00",
+    "event": "patient_said",
+    "text": "No, this is Emily Rodriguez. I\u2019m calling from plus one, eight six six, two eight four, five nine four one, but the phone number on my medical record should be two one two, five five five, zero two three four."
+  },
+  {
+    "t": "2026-07-03T00:29:17.361703+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:29:20.516783+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:29:21.217776+00:00",
+    "event": "agent_said",
+    "text": "would you please provide your date of birth as well?"
+  },
+  {
+    "t": "2026-07-03T00:29:22.529143+00:00",
+    "event": "patient_playback_hold",
+    "frames": 9,
+    "until": 176894.620604208
+  },
+  {
+    "t": "2026-07-03T00:29:22.529277+00:00",
+    "event": "patient_said",
+    "text": "My date of birth is November 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:29:31.233699+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:29:42.456945+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:29:45.471495+00:00",
+    "event": "agent_said",
+    "text": "To confirm, I have your name as Emily Rodriguez, and your date of birth as November 15, 1985. Is that correct? If so, could you please spell your first and last name for me?"
+  },
+  {
+    "t": "2026-07-03T00:29:47.069695+00:00",
+    "event": "patient_playback_hold",
+    "frames": 42,
+    "until": 176919.82169454102
+  },
+  {
+    "t": "2026-07-03T00:29:47.069868+00:00",
+    "event": "patient_said",
+    "text": "Sure, I\u2019ll spell it for you clearly so you can confirm everything on your end."
+  },
+  {
+    "t": "2026-07-03T00:29:47.071242+00:00",
+    "event": "patient_playback_hold",
+    "frames": 42,
+    "until": 176919.823297583
+  },
+  {
+    "t": "2026-07-03T00:29:47.071281+00:00",
+    "event": "patient_said",
+    "text": "First name Emily, spelled E M I L Y. Last name Rodriguez, spelled R O D R I G U E Z."
+  },
+  {
+    "t": "2026-07-03T00:30:06.639614+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:30:18.580637+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:30:19.469150+00:00",
+    "event": "agent_said",
+    "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, could you confirm your first name, last name, and date of birth for me one more time?"
+  },
+  {
+    "t": "2026-07-03T00:30:21.305935+00:00",
+    "event": "patient_playback_hold",
+    "frames": 20,
+    "until": 176953.618747208
+  },
+  {
+    "t": "2026-07-03T00:30:21.306939+00:00",
+    "event": "patient_said",
+    "text": "Yes, please use the number on file. It\u2019s two one two, five five five, zero two three four."
+  },
+  {
+    "t": "2026-07-03T00:30:31.892000+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:30:43.481294+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:30:44.184339+00:00",
+    "event": "agent_said",
+    "text": "your phone number is 212-555-0234 and your date of birth as November 15, 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-03T00:30:46.211258+00:00",
+    "event": "patient_playback_hold",
+    "frames": 19,
+    "until": 176978.504630208
+  },
+  {
+    "t": "2026-07-03T00:30:46.211427+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. Are you able to see whether the clinic is open on Memorial Day, and what the hours are?"
+  },
+  {
+    "t": "2026-07-03T00:30:56.451805+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:31:04.295074+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:31:05.014416+00:00",
+    "event": "agent_said",
+    "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to a live agent?"
+  },
+  {
+    "t": "2026-07-03T00:31:06.262238+00:00",
+    "event": "patient_playback_hold",
+    "frames": 10,
+    "until": 176998.3760715
+  },
+  {
+    "t": "2026-07-03T00:31:06.264051+00:00",
+    "event": "patient_said",
+    "text": "Yes, please connect me to a live agent. Thank you."
+  },
+  {
+    "t": "2026-07-03T00:31:13.110792+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:31:16.733711+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:31:17.016045+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:31:17.488116+00:00",
+    "event": "agent_said",
+    "text": "McEneasual representative. Please wait."
+  },
+  {
+    "t": "2026-07-03T00:31:22.189529+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:31:22.948267+00:00",
+    "event": "agent_said",
+    "text": "you've reached the Pretty Good AI test line. Goodbye!"
+  },
+  {
+    "t": "2026-07-03T00:31:24.082914+00:00",
+    "event": "patient_playback_hold",
+    "frames": 8,
+    "until": 177016.157142708
+  },
+  {
+    "t": "2026-07-03T00:31:24.082971+00:00",
+    "event": "patient_said",
+    "text": "Oh, okay. Thanks anyway. Goodbye."
+  },
+  {
+    "t": "2026-07-03T00:31:32.055184+00:00",
+    "event": "stream_stopped"
+  },
+  {
+    "t": "2026-07-03T00:31:32.219928+00:00",
+    "event": "status_callback",
+    "call_sid": "CAd76344eed45e1b652261f1b2a170014b",
+    "status": "completed"
+  }
+]

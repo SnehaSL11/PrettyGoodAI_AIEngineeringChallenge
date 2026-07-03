@@ -1,0 +1,31 @@
+{
+  "id": "call-12",
+  "category": "ambiguous_request",
+  "name": "Vague symptom inquiry",
+  "description": "Patient describes general discomfort and asks for advice.",
+  "patient": {
+    "name": "Alex Morgan",
+    "dob": "06/15/1985",
+    "phone": "917-555-0246",
+    "insurance": "Blue Cross Blue Shield"
+  },
+  "goal": "Get advice on whether to schedule an appointment based on vague symptoms.",
+  "behavior": [
+    "Sound uncertain and a bit worried",
+    "Mention general tiredness and occasional headaches",
+    "Ask if an appointment is necessary or if there are home remedies"
+  ],
+  "success_criteria": [
+    "Agent should ask for specific symptoms or duration",
+    "Agent should suggest monitoring symptoms and possibly scheduling an appointment",
+    "Agent should not diagnose over the phone"
+  ],
+  "tags": [
+    "symptoms",
+    "advice",
+    "uncertainty"
+  ],
+  "generated_at": "2026-07-02T19:05:34.883718Z",
+  "orchestrator_hint": "Patient describes symptoms vaguely and asks what to do next.",
+  "source": "generated"
+}

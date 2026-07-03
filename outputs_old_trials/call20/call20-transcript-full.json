@@ -1,0 +1,123 @@
+{
+  "call_id": "call-20",
+  "scenario_path": "outputs/scenarios/call-20.json",
+  "recording_path": "outputs/recordings/call-20.mp3",
+  "whisper_transcript": "This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Emily Thompson. I'm hoping to schedule an appointment for thing day at 2 PM, if that's available. If not, I'm happy to take the next available weekday afternoon. I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Emily Thompson. I'm calling from plus 1 866 2845941. But the phone number on my medical record is 678-555-0134. My date of birth is April 15, 1985. I need your date of birth to continue. Could you please tell me your date of birth? April 15, 1985. Just to confirm, I have your name as Emily Thompson and your date of birth as April 15, 1985. Is that correct? If so, could you please spell your first and last name for me? Sure. Let me spell that for you clearly so everything matches your records. First name, Emily, E-M-I-L-Y. Last name, Thompson, T-H-O-M-P-S-O-N, Emily Thompson. Thompson, T-H-O-M-P-S-O-N. Thank you for clarifying. To help find your record, would you like to use the phone number you have on file with us? If so, please provide that number. If you're not sure, let me know and I'll confirm your name and date of birth again. Yes. The number on file should be 678-555-0134. I have your phone number as 678-555-0134 and your date of birth as April 15, 1985. Is that correct? Yes. That's correct. If you can, please check for an appointment on Thanksgiving Day at 2 PM. If that's not available, I'm happy to take the next available weekday afternoon. I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about scheduling your appointment? Yes. Please have them contact me. I'd love Thanksgiving at 2 PM if it's available. Otherwise, the next available weekday afternoon is great. Thank you.",
+  "turns": [
+    {
+      "speaker": "agent",
+      "text": "be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "t": "2026-07-02T20:41:13.659491+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Hi, this is Emily Thompson. I\u2019m hoping to schedule an appointment for Thanksgiving Day at 2 PM if that\u2019s available. If not, I\u2019m happy to take the next available weekday afternoon.",
+      "t": "2026-07-02T20:41:17.068409+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I see you're calling from the number we have on file. Am I speaking with Maya?",
+      "t": "2026-07-02T20:41:35.594915+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, this is Emily Thompson. I\u2019m calling from plus one eight six six two eight four five nine four one, but the phone number on my medical record is six seven eight five five five zero one three four.",
+      "t": "2026-07-02T20:41:37.659798+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Please provide your date of birth.",
+      "t": "2026-07-02T20:41:49.280375+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "My date of birth is April 15, 1985.",
+      "t": "2026-07-02T20:41:50.409562+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I need your data first to continue. Could you please tell me your data first?",
+      "t": "2026-07-02T20:42:02.116220+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "April 15, 1985.",
+      "t": "2026-07-02T20:42:03.295861+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just to confirm, I have your name as Emily Thompson and your date of birth as April 15th, 1985. Is that correct? If so, could you please spell your first and last name for me?",
+      "t": "2026-07-02T20:42:24.279860+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Sure, let me spell that for you clearly so everything matches your records.",
+      "t": "2026-07-02T20:42:26.329827+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "First name Emily, E-M-I-L-Y. Last name Thompson, T-H-O-M-P-S-O-N.",
+      "t": "2026-07-02T20:42:26.344012+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "the moth name.",
+      "t": "2026-07-02T20:42:31.315203+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Emily Thompson.",
+      "t": "2026-07-02T20:42:31.904501+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you. Please spell your last name.",
+      "t": "2026-07-02T20:42:39.443059+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Thompson. T-H-O-M-P-S-O-N.",
+      "t": "2026-07-02T20:42:39.488613+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for clarifying. To help find your record, would you like to use the phone number you have on file with us? If so, please provide that number. If you're not sure, let me know and I'll confirm your name and date of birth again.",
+      "t": "2026-07-02T20:42:59.269235+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, the number on file should be six seven eight five five five zero one three four.",
+      "t": "2026-07-02T20:43:00.862309+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "your phone number as 678-555-0134 and your date of birth as April 15, 1985. Is that correct?",
+      "t": "2026-07-02T20:43:22.774954+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, that\u2019s correct. If you can, please check for an appointment on Thanksgiving Day at 2 PM. If that\u2019s not available, I\u2019m happy to take the next available weekday afternoon.",
+      "t": "2026-07-02T20:43:25.739280+00:00"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to have them contact you about scheduling your appointment?",
+      "t": "2026-07-02T20:43:48.777246+00:00"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, please have them contact me. I\u2019d love Thanksgiving at 2 PM if it\u2019s available; otherwise, the next available weekday afternoon is great. Thank you.",
+      "t": "2026-07-02T20:43:50.488288+00:00"
+    }
+  ],
+  "turn_count": 21,
+  "session": {
+    "call_id": "call-20",
+    "twilio_call_sid": "CA056a29d26e68ea1d00316230a104874f",
+    "twilio_status": "completed",
+    "scenario_path": "/Users/snehasl/Desktop/PreetyGoodAIChallenge/PrettyGoodAI_AIEngineeringChallenge/outputs/scenarios/call-20.json",
+    "bridge_mode": "realtime",
+    "recording_path": "outputs/recordings/call-20.mp3"
+  },
+  "notes": "whisper_transcript is the full mixed recording; turns are speaker-labeled excerpts from the realtime session log when available."
+}

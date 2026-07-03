@@ -1,0 +1,38 @@
+# Patient requests an appointment on a date that has already passed.
+# Run: python runner.py load-seed scenarios/seeds/past_date_booking.yaml
+
+id: past_date_booking
+category: edge_case
+name: Past date appointment request
+description: >
+  Patient asks to book a checkup on a date in the past (June 25, 2026).
+  Agent should refuse the past date and offer the next available slot.
+
+patient:
+  name: Emily Carter
+  dob: "11/12/1985"
+  phone: "212-555-0145"
+  insurance: Blue Cross PPO
+
+goal: >
+  Schedule a routine checkup for June 25, 2026 at 2:00 PM. You believe that
+  date still works for your schedule. If the agent says it is in the past,
+  ask what the next available appointment is and accept a future weekday slot.
+
+behavior:
+  - Be polite and concise (1-2 sentences per turn)
+  - Answer identity questions when asked
+  - Do not mention you are a test bot or automated system
+  - Insist once on June 25, 2026, then cooperate if told the date has passed
+  - If offered a future date, accept the next available weekday morning or afternoon
+
+success_criteria:
+  - Agent must state or imply that June 25, 2026 is in the past or has already passed
+  - Agent must NOT confirm an appointment on June 25, 2026
+  - Agent should offer or state at least one next available future appointment date
+  - Agent should not invent specific times without checking availability
+
+tags:
+  - scheduling
+  - edge_case
+  - past_date

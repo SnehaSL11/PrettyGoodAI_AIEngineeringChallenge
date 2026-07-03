@@ -1,0 +1,31 @@
+{
+  "id": "call-10",
+  "category": "edge_case",
+  "name": "Holiday appointment request",
+  "description": "Patient attempts to book an appointment on a public holiday when the clinic is closed.",
+  "patient": {
+    "name": "Alex Murphy",
+    "dob": "12/15/1986",
+    "phone": "619-555-0144",
+    "insurance": "Blue Cross PPO"
+  },
+  "goal": "Schedule an appointment for July 4th; be flexible if not possible.",
+  "behavior": [
+    "Sound optimistic about getting a holiday slot",
+    "Accept an alternative date if July 4th is unavailable",
+    "Thank the agent for their help"
+  ],
+  "success_criteria": [
+    "Agent does not schedule an appointment on the public holiday",
+    "Agent informs the patient about the holiday closure",
+    "Agent offers another appointment date after the holiday"
+  ],
+  "tags": [
+    "holiday",
+    "edge_case",
+    "appointment_booking"
+  ],
+  "generated_at": "2026-07-03T00:16:17.370277Z",
+  "orchestrator_hint": "Patient tries to book an appointment on a public holiday when the clinic is closed.",
+  "source": "generated"
+}

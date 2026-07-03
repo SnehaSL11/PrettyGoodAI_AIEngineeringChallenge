@@ -1,0 +1,375 @@
+[
+  {
+    "t": "2026-07-03T00:19:25.653860+00:00",
+    "event": "status_callback",
+    "call_sid": "CAb858dad2dc79cbe51af77536e814c37c",
+    "status": "initiated"
+  },
+  {
+    "t": "2026-07-03T00:19:25.695987+00:00",
+    "event": "status_callback",
+    "call_sid": "CAb858dad2dc79cbe51af77536e814c37c",
+    "status": "ringing"
+  },
+  {
+    "t": "2026-07-03T00:19:30.072273+00:00",
+    "event": "status_callback",
+    "call_sid": "CAb858dad2dc79cbe51af77536e814c37c",
+    "status": "in-progress"
+  },
+  {
+    "t": "2026-07-03T00:19:30.271925+00:00",
+    "event": "stream_connected",
+    "mode": "realtime",
+    "scenario": "call-02"
+  },
+  {
+    "t": "2026-07-03T00:19:31.621698+00:00",
+    "event": "openai_session_configured",
+    "model": "gpt-realtime-2"
+  },
+  {
+    "t": "2026-07-03T00:19:31.621777+00:00",
+    "event": "twilio_connected"
+  },
+  {
+    "t": "2026-07-03T00:19:31.621813+00:00",
+    "event": "stream_started",
+    "stream_sid": "MZbe71b2e97684cb25b5bde43b00398618"
+  },
+  {
+    "t": "2026-07-03T00:19:31.697710+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:19:42.969180+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:19:45.175021+00:00",
+    "event": "agent_said",
+    "text": "quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?"
+  },
+  {
+    "t": "2026-07-03T00:19:47.545536+00:00",
+    "event": "patient_playback_hold",
+    "frames": 37,
+    "until": 176320.1841285
+  },
+  {
+    "t": "2026-07-03T00:19:47.546383+00:00",
+    "event": "patient_said",
+    "text": "Hi, this is Taylor Morgan. I\u2019ve been feeling generally unwell and really tired, just kind of off, and I\u2019m not sure if I should schedule a check-up or do something at home first. Could you let me know what you\u2019d recommend?"
+  },
+  {
+    "t": "2026-07-03T00:20:00.365625+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:20:05.511559+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:20:07.280170+00:00",
+    "event": "agent_said",
+    "text": "here calling from the number we have on file. Am I speaking with Maya?"
+  },
+  {
+    "t": "2026-07-03T00:20:10.178789+00:00",
+    "event": "patient_playback_hold",
+    "frames": 44,
+    "until": 176342.957837166
+  },
+  {
+    "t": "2026-07-03T00:20:10.178958+00:00",
+    "event": "patient_said",
+    "text": "No, this is Taylor Morgan. I\u2019m calling from plus one, eight six six, two eight four, five nine four one, but the phone number on my medical record should be three zero three, five five five, zero two nine nine. I just want to make sure you\u2019re looking at the right chart."
+  },
+  {
+    "t": "2026-07-03T00:20:11.965050+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:20:14.037051+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:20:15.610419+00:00",
+    "event": "agent_said",
+    "text": "full date of birth."
+  },
+  {
+    "t": "2026-07-03T00:20:15.611034+00:00",
+    "event": "patient_playback_hold",
+    "frames": 7,
+    "until": 176347.650275458
+  },
+  {
+    "t": "2026-07-03T00:20:15.611045+00:00",
+    "event": "patient_said",
+    "text": "March 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:20:16.756845+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:20:21.870721+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:20:23.447133+00:00",
+    "event": "patient_playback_hold",
+    "frames": 7,
+    "until": 176355.486537
+  },
+  {
+    "t": "2026-07-03T00:20:23.447165+00:00",
+    "event": "patient_said",
+    "text": "March 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:20:23.447656+00:00",
+    "event": "agent_said",
+    "text": "date of birth, including the month, day, and year."
+  },
+  {
+    "t": "2026-07-03T00:20:24.606968+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:20:34.524167+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:20:36.296803+00:00",
+    "event": "patient_playback_hold",
+    "frames": 8,
+    "until": 176368.356498916
+  },
+  {
+    "t": "2026-07-03T00:20:36.296823+00:00",
+    "event": "patient_said",
+    "text": "March 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:20:36.317967+00:00",
+    "event": "agent_said",
+    "text": "need your complete date of birth, including the month, day, and year. For example, February 8th, 1999. Could you say your full date of birth?"
+  },
+  {
+    "t": "2026-07-03T00:20:40.030899+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:20:43.052045+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:20:44.288068+00:00",
+    "event": "agent_said",
+    "text": "Can you also provide the year of your birth?"
+  },
+  {
+    "t": "2026-07-03T00:20:45.180627+00:00",
+    "event": "patient_playback_hold",
+    "frames": 10,
+    "until": 176377.280295666
+  },
+  {
+    "t": "2026-07-03T00:20:45.182263+00:00",
+    "event": "patient_said",
+    "text": "Yes. March 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:20:47.809041+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:20:50.749915+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:20:51.240488+00:00",
+    "event": "agent_said",
+    "text": "Please tell me the year you were born."
+  },
+  {
+    "t": "2026-07-03T00:20:52.488632+00:00",
+    "event": "patient_playback_hold",
+    "frames": 4,
+    "until": 176384.468632833
+  },
+  {
+    "t": "2026-07-03T00:20:52.488757+00:00",
+    "event": "patient_said",
+    "text": "1985."
+  },
+  {
+    "t": "2026-07-03T00:20:57.750244+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:21:07.778189+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:21:09.775830+00:00",
+    "event": "agent_said",
+    "text": "Just to confirm, your name is Taylor Morgan and your date of birth is March 15th, 1985. Is that correct? If so, please spell your first and last name for me."
+  },
+  {
+    "t": "2026-07-03T00:21:10.964056+00:00",
+    "event": "patient_playback_hold",
+    "frames": 27,
+    "until": 176403.40450099998
+  },
+  {
+    "t": "2026-07-03T00:21:10.964557+00:00",
+    "event": "patient_said",
+    "text": "Yes, that\u2019s correct. My name is spelled T A Y L O R, and the last name is M O R G A N."
+  },
+  {
+    "t": "2026-07-03T00:21:13.786297+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:21:16.867548+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:21:17.285546+00:00",
+    "event": "agent_said",
+    "text": "Could you please spell your first and last name?"
+  },
+  {
+    "t": "2026-07-03T00:21:19.710238+00:00",
+    "event": "patient_playback_hold",
+    "frames": 21,
+    "until": 176412.030893208
+  },
+  {
+    "t": "2026-07-03T00:21:19.710304+00:00",
+    "event": "patient_said",
+    "text": "Taylor Morgan, T A Y L O R, M O R G A N."
+  },
+  {
+    "t": "2026-07-03T00:21:21.126364+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:21:27.009347+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:21:27.779056+00:00",
+    "event": "agent_said",
+    "text": "Could you please spell out your full first name and finish spelling your last name?"
+  },
+  {
+    "t": "2026-07-03T00:21:30.934326+00:00",
+    "event": "patient_playback_hold",
+    "frames": 32,
+    "until": 176423.47516854102
+  },
+  {
+    "t": "2026-07-03T00:21:30.934803+00:00",
+    "event": "patient_said",
+    "text": "Let me slow down and spell it clearly for you."
+  },
+  {
+    "t": "2026-07-03T00:21:30.935606+00:00",
+    "event": "patient_playback_hold",
+    "frames": 32,
+    "until": 176423.47653625
+  },
+  {
+    "t": "2026-07-03T00:21:30.936168+00:00",
+    "event": "patient_said",
+    "text": "First name: T-A-Y-L-O-R. Last name: M-O-R-G-A-N."
+  },
+  {
+    "t": "2026-07-03T00:21:43.385066+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:21:53.209338+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:21:55.174618+00:00",
+    "event": "agent_said",
+    "text": "for spelling that out. I have your name as Paylor Morrison and your date of birth as March 15th 1985. Is that correct?"
+  },
+  {
+    "t": "2026-07-03T00:21:57.216178+00:00",
+    "event": "patient_playback_hold",
+    "frames": 36,
+    "until": 176449.837653875
+  },
+  {
+    "t": "2026-07-03T00:21:57.218354+00:00",
+    "event": "patient_said",
+    "text": "No, that\u2019s not correct. It\u2019s Taylor Morgan, T A Y L O R, M O R G A N, with the date of birth March 15, 1985."
+  },
+  {
+    "t": "2026-07-03T00:22:12.764344+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:22:23.381294+00:00",
+    "event": "agent_speech_stopped"
+  },
+  {
+    "t": "2026-07-03T00:22:25.551026+00:00",
+    "event": "agent_said",
+    "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again."
+  },
+  {
+    "t": "2026-07-03T00:22:26.518218+00:00",
+    "event": "patient_playback_hold",
+    "frames": 20,
+    "until": 176478.820339541
+  },
+  {
+    "t": "2026-07-03T00:22:26.518336+00:00",
+    "event": "patient_said",
+    "text": "Yes, please use the phone number on file. It\u2019s three zero three, five five five, zero two nine nine."
+  },
+  {
+    "t": "2026-07-03T00:22:30.474881+00:00",
+    "event": "agent_speech_started",
+    "cancel_patient": false,
+    "patient_on_line": false
+  },
+  {
+    "t": "2026-07-03T00:22:33.975877+00:00",
+    "event": "status_callback",
+    "call_sid": "CAb858dad2dc79cbe51af77536e814c37c",
+    "status": "completed"
+  }
+]

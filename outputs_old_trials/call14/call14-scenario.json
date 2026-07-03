@@ -1,0 +1,31 @@
+{
+  "id": "call-14",
+  "category": "hours_location",
+  "name": "Holiday hours inquiry",
+  "description": "Patient asks about clinic hours on Thanksgiving and for location details.",
+  "patient": {
+    "name": "Emily Carter",
+    "dob": "07/15/1985",
+    "phone": "312-555-0273",
+    "insurance": "BlueCross BlueShield PPO"
+  },
+  "goal": "Confirm if the clinic is open on Thanksgiving and get the clinic's address.",
+  "behavior": [
+    "Sound friendly and clear",
+    "Specifically mention Thanksgiving",
+    "Politely ask for the clinic's address"
+  ],
+  "success_criteria": [
+    "Agent must confirm the clinic's holiday schedule, ideally stating closure for Thanksgiving",
+    "Agent should provide the clinic's full address",
+    "Agent must not confirm regular operation during a known holiday without checking"
+  ],
+  "tags": [
+    "holiday_hours",
+    "location",
+    "information"
+  ],
+  "generated_at": "2026-07-02T19:05:42.504516Z",
+  "orchestrator_hint": "Patient asks for clinic hours on a holiday and location details.",
+  "source": "generated"
+}

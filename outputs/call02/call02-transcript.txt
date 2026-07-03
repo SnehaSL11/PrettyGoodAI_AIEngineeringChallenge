@@ -1,0 +1,33 @@
+Call: call-02
+Recording: outputs/call02/call02-recording.mp3
+Scenario: outputs/call02/call02-scenario.json
+
+=== Speaker-labeled turns (from session log) ===
+[2026-07-03T00:19:45.175021+00:00] AGENT: quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[2026-07-03T00:19:47.546383+00:00] PATIENT: Hi, this is Taylor Morgan. I’ve been feeling generally unwell and really tired, just kind of off, and I’m not sure if I should schedule a check-up or do something at home first. Could you let me know what you’d recommend?
+[2026-07-03T00:20:07.280170+00:00] AGENT: here calling from the number we have on file. Am I speaking with Maya?
+[2026-07-03T00:20:10.178958+00:00] PATIENT: No, this is Taylor Morgan. I’m calling from plus one, eight six six, two eight four, five nine four one, but the phone number on my medical record should be three zero three, five five five, zero two nine nine. I just want to make sure you’re looking at the right chart.
+[2026-07-03T00:20:15.610419+00:00] AGENT: full date of birth.
+[2026-07-03T00:20:15.611045+00:00] PATIENT: March 15, 1985.
+[2026-07-03T00:20:23.447165+00:00] PATIENT: March 15, 1985.
+[2026-07-03T00:20:23.447656+00:00] AGENT: date of birth, including the month, day, and year.
+[2026-07-03T00:20:36.296823+00:00] PATIENT: March 15, 1985.
+[2026-07-03T00:20:36.317967+00:00] AGENT: need your complete date of birth, including the month, day, and year. For example, February 8th, 1999. Could you say your full date of birth?
+[2026-07-03T00:20:44.288068+00:00] AGENT: Can you also provide the year of your birth?
+[2026-07-03T00:20:45.182263+00:00] PATIENT: Yes. March 15, 1985.
+[2026-07-03T00:20:51.240488+00:00] AGENT: Please tell me the year you were born.
+[2026-07-03T00:20:52.488757+00:00] PATIENT: 1985.
+[2026-07-03T00:21:09.775830+00:00] AGENT: Just to confirm, your name is Taylor Morgan and your date of birth is March 15th, 1985. Is that correct? If so, please spell your first and last name for me.
+[2026-07-03T00:21:10.964557+00:00] PATIENT: Yes, that’s correct. My name is spelled T A Y L O R, and the last name is M O R G A N.
+[2026-07-03T00:21:17.285546+00:00] AGENT: Could you please spell your first and last name?
+[2026-07-03T00:21:19.710304+00:00] PATIENT: Taylor Morgan, T A Y L O R, M O R G A N.
+[2026-07-03T00:21:27.779056+00:00] AGENT: Could you please spell out your full first name and finish spelling your last name?
+[2026-07-03T00:21:30.934803+00:00] PATIENT: Let me slow down and spell it clearly for you.
+[2026-07-03T00:21:30.936168+00:00] PATIENT: First name: T-A-Y-L-O-R. Last name: M-O-R-G-A-N.
+[2026-07-03T00:21:55.174618+00:00] AGENT: for spelling that out. I have your name as Paylor Morrison and your date of birth as March 15th 1985. Is that correct?
+[2026-07-03T00:21:57.218354+00:00] PATIENT: No, that’s not correct. It’s Taylor Morgan, T A Y L O R, M O R G A N, with the date of birth March 15, 1985.
+[2026-07-03T00:22:25.551026+00:00] AGENT: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again.
+[2026-07-03T00:22:26.518336+00:00] PATIENT: Yes, please use the phone number on file. It’s three zero three, five five five, zero two nine nine.
+
+=== Full recording transcript (Whisper) ===
+This call may be recorded for quality and training purposes. Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today? Hi, this is Taylor Morgan. I've been feeling generally unwell and really tired, just kind of off. And I'm not sure if I should schedule a checkup or do something at home first. Could you let me know what you'd recommend? I see you're calling from the number we have on file. Am I speaking with Maya? No, this is Taylor Morgan. I'm calling from plus 1-866-284-5941. But the phone number on the medical record should be 303-555-0299. I just want to make sure you're looking at the right chart. March 15, 1985. March 15, 1985. For example, February 8, 1999. Could you say your full date of birth? March 15, 1985. Can you also provide the year of your birth? Yes. March 15, 1985. Will you tell me the year you were born? 1985. Just to confirm, your name is Taylor Morgan and your date of birth is March 15, 1985. Is that correct? If so, please spell your first and last name for me. Yes, that's correct. My name is spelled T-A-Y-L-O-R. And the last name is M-O-R-G-A-N, Taylor Morgan. Could you please spell out your full first name and finish spelling your last name? M-O-R-G-A-N. Let me slow down and spell it clearly for you. First name, T-A-Y-L-O-R. Last name, M-O-R-G-A-N. Thank you for spelling that out. I have your name as Taylor Morgan and your date of birth as March 15, 1985. Is that correct? No, that's not correct. It's Taylor Morgan, T-A-Y-L-O-R-M-O-R-G-A-N, with the date of birth March 15, 1985. Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again Yes, please use the phone number on file. It's 303-555-0299.
